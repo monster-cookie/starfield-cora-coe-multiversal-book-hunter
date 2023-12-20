@@ -1,0 +1,16 @@
+FormKey: 000807:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_Negative_G01_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000806:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I appreciate the offer, but I really can't take on anything more right now.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

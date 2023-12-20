@@ -1,0 +1,16 @@
+FormKey: 000821:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_BecomeOverEncumbered_G0_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00081C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I propose a ‘less is more’ approach next time; we can't keep going like this, we're way too overloaded and not with books.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

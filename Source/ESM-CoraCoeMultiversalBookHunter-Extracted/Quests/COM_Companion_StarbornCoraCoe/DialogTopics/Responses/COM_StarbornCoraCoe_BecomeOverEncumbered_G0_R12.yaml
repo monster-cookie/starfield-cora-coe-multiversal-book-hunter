@@ -1,0 +1,16 @@
+FormKey: 000828:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_BecomeOverEncumbered_G0_R12
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00081C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I vote we drop some of these extras, but the books are a must – they're like our travel companions.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

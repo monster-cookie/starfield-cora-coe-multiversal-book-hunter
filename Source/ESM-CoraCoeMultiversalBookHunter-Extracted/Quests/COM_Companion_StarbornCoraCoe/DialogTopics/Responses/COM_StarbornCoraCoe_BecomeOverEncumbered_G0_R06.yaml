@@ -1,0 +1,16 @@
+FormKey: 000822:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_BecomeOverEncumbered_G0_R06
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00081C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84C:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let’s pause and redistribute some of this weight, or else we'll be crawling to our destination!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

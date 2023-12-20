@@ -1,0 +1,16 @@
+FormKey: 00080B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_Negative_G01_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000806:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA851:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Thanks for thinking of me, but I'm trying to keep my load light today.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

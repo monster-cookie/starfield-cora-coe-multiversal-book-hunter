@@ -1,0 +1,16 @@
+FormKey: 00081F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_BecomeOverEncumbered_G0_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00081C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Hey, I think it's time for some load-shedding; we're looking more like pack mules than explorers at this point.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

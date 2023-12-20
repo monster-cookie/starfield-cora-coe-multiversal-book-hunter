@@ -1,0 +1,16 @@
+FormKey: 00081E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_BecomeOverEncumbered_G0_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00081C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 2333AD:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Okay, let's take a quick break and figure out what we can leave behind, because we're definitely carrying too much. Unless its Books those need to stay.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

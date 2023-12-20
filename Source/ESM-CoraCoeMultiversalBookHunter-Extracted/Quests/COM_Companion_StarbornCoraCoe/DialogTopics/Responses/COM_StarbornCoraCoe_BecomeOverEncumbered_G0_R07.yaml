@@ -1,0 +1,16 @@
+FormKey: 000823:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_BecomeOverEncumbered_G0_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00081C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84C:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I'm all for being prepared, but I think we've taken 'be prepared' to a whole new level here.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

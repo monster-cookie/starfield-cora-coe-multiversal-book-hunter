@@ -1,0 +1,16 @@
+FormKey: 000801:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_PersonalCrimeFaction_StarbornCoraCoe
+Flags:
+- TrackCrime
+- IgnoreStealing
+- IgnoreTrespass
+- IgnorePickpocket
+- IgnoreWerewolfUnused
+- 0x20000
+SharedCrimeFactionList: 1EBAFC:Starfield.esm
+CrimeValues:
+  AttackOnSight: True
+VendorValues:
+  EndHour: 24
+  BuysStolenItems: True
+  BuysNonStolenItems: True

@@ -1,0 +1,16 @@
+FormKey: 00080D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_Negative_G01_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000806:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA851:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Oh, that's kind of you, but I'm already overwhelmed with the books I'm carrying.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

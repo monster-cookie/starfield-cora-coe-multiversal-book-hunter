@@ -1,0 +1,16 @@
+FormKey: 00080E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_Negative_G01_R08
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000806:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8671:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: No can do, I've got to make sure there's enough room for all my reading materials.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low
