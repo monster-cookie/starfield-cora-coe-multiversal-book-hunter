@@ -1,0 +1,15 @@
+FormKey: 00084B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_NTL_G0_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000845:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Stellar to see you! How's the universe treating you today?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

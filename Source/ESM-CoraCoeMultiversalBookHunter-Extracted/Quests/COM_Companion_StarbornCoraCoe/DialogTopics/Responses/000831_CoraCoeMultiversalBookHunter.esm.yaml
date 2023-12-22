@@ -1,0 +1,11 @@
+FormKey: 000831:CoraCoeMultiversalBookHunter.esm
+Flags: {}
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Do you mind if I ask you some personal questions?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

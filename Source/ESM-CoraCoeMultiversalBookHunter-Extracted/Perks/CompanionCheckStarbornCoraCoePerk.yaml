@@ -1,0 +1,15 @@
+FormKey: 000894:CoraCoeMultiversalBookHunter.esm
+EditorID: CompanionCheckStarbornCoraCoePerk
+Name:
+  TargetLanguage: English
+  Value: Cora Coe (Starborn)
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+- 0x4
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''

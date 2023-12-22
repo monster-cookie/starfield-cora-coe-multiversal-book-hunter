@@ -1,0 +1,9 @@
+FormKey: 000844:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello
+Name:
+  TargetLanguage: English
+  Value: COM_StarbornCoraCoe_Hello
+Quest: 000802:CoraCoeMultiversalBookHunter.esm
+Category: Misc
+Subtype: QuestOrSpecialHellos
+SubtypeName: HELO

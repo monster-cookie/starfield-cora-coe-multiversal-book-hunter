@@ -1,0 +1,27 @@
+FormKey: 000893:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_Companion_StarbornCoraCoe_SpeechChallenges
+Name:
+  TargetLanguage: English
+  Value: Starborn Cora Coe Speech Challenges
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  Unused: 0x000000
+Filter: FollowersSupport\StarbornCoraCoe\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16669
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: StarbornCoraCoe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000800:CoraCoeMultiversalBookHunter.esm
+  VoiceTypes: Null

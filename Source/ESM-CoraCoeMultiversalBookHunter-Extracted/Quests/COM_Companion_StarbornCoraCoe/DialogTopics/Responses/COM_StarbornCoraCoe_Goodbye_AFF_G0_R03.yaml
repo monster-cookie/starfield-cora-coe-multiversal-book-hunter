@@ -1,0 +1,15 @@
+FormKey: 00087F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_AFF_G0_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000862:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Catch a book with you later.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

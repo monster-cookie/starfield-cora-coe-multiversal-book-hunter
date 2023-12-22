@@ -1,0 +1,15 @@
+FormKey: 00085D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_AGR_G0_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000846:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: I don't know if I can talk to you right now.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

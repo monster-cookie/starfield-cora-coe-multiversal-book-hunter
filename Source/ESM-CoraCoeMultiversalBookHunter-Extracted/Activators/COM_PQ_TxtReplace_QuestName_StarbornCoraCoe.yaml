@@ -1,0 +1,11 @@
+FormKey: 00082E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_PQ_TxtReplace_QuestName_StarbornCoraCoe
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: 'Mastering the Art of Revenge: Strategies for Ultimate Satisfaction'
+Model:
+  FLLD: 0x01000000
+MarkerColor: '#00CC4C33'
+Flags: []
+ActivationAngle: 360

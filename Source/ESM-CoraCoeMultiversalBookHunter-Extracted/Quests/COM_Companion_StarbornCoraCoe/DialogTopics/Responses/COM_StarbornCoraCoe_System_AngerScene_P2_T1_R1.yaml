@@ -1,0 +1,20 @@
+FormKey: 000884:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P2_T1_R1
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: When I began my journey with you, I didn't anticipate finding a paragon of virtue. Yet, your recent behavior?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I had hoped you would uphold our reputation more admirably than this.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

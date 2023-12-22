@@ -1,0 +1,16 @@
+FormKey: 00081A:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_POS_G01_R10
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000805:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Absolutely, I can carry that for you, no problem at all!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,18 @@
+FormKey: 000885:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P2_T1_R2
+Flags: {}
+Responses:
+- Emotion: 018F09:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: You blatantly took someone's life. That was never part of what I agreed to.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: When you lose control in such a way, it tarnishes the reputation of all of us.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''

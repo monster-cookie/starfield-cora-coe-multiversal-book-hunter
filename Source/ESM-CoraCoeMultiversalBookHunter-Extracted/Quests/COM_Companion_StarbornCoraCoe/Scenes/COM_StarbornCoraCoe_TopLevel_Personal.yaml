@@ -1,0 +1,75 @@
+FormKey: 00082F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal
+Flags:
+- Interruptable
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: MAIN LOOP
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 000830:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 000833:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 000840:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000842:CoraCoeMultiversalBookHunter.esm
+Quest: 000802:CoraCoeMultiversalBookHunter.esm
+LastActionIndex: 5
+VNAM: 0x0300000003000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0xB40C00
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    FirstParameter: 00D875:Starfield.esm
+  ComparisonValue: 1
+BOLV: '[]'
+Index: 0
+SCPI: 0x3900

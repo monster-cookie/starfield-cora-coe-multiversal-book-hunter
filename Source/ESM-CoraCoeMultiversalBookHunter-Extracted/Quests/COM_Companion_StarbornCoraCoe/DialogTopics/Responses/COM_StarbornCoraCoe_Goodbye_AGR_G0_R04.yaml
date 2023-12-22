@@ -1,0 +1,16 @@
+FormKey: 000879:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_AGR_G0_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000863:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I'd say it's been fun, but I don't feel like lying right now.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

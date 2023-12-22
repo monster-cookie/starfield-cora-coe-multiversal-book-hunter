@@ -1,0 +1,15 @@
+FormKey: 000868:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_NTL_G0_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000865:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: 'So long and thank you for all the fishy books. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

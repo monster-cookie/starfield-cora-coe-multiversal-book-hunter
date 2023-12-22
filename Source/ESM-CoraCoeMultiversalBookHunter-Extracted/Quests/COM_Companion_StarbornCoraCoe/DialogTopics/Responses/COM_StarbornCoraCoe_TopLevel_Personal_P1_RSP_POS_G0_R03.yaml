@@ -1,0 +1,30 @@
+FormKey: 00083D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P1_RSP_POS_G0_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000834:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Thanks for showing interest in my experiences.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: It's not often you find someone who's curious about the life of a space explorer.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: ' So, let me tell you about the time we encountered a sentient cloud.'
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

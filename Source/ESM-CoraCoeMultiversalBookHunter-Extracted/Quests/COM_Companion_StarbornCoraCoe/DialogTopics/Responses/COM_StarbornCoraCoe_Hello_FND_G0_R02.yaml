@@ -1,0 +1,15 @@
+FormKey: 00085A:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_FND_G0_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000847:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Hey there! It's always a pleasure to see your smile.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

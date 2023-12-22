@@ -1,0 +1,15 @@
+FormKey: 000870:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_FND_G0_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000864:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Until our paths align in the galaxy again.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

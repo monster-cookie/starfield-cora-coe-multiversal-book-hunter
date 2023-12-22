@@ -1,0 +1,13 @@
+FormKey: 000887:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P3_T1_R1
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I'm not quite sure what's happening here, but it might be wiser for me not to continue this journey with you.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

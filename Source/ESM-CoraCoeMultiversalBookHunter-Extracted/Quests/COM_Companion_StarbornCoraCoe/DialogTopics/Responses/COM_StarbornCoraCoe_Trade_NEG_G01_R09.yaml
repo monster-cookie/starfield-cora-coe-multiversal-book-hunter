@@ -1,0 +1,16 @@
+FormKey: 00080F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_NEG_G01_R09
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000806:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I have to decline; my books take up all the room I have.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

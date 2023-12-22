@@ -1,0 +1,15 @@
+FormKey: 00086C:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_NTL_G0_R06
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000865:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Until we turn the page to our next adventure.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

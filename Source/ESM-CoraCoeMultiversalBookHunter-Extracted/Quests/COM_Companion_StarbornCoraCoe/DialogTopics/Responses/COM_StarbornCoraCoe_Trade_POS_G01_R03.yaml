@@ -1,0 +1,16 @@
+FormKey: 000813:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_POS_G01_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000805:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Yeah, I've got space for that, no problem at all!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

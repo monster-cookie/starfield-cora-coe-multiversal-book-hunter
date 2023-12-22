@@ -1,0 +1,24 @@
+FormKey: 000839:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P1_RSP_NEG_G0_R04
+Flags:
+  Flags:
+  - Random
+  - 0x40
+DialogGroup: 000835:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'You know, that reminds me of a time when my dad and I were exploring ancient ruins on Zeta-9. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: The inscriptions were fascinating! Have I ever told you about those hieroglyphs that seemed to change when you weren't looking?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

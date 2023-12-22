@@ -1,0 +1,8 @@
+FormKey: 00082D:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: COM_CompanionID_StarbornCoraCoe
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 10
+MajorFlags:
+- Constant

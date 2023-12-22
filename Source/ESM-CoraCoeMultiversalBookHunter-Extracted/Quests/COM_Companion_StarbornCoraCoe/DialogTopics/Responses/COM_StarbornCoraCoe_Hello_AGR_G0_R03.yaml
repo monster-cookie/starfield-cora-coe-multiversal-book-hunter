@@ -1,0 +1,15 @@
+FormKey: 00085F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_AGR_G0_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000846:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: You are one piece of work.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

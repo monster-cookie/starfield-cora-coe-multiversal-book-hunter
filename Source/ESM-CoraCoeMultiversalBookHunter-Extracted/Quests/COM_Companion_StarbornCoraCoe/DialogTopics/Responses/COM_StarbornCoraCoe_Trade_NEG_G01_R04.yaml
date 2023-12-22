@@ -1,0 +1,16 @@
+FormKey: 00080A:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Trade_NEG_G01_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000806:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I can't, unfortunately; my backpack is reserved for my books.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low
