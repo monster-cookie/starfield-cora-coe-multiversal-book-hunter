@@ -1,0 +1,13 @@
+FormKey: 0008A7:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P09_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: That's the last straw. Our paths diverge here. I won't be a part of your life anymore, not after this.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,13 @@
+FormKey: 0008BD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger03_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Difficult decisions are akin to navigating through a nebula; it's treacherous and uncertain. However, just as there are universal laws in physics that even the bravest spacefarers respect, there are moral lines in our lives that must remain inviolable to maintain our humanity.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

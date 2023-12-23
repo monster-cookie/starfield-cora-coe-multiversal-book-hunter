@@ -1,0 +1,16 @@
+FormKey: 0008FB:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G03_ROM_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EC:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Our partnership is like a beautifully written epic spanning galaxies, a tale I never want to conclude. If I controlled the universe, our journey would be an eternal exploration, with no farewell in sight.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

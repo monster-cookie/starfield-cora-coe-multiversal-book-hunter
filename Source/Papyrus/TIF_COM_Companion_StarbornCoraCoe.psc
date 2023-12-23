@@ -1,4 +1,4 @@
-ScriptName QF_COM_Companion_StarbornCoraCoe Extends Quest
+ScriptName TIF_COM_Companion_StarbornCoraCoe Extends TopicInfo
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -11,9 +11,6 @@ String Property Venpi_ModName="CoraCoeMultiversalBookHunter" Auto Const Mandator
 ;;;
 ;;; Properties
 ;;;
-ReferenceAlias Property Alias_CoraCoe Auto Const mandatory
-ActorValue Property COM_Affinity Auto Const mandatory
-Scene Property COM_StarbornCoraCoe_System_AngerScene Auto Const mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -29,14 +26,8 @@ Scene Property COM_StarbornCoraCoe_System_AngerScene Auto Const mandatory
 ;;;
 ;;; Fragments
 ;;;
-Function Fragment_Stage_0002_Item_00()
-  Alias_CoraCoe.GetActorRef().SetValue(COM_Affinity, 50.0)
-EndFunction
-
-Function Fragment_Stage_5000_Item_00()
-  ;; Trigger Anger Speech Challenge Success Phase
-EndFunction
-
-Function Fragment_Stage_5010_Item_00()
-  ;; Trigger Anger Speech Challenge Failure Phase
+Function Fragment_Begin(ObjectReference akSpeakerRef)
+  Actor akSpeaker = akSpeakerRef as Actor
+  COM_CompanionQuestScript myQuest = Self.GetOwningQuest() as COM_CompanionQuestScript
+  myQuest.PersonalQuestReminder()
 EndFunction

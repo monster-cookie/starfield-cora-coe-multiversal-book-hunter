@@ -1,0 +1,20 @@
+FormKey: 0008EC:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G03_ROM
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2AF550:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: 0
+MajorFlags:
+- InfoGroup

@@ -1,0 +1,15 @@
+FormKey: 000907:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G01_POS_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000905:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Charting new frontiers awaits us, no more lingering in the harbor of the known. Let's embark!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,15 @@
+FormKey: 000909:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G01_POS_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000905:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: The universe beckons with its mysteries; let's not keep the unknown waiting any longer.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,12 @@
+FormKey: 0008CD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger06_P00_D01_R01
+Flags: {}
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Cora, I don't want you to go. Please stay.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,72 @@
+FormKey: 0008E6:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene
+VirtualMachineAdapter:
+  ScriptFragments:
+    Script:
+      Name: SF_COM_StarbornCoraCoe_System_DismissScene
+    PhaseFragments:
+    - Flags:
+      - OnCompletion
+      Index: 1
+      Unknown: 16777216
+      ScriptName: SF_COM_StarbornCoraCoe_System_DismissScene
+      FragmentName: Fragment_Phase_02_End
+Flags:
+- Interruptable
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: kmyquest.DismissSceneEnded()
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 0008E7:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 0
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0008E9:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+Quest: 000802:CoraCoeMultiversalBookHunter.esm
+LastActionIndex: 2
+VNAM: 0x0300000003000000030000000300000000000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 26B9F5:Starfield.esm
+  ComparisonValue: 1
+BOLV: '[]'
+Index: 0
+SCPI: 0x3B00

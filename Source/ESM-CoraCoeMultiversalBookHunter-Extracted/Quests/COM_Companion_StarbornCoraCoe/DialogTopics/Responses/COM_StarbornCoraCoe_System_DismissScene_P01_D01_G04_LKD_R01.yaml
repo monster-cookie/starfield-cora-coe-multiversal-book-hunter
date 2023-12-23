@@ -1,0 +1,24 @@
+FormKey: 0008FD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G04_LKD_R01
+VirtualMachineAdapter:
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: TIF_COM_Companion_StarbornCoraCoe
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Venpi_DebugEnabled
+        Object: 000800:VenpiCore.esm
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EC:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Hold on, fellow explorer! Our shared journey isn't quite complete. There are still unturned pages in this chapter of our odyssey. Like a suspenseful novel, let's read through to the end of this plot together before we bookmark our separate paths.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 0008F3:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G02_NEG_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EB:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This chapter of our journey together has been like navigating through a meteor storm – chaotic and unsettling. As we part ways, I envision a path filled with tranquil celestial bodies and harmonious explorations.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

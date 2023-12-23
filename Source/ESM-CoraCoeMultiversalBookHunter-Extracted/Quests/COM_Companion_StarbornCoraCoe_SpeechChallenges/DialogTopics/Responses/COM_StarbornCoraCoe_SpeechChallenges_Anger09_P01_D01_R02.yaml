@@ -1,0 +1,19 @@
+FormKey: 0008E3:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger09_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Much like the enduring impact of a profound book, the fact that your mistakes still resonate with you is beneficial. It's challenging, yes, but it's a sign of growth. In the vastness of space exploration, each challenge faced and learned from is a step towards greater understanding and better journeys ahead.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

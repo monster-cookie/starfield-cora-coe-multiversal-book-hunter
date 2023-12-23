@@ -1,0 +1,16 @@
+FormKey: 0008F8:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G03_ROM_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EC:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In the infinite library of my heart, you are the rarest volume, one I'd never wish to return. If the stars aligned in my favor, our paths would remain forever intertwined, like constellations in the night sky.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

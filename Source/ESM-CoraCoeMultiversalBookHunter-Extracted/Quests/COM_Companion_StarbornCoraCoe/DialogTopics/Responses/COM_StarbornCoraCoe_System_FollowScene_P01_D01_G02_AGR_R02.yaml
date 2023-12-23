@@ -1,0 +1,16 @@
+FormKey: 000913:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G02_AGR_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000905:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let's hasten to our task as if we're the doomed crew in a tale of cosmic horror, aware of the futility yet pressing on.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

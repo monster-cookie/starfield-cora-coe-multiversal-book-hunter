@@ -1,0 +1,24 @@
+FormKey: 000900:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G04_LKD_R04
+VirtualMachineAdapter:
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: TIF_COM_Companion_StarbornCoraCoe
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Venpi_DebugEnabled
+        Object: 000800:VenpiCore.esm
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EC:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: As explorers and scholars, we know that every great discovery requires thorough investigation. Let's not leave our current expedition with chapters unread. Once our shared quests reach their conclusion, we'll set sail towards our individual destinies.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

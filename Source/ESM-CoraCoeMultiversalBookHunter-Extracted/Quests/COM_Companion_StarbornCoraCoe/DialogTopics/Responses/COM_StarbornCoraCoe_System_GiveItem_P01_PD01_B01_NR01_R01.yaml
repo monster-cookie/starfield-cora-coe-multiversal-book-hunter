@@ -1,0 +1,13 @@
+FormKey: 000920:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P01_PD01_B01_NR01_R01
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Just like discovering a rare artifact on a distant planet, giving you this gift felt like an adventure.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

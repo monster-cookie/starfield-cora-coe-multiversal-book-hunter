@@ -1,0 +1,19 @@
+FormKey: 0008D1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger06_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 01EB91:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Your words resonate with me like the harmonious frequencies of interstellar radio waves. While the pull of new adventures beckons me, the gravity of our bond is a force just as compelling, guiding me towards the possibility of staying.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

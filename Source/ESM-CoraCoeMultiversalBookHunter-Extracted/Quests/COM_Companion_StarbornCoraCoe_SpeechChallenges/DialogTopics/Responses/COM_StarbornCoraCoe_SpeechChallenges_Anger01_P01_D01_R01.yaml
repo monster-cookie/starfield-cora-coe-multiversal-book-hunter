@@ -1,0 +1,13 @@
+FormKey: 0008B1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger01_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Once, while exploring ancient ruins on a distant planet, I took a wrong turn and ended up in a perilous situation. It taught me that everyone makes mistakes, but what matters is learning from them. Let's learn from this and move forward.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

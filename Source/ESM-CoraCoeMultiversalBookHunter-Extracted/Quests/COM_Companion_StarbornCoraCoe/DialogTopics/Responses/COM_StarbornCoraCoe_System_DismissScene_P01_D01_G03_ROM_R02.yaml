@@ -1,0 +1,16 @@
+FormKey: 0008F9:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G03_ROM_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EC:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Like a cherished novel held close to the heart, your presence in my journey has been a treasure. If it were up to me, our paths would be parallel lines, forever exploring the same starlit trajectory.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,19 @@
+FormKey: 0008BE:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger03_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: That's true, our line of work is like navigating a spacecraft through an asteroid field - unpredictable and demanding split-second decisions. It's akin to reading a dense quantum physics book, where every concept challenges our understanding and perspectives.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

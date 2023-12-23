@@ -1,0 +1,19 @@
+FormKey: 0008C4:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger04_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 17B499:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In the grand library of my life, you are like a revered volume on the highest shelf. Despite this setback, much like an unexpected twist in a well-loved story, my admiration for you remains strong, akin to the unwavering North Star guiding a spaceship.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

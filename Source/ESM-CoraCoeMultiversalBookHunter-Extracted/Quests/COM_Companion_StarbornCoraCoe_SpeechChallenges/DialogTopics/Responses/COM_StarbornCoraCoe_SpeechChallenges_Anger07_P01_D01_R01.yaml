@@ -1,0 +1,13 @@
+FormKey: 0008D6:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger07_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Your apology, while appreciated, feels akin to trying to repair a breached starship hull with mere duct tape. True reconciliation requires more than just words; it necessitates actions as substantive as the engineering marvels that keep our ships afloat in the vacuum of space.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

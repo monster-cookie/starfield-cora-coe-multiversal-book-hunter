@@ -1,0 +1,13 @@
+FormKey: 0008B7:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger02_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I often wonder if you're just echoing my sentiments for my sake, or if you're actually being honest with me.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

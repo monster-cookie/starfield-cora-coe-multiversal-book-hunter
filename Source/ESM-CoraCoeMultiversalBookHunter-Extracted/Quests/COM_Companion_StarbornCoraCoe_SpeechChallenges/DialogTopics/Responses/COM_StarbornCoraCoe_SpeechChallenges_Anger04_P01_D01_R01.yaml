@@ -1,0 +1,13 @@
+FormKey: 0008C3:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger04_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In all honesty, and much like a seasoned explorer facing a harsh planetary reality, I can't mask the truth. You have indeed let me down, akin to a navigator who misreads a crucial star map, leading to an unintended crashlanding.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

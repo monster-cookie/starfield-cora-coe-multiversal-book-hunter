@@ -1,0 +1,15 @@
+FormKey: 00090F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G01_POS_R09
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000905:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Drawing inspiration from the countless tales of discovery I've read, I'm ready for our own to unfold.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

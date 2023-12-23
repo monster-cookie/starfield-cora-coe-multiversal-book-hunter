@@ -1,0 +1,19 @@
+FormKey: 0008DD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger08_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 17B499:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I understand completely. It's like being in a complex quantum equation where every variable feels like it's against you. But just like solving a tough scientific problem, overcoming pressure is part of the journey. We learn, we grow.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

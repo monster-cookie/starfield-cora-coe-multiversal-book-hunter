@@ -1,0 +1,16 @@
+FormKey: 000917:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G02_AGR_R06
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000905:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: As eager as a navigator charting a course straight into a black hole, I'll follow this splendid plan.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

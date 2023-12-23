@@ -1,0 +1,35 @@
+FormKey: 0008AC:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P00_D01_R01
+VirtualMachineAdapter:
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: TIF_COM_StarbornCoraCoe_System_AngerScene_P00_D01_R01
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Venpi_DebugEnabled
+        Object: 000800:VenpiCore.esm
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_COM_StarbornCoraCoe_System_AngerScene_P00_D01_R01
+      FragmentName: Fragment_Begin
+Flags:
+  Flags:
+  - 0x40
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: The deed you've done... it's completely against the very morals I've cherished in my readings. It's not just a betrayal of our shared values, but of the ideals I hold dear.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: However, we can't lose sight of our objective. The mission we've undertaken demands our full attention. Keep yourself together and stay on track.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

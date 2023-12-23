@@ -1,0 +1,13 @@
+FormKey: 0008C9:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger05_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Much like a complex quantum equation that can't be solved with mere observation, some aspects of our situation can't be mended with words alone. It requires action, akin to an astronaut making crucial repairs on a spacecraft mid-voyage.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

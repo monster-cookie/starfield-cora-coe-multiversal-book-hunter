@@ -1,0 +1,19 @@
+FormKey: 0008A8:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P09_D01_R02
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: That's the conclusion, then. Our friendship is over. I'm walking away at the next stop, and this time, it's for good.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 022611:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,29 @@
+FormKey: 0008A1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B05_NR01_R01
+Flags: {}
+Responses:
+- Emotion: 018F09:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This is incomprehensible! They were an innocent bystander, and you've ended their life. How can you justify such a horrific act?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: You've extinguished a life, irreversibly altering the course of so many others. Can you even begin to comprehend the sheer weight of what you've done?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+StartScene: 000880:CoraCoeMultiversalBookHunter.esm
+INTV: 0x04000000
+StartScenePhase: EXCUSES PHASE
+SubtitlePriority: Low

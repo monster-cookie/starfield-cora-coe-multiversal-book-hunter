@@ -1,0 +1,16 @@
+FormKey: 0008F7:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G02_NEG_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EB:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Our collaboration has been like a challenging novel with a complex plot – difficult to navigate and not entirely enjoyable. As we turn our separate pages, I look forward to a more tranquil chapter.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

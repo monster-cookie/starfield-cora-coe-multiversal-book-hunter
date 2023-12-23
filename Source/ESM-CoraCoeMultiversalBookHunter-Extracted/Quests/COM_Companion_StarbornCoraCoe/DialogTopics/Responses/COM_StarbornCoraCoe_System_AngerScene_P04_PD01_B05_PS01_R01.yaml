@@ -1,0 +1,19 @@
+FormKey: 00089F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B05_PS01_R01
+Flags: {}
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Murder? What are you talking about?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

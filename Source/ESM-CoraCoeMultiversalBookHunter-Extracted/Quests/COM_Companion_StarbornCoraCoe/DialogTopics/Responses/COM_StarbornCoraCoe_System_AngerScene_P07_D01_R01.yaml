@@ -1,0 +1,13 @@
+FormKey: 0008A3:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P07_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA850:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: All of us are prone to errors, and I'm well aware of my own. It's part of being human, part of our journey.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

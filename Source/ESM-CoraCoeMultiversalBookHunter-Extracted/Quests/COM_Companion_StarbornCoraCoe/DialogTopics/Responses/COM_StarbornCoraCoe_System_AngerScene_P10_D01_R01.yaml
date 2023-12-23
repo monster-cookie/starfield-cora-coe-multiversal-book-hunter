@@ -1,0 +1,22 @@
+FormKey: 0008AA:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P10_D01_R01
+Flags:
+  Flags:
+  - 0x40
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Here's a book that has been a beacon of guidance for me. I highly recommend you delve into it. May its pages offer you the wisdom and perspective you need to pull yourself together and chart a better course.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Make sure you read it thoroughly and take its lessons to heart, before it's too late to turn back and make the necessary changes in your life.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

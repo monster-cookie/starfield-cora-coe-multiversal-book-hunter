@@ -1,0 +1,16 @@
+FormKey: 000914:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G02_AGR_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000905:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8674:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Rushing headlong as if we're characters in a dystopian novel, blind to the perils that await. Marvelous.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

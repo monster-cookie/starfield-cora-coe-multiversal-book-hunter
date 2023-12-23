@@ -1,0 +1,22 @@
+FormKey: 00089D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B04_NR01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: No way you're dodging this. You're well aware of your actions. We've been through too much together for you to start avoiding the truth now.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: What you did was clear, and pretending otherwise won't change that. I thought honesty was a part of our friendship.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScene: 000880:CoraCoeMultiversalBookHunter.esm
+INTV: 0x04000000
+StartScenePhase: EXCUSES PHASE
+SubtitlePriority: Low

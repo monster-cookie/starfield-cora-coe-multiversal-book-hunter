@@ -1,0 +1,15 @@
+FormKey: 0008A5:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P08_D01_R01
+Flags:
+  Flags:
+  - 0x40
+Responses:
+- Emotion: 111073:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: So please just try and keep it together, okay?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

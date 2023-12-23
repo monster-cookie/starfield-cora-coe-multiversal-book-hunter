@@ -1,0 +1,13 @@
+FormKey: 000928:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P01_PD01_B03_NR01_R01
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In the cosmos of our friendship, gifts are like stars – not always needed, but they brighten the journey.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

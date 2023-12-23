@@ -1,0 +1,13 @@
+FormKey: 000934:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P04_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: As I journey through the cosmos in my endless quest for books, I'll keep my eyes wide open. While the books are mine to cherish, any other interstellar finds are yours for the taking.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

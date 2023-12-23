@@ -1,0 +1,13 @@
+FormKey: 00092A:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P02_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "I spotted it on our last planetary expedition. Warning: It might not be as useful as a multi-tool, but it's definitely more fun!"
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

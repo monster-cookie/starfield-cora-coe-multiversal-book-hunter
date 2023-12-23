@@ -1,0 +1,19 @@
+FormKey: 0008B8:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger02_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 18E863:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Just like how every page in a book unfolds a new layer of knowledge, your trust in my word reveals a deeper level of our friendship. I'll safeguard it like a rare manuscript on an uncharted planet.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

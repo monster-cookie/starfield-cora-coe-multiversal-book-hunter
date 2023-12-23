@@ -1,0 +1,19 @@
+FormKey: 0008B2:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger01_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 18E864:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "*Sigh* Well, when you put it like that, it's like discovering an unknown planet in a familiar star system. There's always something new to explore, understand, and appreciate, even in relationships we thought we knew inside and out."
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

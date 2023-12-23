@@ -1,0 +1,13 @@
+FormKey: 0008E2:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger09_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Well, while it's true that history often serves as our greatest teacher, just like the countless explorers who've repeated the errors of their predecessors, I'm not fully convinced you won't tread the same missteps. Remember, every failed star voyage began with a promise of success.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

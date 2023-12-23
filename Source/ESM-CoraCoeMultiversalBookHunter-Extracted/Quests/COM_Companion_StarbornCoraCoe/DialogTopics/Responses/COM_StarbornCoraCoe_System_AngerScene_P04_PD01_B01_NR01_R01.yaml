@@ -1,0 +1,21 @@
+FormKey: 00088B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B01_NR01_R01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_RedeemSecondChanceInfoScript
+Flags: {}
+Responses:
+- Emotion: 0FA850:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Amidst the silent witnesses of a thousand stars, I stand, torn.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA850:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "*sigh* I may be a fool for holding onto the belief in your willingness to make ammends despite the swirling accusations, but there's a part of me that clings to the memories of our shared adventures, refusing to accept that you could comitted such a horrendous act."
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''

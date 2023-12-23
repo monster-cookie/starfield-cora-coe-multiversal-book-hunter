@@ -1,0 +1,54 @@
+FormKey: 0008DE:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger09
+Flags:
+- Interruptable
+- 0x100
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags:
+  - CameraSpeakerTarget
+  Topic: 0008DF:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0008E1:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+Quest: 000893:CoraCoeMultiversalBookHunter.esm
+LastActionIndex: 2
+VNAM: 0x0300000003000000030000000300000000000000
+BOLV: '[]'
+Index: 0
+SCSP: True
+SPRK: 0x0100
+SPRW: 0x04000000
+SPDF: True
+SPPQ: True
+SPKW:
+- 000891:CoraCoeMultiversalBookHunter.esm

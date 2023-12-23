@@ -133,11 +133,11 @@ Actions:
   - PlayerChoice: 00088C:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 00088E:CoraCoeMultiversalBookHunter.esm
   - PlayerChoice: 000896:CoraCoeMultiversalBookHunter.esm
-    NpcResponse: 23EE94:Starfield.esm
-  - PlayerChoice: 23EE95:Starfield.esm
-    NpcResponse: 23EE96:Starfield.esm
-  - PlayerChoice: 23EE97:Starfield.esm
-    NpcResponse: 23EE98:Starfield.esm
+    NpcResponse: 000898:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 00089A:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 00089C:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 00089E:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0008A0:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: 0
@@ -145,17 +145,18 @@ Actions:
   Flags: []
   StartPhase: 7
   EndPhase: 7
-  Topic: 23EE99:Starfield.esm
+  Topic: 0008A2:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
 - MutagenObjectType: DialogueSceneAction
   Name: ''
+  SceneNotes: Called by the removed Start Scene - Speech Mini Game on Speech Challenge Fail
   AliasID: 0
   Index: 6
   Flags: []
   StartPhase: 8
   EndPhase: 8
-  Topic: 23EE9A:Starfield.esm
+  Topic: 0008A4:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
 - MutagenObjectType: DialogueSceneAction
@@ -165,17 +166,18 @@ Actions:
   Flags: []
   StartPhase: 9
   EndPhase: 9
-  Topic: 23EE9B:Starfield.esm
+  Topic: 0008A6:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
 - MutagenObjectType: DialogueSceneAction
   Name: ''
+  SceneNotes: Called by the removed Start Scene - Speech Mini Game on Speech Challenge Succeeded
   AliasID: 0
   Index: 8
   Flags: []
   StartPhase: 10
   EndPhase: 10
-  Topic: 23EE9C:Starfield.esm
+  Topic: 0008A9:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
 - MutagenObjectType: DialogueSceneAction
@@ -183,7 +185,7 @@ Actions:
   AliasID: 0
   Index: 11
   Flags: []
-  Topic: 1D7C7F:Starfield.esm
+  Topic: 0008AB:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
   HNAM:

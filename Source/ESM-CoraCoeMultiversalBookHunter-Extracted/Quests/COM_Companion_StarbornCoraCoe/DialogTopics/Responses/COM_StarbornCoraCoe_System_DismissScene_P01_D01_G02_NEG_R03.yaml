@@ -1,0 +1,16 @@
+FormKey: 0008F5:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G02_NEG_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EB:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Our time together felt less like discovering new horizons and more like being lost in a nebula of discord. As we set out on individual paths, I'm hopeful for clearer skies and less turbulent adventures.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

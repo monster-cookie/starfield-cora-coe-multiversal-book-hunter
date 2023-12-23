@@ -1,0 +1,12 @@
+FormKey: 000897:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B03_PS01_R01
+Flags: {}
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: I think we need a break from each other.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,19 @@
+FormKey: 0008CA:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger05_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Your words echo in my heart like a profound passage from a cherished book. To me, you are as important as a rare discovery in the vast cosmos, and your desire to make amends is as valuable as unearthing a precious celestial artifact.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

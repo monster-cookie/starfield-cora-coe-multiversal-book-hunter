@@ -1,0 +1,13 @@
+FormKey: 0008DC:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger08_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I understand pressure, like the immense forces in a black hole, can be overwhelming. But just like in space exploration, we must navigate challenges without losing our course, right?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

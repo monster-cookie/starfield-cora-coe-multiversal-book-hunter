@@ -1,0 +1,13 @@
+FormKey: 000924:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P01_PD01_B02_NR01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: The best treasures in the galaxy are often the ones we never see coming, much like this little surprise for you!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 0008F4:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G02_NEG_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EB:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Like a poorly written sci-fi novel, our alliance lacked the elements of a successful collaboration. As we venture apart, I hope to find a narrative that's more aligned with the peaceful exploration I seek.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,13 @@
+FormKey: 0008D0:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger06_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'It seems your grasp of camaraderie is as theoretical as a quantum entanglement: complex and uncertain. Just as a starship veers off course without proper navigation, your approach has led us astray from the path of reconciliation.'
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

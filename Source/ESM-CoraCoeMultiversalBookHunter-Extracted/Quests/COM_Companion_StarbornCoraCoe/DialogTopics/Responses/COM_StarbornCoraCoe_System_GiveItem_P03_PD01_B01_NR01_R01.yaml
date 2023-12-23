@@ -1,0 +1,20 @@
+FormKey: 00092E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P03_PD01_B01_NR01_R01
+Flags: {}
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Make sure to tell Sam that. *chuckle*
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 2BB89F:Starfield.esm
+  ComparisonValue: 2BE2D7:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

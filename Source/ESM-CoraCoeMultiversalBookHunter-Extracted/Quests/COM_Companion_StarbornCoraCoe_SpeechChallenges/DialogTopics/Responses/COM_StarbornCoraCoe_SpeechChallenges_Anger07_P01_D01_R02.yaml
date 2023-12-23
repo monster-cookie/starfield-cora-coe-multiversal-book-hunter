@@ -1,0 +1,19 @@
+FormKey: 0008D7:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger07_P01_D01_R02
+Flags: {}
+Responses:
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Your apology reminds me of a complex theorem in a quantum physics book – challenging, yet essential for progress. Forgiveness is not unlike solving a difficult equation; it takes effort, but the outcome can lead to greater understanding and harmony.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetSpeechChallengeSuccessSceneConditionData
+StartScenePhase: ''
+SubtitlePriority: Low
