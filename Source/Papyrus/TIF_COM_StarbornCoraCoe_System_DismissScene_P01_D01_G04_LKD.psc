@@ -1,4 +1,4 @@
-ScriptName TIF_COM_Companion_StarbornCoraCoe Extends TopicInfo
+ScriptName TIF_COM_StarbornCoraCoe_System_DismissScene_P01_D01_G04_LKD Extends TopicInfo
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
