@@ -1,0 +1,16 @@
+FormKey: 0009BD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G03_NTL_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Is this a regular practice in your universe? On my ship, we usually respond faster than a comet tailing through space!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

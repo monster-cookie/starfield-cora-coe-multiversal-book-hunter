@@ -1,0 +1,15 @@
+FormKey: 000980:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WaitScene_P01_D01_G01_POS_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00097A:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: I'll stay here. It's a good time to mull over the intricacies of space navigation. Charting a course through the stars often requires precise timing and patience, much like waiting for a friend.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

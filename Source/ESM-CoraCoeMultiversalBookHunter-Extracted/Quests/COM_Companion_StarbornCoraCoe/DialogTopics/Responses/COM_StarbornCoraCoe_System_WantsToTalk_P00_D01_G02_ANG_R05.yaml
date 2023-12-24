@@ -1,0 +1,16 @@
+FormKey: 000995:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk_P00_D01_G02_ANG_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000988:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Our upcoming chat needs to be as focused and precise as aligning the lenses of a space telescope. I have some finely-calibrated opinions to share.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

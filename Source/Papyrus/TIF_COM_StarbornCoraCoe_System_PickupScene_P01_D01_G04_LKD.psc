@@ -1,4 +1,4 @@
-ScriptName TIF_COM_StarbornCoraCoe_System_AngerScene_P00_D01_R01 Extends TopicInfo
+ScriptName TIF_COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD Extends TopicInfo Const hidden
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -12,7 +12,7 @@ String Property Venpi_ModName="CoraCoeMultiversalBookHunter" Auto Const Mandator
 ;;; Fragments
 ;;;
 Function Fragment_Begin(ObjectReference akSpeakerRef)
-  Actor akSpeaker = akSpeakerRef as Actor
+  Actor speaker = akSpeakerRef as Actor
   COM_CompanionQuestScript myQuest = Self.GetOwningQuest() as COM_CompanionQuestScript
-  myQuest.AngerSceneCompleted()
+  myQuest.PersonalQuestReminder()
 EndFunction

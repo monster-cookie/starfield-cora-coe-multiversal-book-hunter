@@ -1,0 +1,16 @@
+FormKey: 000951:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G01_POS_R06
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Yes, I'm primed for the journey! It's like being on the brink of uncovering a hidden chapter in the grand narrative of the cosmos.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

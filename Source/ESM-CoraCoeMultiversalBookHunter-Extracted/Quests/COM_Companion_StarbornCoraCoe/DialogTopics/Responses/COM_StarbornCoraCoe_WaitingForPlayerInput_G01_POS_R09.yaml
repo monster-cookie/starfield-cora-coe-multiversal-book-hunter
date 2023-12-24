@@ -1,0 +1,16 @@
+FormKey: 0009B1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G01_POS_R09
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A6:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This pause in our conversation feels like the moment you find the perfect book in a library - unexpected, delightful, and full of promise.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

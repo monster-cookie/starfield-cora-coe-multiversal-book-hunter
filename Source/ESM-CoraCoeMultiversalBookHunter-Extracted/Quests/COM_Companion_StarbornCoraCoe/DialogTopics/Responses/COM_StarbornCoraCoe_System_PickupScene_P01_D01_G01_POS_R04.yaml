@@ -1,0 +1,16 @@
+FormKey: 00094F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G01_POS_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Of course! My spirit for discovery is as insatiable as my love for the mysteries hidden in ancient star charts. Let's chart our own course into the unknown!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

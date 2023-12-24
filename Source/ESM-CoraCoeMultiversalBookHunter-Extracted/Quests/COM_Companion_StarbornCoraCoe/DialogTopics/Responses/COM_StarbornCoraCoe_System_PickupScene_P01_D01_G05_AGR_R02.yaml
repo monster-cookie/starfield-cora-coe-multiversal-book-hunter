@@ -1,0 +1,16 @@
+FormKey: 000964:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G05_AGR_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000949:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Embark on another journey together? No, and by the rings of Saturn, no. The uncharted realms of space are less daunting than the thought of sharing a cabin with you again, at least until the nebulae of my annoyance dissipate.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 000954:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G01_POS_R09
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Definitely! Just as an explorer gazes upon uncharted planets with anticipation, I'm ready to embark on our new expedition.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

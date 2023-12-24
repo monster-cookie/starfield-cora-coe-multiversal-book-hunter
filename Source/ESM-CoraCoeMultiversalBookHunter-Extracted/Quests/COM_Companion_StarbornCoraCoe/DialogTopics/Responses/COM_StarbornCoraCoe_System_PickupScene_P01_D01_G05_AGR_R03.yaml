@@ -1,0 +1,16 @@
+FormKey: 000965:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G05_AGR_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000949:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Navigate the unknown with you once more? Not until the Andromeda and Milky Way merge, my friend. Your actions have left a black hole in our camaraderie, one not even the light of camaraderie can escape right now.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

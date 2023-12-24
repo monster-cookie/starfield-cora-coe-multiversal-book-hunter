@@ -1,0 +1,16 @@
+FormKey: 000966:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G05_AGR_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000949:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Embark on another literary journey with you? As Herman Melville wrote in 'Moby-Dick,' 'No, not yet.' Your recent actions have left me feeling like Ishmael, adrift in a sea of uncertainty and reluctance.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

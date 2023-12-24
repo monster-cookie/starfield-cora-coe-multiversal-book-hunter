@@ -1,0 +1,16 @@
+FormKey: 00094C:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G01_POS_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Absolutely! Just like an unexplored chapter in a cosmic odyssey, I'm eager to dive into our next adventure.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

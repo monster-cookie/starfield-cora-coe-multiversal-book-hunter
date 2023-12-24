@@ -1,0 +1,9 @@
+FormKey: 0009A5:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput
+Name:
+  TargetLanguage: English
+  Value: COM_StarbornCoraCoe_WaitingForPlayerInput
+Quest: 000802:CoraCoeMultiversalBookHunter.esm
+Category: Misc
+Subtype: WaitingForPlayerInput
+SubtypeName: WFPI

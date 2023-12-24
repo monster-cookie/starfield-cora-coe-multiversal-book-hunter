@@ -1,0 +1,15 @@
+FormKey: 00098C:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk_P00_D01_G01_POS_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000988:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: In your next break from charting courses through the galaxy, could we talk? I've just finished a riveting book on quantum theory that's left my mind buzzing with ideas I need to share.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 00096B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G03_ROM_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Of course! Just like the star-crossed lovers in cosmic tales, our journey through the galaxy is a testament to our shared passion for discovery.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

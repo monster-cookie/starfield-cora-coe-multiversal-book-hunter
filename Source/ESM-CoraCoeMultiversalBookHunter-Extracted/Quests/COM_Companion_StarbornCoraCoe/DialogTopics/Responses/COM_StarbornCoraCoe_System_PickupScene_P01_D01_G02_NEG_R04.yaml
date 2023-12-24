@@ -1,0 +1,16 @@
+FormKey: 00095D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G02_NEG_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000949:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Resigned, like an old book reluctantly opened to a new chapter, I agree. Let's continue our story among the stars.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

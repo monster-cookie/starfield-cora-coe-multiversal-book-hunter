@@ -1,0 +1,16 @@
+FormKey: 0009B8:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G02_NEG_R06
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: At this rate, I could have navigated through an asteroid field and back, twice!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

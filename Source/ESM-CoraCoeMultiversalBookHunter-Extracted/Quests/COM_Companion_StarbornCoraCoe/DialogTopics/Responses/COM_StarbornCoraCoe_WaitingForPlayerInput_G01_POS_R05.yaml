@@ -1,0 +1,16 @@
+FormKey: 0009AD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G01_POS_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A6:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Waiting for your response feels like patiently observing a distant comet – it takes time, but the anticipation makes the encounter all the more exciting.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

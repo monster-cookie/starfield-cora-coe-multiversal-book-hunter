@@ -1,0 +1,15 @@
+FormKey: 00097E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WaitScene_P01_D01_G01_POS_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00097A:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Alright, I'll hang here. It's a good opportunity to grab a book and do some reading.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

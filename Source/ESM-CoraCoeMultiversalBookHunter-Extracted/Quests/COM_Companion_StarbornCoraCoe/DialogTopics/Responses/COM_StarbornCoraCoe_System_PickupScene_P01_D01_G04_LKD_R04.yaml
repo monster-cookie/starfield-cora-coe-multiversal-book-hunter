@@ -1,0 +1,30 @@
+FormKey: 000972:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD_R04
+VirtualMachineAdapter:
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: TIF_COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Venpi_DebugEnabled
+        Object: 000800:VenpiCore.esm
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD
+      FragmentName: Fragment_Begin
+Flags:
+  Flags:
+  - Random
+  - 0x40
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8673:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Just as a pilot meticulously plans their course before a voyage, you're thoroughly engaged in your current endeavor. I'll be at the helm and ready to co-pilot our next mission as soon as you're navigational charts are set.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 000982:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WaitScene_P01_D01_G02_NEG_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00097A:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Of course, I'll remain stationary, like a ship anchored in the calm before a cosmic storm. Take all the time in the universe.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

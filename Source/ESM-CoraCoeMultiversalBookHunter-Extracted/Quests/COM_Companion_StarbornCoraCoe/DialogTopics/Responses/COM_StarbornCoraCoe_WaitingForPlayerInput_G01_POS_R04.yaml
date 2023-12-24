@@ -1,0 +1,16 @@
+FormKey: 0009AC:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G01_POS_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A6:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Your pause reminds me of the silent, thoughtful moments I spend admiring the vast expanse of space, full of wonder and possibilities.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

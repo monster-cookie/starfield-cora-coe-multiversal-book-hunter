@@ -1,0 +1,16 @@
+FormKey: 0009B0:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G01_POS_R08
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A6:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: It seems you're lost in my gaze as if wandering through the labyrinthine aisles of a grand library, each glance a new title to explore.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

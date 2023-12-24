@@ -1,0 +1,16 @@
+FormKey: 00095E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G02_NEG_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000949:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Well, just as a reader hesitantly turns the final pages of a beloved novel, I suppose we can embark on this new chapter of our adventure.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

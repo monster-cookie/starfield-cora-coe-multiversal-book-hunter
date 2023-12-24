@@ -1,0 +1,16 @@
+FormKey: 0009AF:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G01_POS_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A6:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Our silent exchange feels like gazing into the depths of the universe, where every moment is a chance to discover something as yet unseen and profound.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

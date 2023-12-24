@@ -1,0 +1,16 @@
+FormKey: 000991:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk_P00_D01_G02_ANG_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000988:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: We need to embark on a dialogue expedition, pronto. Just like navigating through uncharted galaxies, this conversation can't be delayed.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

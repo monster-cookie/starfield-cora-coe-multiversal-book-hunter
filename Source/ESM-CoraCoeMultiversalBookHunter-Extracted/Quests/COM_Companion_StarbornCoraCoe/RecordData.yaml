@@ -164,7 +164,7 @@ VirtualMachineAdapter:
           Object: 2B9017:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: WantsToTalkAnnouncementScene
-      Object: 23B330:Starfield.esm
+      Object: 000986:CoraCoeMultiversalBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: WantsToTalkConditionForm
       Object: 2BCB91:Starfield.esm

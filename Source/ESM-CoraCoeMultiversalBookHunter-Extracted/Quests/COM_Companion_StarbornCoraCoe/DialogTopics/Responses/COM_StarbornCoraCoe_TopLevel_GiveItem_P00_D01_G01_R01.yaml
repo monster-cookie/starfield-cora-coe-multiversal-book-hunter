@@ -1,0 +1,15 @@
+FormKey: 00093A:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_GiveItem_P00_D01_G01_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000939:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Absolutely! I've found something as fascinating as a rare cosmic phenomenon – can't wait for you to see it!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

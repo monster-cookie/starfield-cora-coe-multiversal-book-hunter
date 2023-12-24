@@ -1,0 +1,16 @@
+FormKey: 0009BC:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G03_NTL_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0D755D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Lost in the vast expanse of your thoughts, are we? Don't worry, I've navigated through more complex star systems of ideas in my reading adventures!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

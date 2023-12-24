@@ -1,0 +1,16 @@
+FormKey: 0009BE:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G03_NTL_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Ah, taking a leisurely spacewalk through your thoughts? I understand, I often drift through the nebulae of quantum theories in my favorite books.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

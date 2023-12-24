@@ -1,0 +1,16 @@
+FormKey: 0009B3:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G02_NEG_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Listen, I do have other things to do, like reading a good book.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

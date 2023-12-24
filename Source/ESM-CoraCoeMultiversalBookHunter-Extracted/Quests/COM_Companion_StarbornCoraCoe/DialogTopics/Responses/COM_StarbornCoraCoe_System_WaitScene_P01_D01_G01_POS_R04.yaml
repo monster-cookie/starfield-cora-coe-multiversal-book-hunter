@@ -1,0 +1,15 @@
+FormKey: 00097F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WaitScene_P01_D01_G01_POS_R04
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00097A:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: I don't mind waiting. It's like being on the cusp of a new planetary discovery. The anticipation builds before the unveiling of something wonderful. Maybe I'll even spot a new constellation while I'm at it.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

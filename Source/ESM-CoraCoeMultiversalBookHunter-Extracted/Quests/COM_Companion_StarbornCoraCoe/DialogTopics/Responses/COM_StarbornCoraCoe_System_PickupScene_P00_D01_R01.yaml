@@ -1,0 +1,6 @@
+FormKey: 000946:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P00_D01_R01
+Flags: {}
+SharedDialog: 010A8B:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

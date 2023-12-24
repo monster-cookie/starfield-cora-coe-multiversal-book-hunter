@@ -1,0 +1,14 @@
+FormKey: 0009A1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk_NotHere_P01_D01_G02_POS_NOSHIP_R01
+Flags: {}
+DialogGroup: 00099D:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I certainly do. But not here. Someplace with privacy.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

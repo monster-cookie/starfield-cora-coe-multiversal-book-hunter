@@ -1,0 +1,16 @@
+FormKey: 0009BB:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G03_NTL_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Is this a new form of cosmic questioning, like a black hole sucking in all the words? Because I've got a library of responses waiting to escape the event horizon!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

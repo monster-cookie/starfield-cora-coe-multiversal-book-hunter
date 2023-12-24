@@ -1,0 +1,30 @@
+FormKey: 000971:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD_R03
+VirtualMachineAdapter:
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: TIF_COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Venpi_DebugEnabled
+        Object: 000800:VenpiCore.esm
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_COM_StarbornCoraCoe_System_PickupScene_P01_D01_G04_LKD
+      FragmentName: Fragment_Begin
+Flags:
+  Flags:
+  - Random
+  - 0x40
+DialogGroup: 000948:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C8673:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Observing your current focus, it reminds me of a researcher engrossed in decoding ancient cosmic signals. I'll be eager to explore new frontiers with you once your current exploration concludes.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

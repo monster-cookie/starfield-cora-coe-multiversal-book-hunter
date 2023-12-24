@@ -1,0 +1,14 @@
+FormKey: 0009A0:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk_NotHere_P01_D01_G01_POS_R01
+Flags: {}
+DialogGroup: 00099C:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I certainly do. But it can wait until we get back to the ship.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

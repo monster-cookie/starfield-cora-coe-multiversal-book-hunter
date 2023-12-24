@@ -1,0 +1,77 @@
+FormKey: 000986:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk
+Flags: []
+Phases:
+- Name: ''
+  CompletionConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      FirstParameter: 000986:CoraCoeMultiversalBookHunter.esm
+      SecondParameter: 4
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsSceneActionCompleteConditionData
+      FirstParameter: 000986:CoraCoeMultiversalBookHunter.esm
+      SecondParameter: 3
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+  - ObsComEnd
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 1
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 000987:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags:
+  - CameraSpeakerTarget
+  Topic: 000996:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+- MutagenObjectType: TimerSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  MaxSeconds: 8
+- MutagenObjectType: PackageSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 4
+  Flags: []
+  Packages:
+  - 23F860:Starfield.esm
+Quest: 000802:CoraCoeMultiversalBookHunter.esm
+LastActionIndex: 4
+VNAM: 0x0300000003000000030000000300000000000000
+BOLV: '[]'
+Index: 0

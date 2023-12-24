@@ -1,0 +1,15 @@
+FormKey: 000943:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_GiveItem_P00_D01_G01_R10
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000939:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Definitely! I've picked out something special that's sure to spark your curiosity, just like a good book does.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 0009C1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G03_NTL_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA851:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Are we practicing the ancient art of telepathic dialogue, or are you just compiling your thoughts at light speed? Either way, I'm here, ready for when your communications systems are back online!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

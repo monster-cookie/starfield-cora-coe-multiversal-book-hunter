@@ -1,0 +1,13 @@
+FormKey: 0009A2:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_WantsToTalk_NotHere_P01_D01_G03_ANG_R01
+DialogGroup: 00099E:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Damned straight I want to talk. But not here. We can have it out when we get back to the ship.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

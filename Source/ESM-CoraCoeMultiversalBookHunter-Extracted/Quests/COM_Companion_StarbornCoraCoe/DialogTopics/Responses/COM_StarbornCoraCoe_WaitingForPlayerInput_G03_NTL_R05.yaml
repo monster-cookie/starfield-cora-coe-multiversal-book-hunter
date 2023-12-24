@@ -1,0 +1,16 @@
+FormKey: 0009BF:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_WaitingForPlayerInput_G03_NTL_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009A7:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 01EB91:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Is this silence an ancient Starborn communication technique? Because, in my books, every moment of quiet is filled with unspoken tales of the cosmos.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low
