@@ -30,7 +30,11 @@ Scene Property COM_StarbornCoraCoe_System_AngerScene Auto Const mandatory
 ;;; Fragments
 ;;;
 Function Fragment_Stage_0002_Item_00()
-  Alias_CoraCoe.GetActorRef().SetValue(COM_Affinity, 50.0)
+  Alias_CoraCoe.GetActorRef().SetValue(COM_Affinity, 100.0)
+EndFunction
+
+Function Fragment_Stage_0900_Item_00()
+  ;; Trigger Commitment Quest
 EndFunction
 
 Function Fragment_Stage_5000_Item_00()

@@ -49,6 +49,9 @@ Actions:
     - -2
 Quest: 000893:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 2
+BOLV: '[]'
+Index: 0
+SCSP: True
 SPRK: 0x0000
 SPRW: 0x01000000
 SPKW:

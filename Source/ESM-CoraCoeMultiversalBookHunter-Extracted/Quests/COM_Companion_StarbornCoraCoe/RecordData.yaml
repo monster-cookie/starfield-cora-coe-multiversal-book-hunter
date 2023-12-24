@@ -97,6 +97,8 @@ VirtualMachineAdapter:
       Objects:
       - Name: ''
         Object: 2C2A36:Starfield.esm
+      - Name: ''
+        Object: 24685D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
@@ -171,6 +173,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: Companion_Andreja
       Object: 0059A7:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: WantsToTalkObjective
+      Data: 900
   Script:
     Name: QF_COM_Companion_StarbornCoraCoe
     Properties:
@@ -197,6 +202,10 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: QF_COM_Companion_StarbornCoraCoe
     FragmentName: Fragment_Stage_5000_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: QF_COM_Companion_StarbornCoraCoe
+    FragmentName: Fragment_Stage_0900_Item_00
 Name:
   TargetLanguage: English
   Value: Companion - Cora Coe (Starborn)
@@ -205,11 +214,12 @@ Data:
   - StartGameEnabled
   - StartsEnabled
   - RunOnce
+  - WarnOnAliasFillFailure
   - 0x10000
   Priority: 70
   Unused: 0x000000
 QuestType: 0475F8:Starfield.esm
-Filter: Followers\COM\Companion\StarbornCoraCoe\
+Filter: Followers\COM\Companion\
 DialogConditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
@@ -230,11 +240,19 @@ Stages:
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Commitment Quest Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
 - Index: 5000
   Unknown: 171
   LogEntries:
   - Flags: []
-    Note: Anger Scene - Speech Challenge Win
+    Note: Anger Scene - Speech Challenge Success
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -242,12 +260,13 @@ Stages:
   Unknown: 171
   LogEntries:
   - Flags: []
-    Note: Anger Scene - Speech Challenge Lose
+    Note: Anger Scene - Speech Challenge Fail
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
 Objectives:
-- Index: 10
+- Index: 900
+  Flags: []
   DisplayText:
     TargetLanguage: English
     Value: '[Companion - Cora Coe (Starborn)] Talk with Cora Coe (Starborn)'
