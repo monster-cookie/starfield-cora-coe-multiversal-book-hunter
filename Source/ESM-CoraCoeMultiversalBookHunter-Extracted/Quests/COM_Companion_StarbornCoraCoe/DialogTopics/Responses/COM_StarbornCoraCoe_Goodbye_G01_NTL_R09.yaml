@@ -1,0 +1,16 @@
+FormKey: 00086F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_G01_NTL_R09
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000865:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0D755D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: So long, and thanks for the great times.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

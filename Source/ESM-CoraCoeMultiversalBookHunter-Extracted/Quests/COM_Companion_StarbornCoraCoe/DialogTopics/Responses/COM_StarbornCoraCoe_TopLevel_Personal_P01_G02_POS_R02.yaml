@@ -1,0 +1,16 @@
+FormKey: 00083C:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P01_G02_POS_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000834:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: That's a deep question, like the mysteries of the Nebulae of Nix. I've thought a lot about that, and here's what I've learned from my books and travels...
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

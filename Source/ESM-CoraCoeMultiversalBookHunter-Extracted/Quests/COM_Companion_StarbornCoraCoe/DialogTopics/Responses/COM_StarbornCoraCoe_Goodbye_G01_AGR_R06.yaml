@@ -1,0 +1,16 @@
+FormKey: 00087B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_G01_AGR_R06
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000863:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Well, wasn't that pleasant, NOT!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

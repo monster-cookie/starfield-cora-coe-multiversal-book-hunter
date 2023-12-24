@@ -10,11 +10,11 @@ VirtualMachineAdapter:
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShipCrewMarker
-      Object: 23DF2A:Starfield.esm
+      Object: 000802:CoraCoeMultiversalBookHunter.esm
       Alias: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShipInteriorLocation
-      Object: 23DF2A:Starfield.esm
+      Object: 000802:CoraCoeMultiversalBookHunter.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
       Name: CommitmentQuest

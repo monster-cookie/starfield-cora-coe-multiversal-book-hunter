@@ -1,0 +1,16 @@
+FormKey: 000874:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_G01_FND_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000864:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Take care, and keep solving those universal puzzles.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

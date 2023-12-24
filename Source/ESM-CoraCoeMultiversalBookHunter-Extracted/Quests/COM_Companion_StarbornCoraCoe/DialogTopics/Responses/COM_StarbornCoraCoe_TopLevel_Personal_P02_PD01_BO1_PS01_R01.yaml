@@ -1,0 +1,11 @@
+FormKey: 000841:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P02_PD01_BO1_PS01_R01
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: What do you think of exploring multiple universes?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

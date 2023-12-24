@@ -1,0 +1,24 @@
+FormKey: 000837:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P01_G01_NEG_R02
+Flags:
+  Flags:
+  - Random
+  - 0x40
+DialogGroup: 000835:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "Haha, that's a question even more mysterious than the uncharted sectors of the Andromeda galaxy! "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0C866C:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let's keep some mystery in our friendship, like a hidden treasure on a forgotten planet.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

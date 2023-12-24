@@ -1,0 +1,16 @@
+FormKey: 000877:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Goodbye_G01_AGR_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000863:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Yeah, yeah. I'm so done with this conversation.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low
