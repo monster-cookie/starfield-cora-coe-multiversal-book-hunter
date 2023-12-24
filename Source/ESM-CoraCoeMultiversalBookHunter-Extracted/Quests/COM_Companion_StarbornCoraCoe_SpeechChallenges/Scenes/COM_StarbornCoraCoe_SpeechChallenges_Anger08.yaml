@@ -42,13 +42,5 @@ Actions:
   LoopingMin: 1
 Quest: 000893:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 2
-VNAM: 0x0300000003000000030000000300000000000000
-BOLV: '[]'
-Index: 0
-SCSP: True
-SPRK: 0x0100
-SPRW: 0x03000000
-SPDF: True
-SPPQ: True
 SPKW:
 - 000891:CoraCoeMultiversalBookHunter.esm

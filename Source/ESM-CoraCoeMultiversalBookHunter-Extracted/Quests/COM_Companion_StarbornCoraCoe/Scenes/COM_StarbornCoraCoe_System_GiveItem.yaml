@@ -102,7 +102,6 @@ Actions:
   LoopingMax: 10
   LoopingMin: 1
 LastActionIndex: 5
-VNAM: 0x0300000003000000030000000300000003000000
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
@@ -110,5 +109,3 @@ Conditions:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 26B9F1:Starfield.esm
   ComparisonValue: 1
-BOLV: '[]'
-Index: 0

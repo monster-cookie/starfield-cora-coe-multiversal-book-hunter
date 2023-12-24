@@ -58,7 +58,6 @@ Actions:
   LoopingMin: 1
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 2
-VNAM: 0x0300000003000000030000000300000000000000
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
@@ -71,6 +70,3 @@ Conditions:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 26B9F4:Starfield.esm
   ComparisonValue: 1
-BOLV: '[]'
-Index: 0
-SCPI: 0x5A00

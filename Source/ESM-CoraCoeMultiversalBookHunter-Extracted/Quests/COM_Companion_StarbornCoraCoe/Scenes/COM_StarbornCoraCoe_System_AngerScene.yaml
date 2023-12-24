@@ -195,7 +195,6 @@ Actions:
     PNAM: '[]'
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 11
-VNAM: 0x0300000003000000030000000300000000000000
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
@@ -203,5 +202,3 @@ Conditions:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 2BE3E5:Starfield.esm
   ComparisonValue: 1
-BOLV: '[]'
-Index: 0

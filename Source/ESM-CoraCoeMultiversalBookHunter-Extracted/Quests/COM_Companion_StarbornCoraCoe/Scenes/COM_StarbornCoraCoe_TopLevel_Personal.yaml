@@ -59,8 +59,7 @@ Actions:
   - PlayerChoice: 000840:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 000842:CoraCoeMultiversalBookHunter.esm
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
-LastActionIndex: 5
-VNAM: 0x0300000003000000030000000300000003000000
+LastActionIndex: 3
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0xB40C00
@@ -70,6 +69,3 @@ Conditions:
     Unknown3: 0
     FirstParameter: 00D875:Starfield.esm
   ComparisonValue: 1
-BOLV: '[]'
-Index: 0
-SCPI: 0x3900

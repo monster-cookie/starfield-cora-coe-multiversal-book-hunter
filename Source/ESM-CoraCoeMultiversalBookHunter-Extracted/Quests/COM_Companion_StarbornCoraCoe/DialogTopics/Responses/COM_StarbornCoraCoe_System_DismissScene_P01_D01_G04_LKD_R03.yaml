@@ -12,7 +12,7 @@ VirtualMachineAdapter:
 Flags:
   Flags:
   - Random
-DialogGroup: 0008EC:CoraCoeMultiversalBookHunter.esm
+DialogGroup: 0008ED:CoraCoeMultiversalBookHunter.esm
 Responses:
 - Text:
     TargetLanguage: English
