@@ -49,6 +49,8 @@ Actions:
     - -2
 Quest: 000893:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 2
+SPRK: 0x0000
+SPRW: 0x01000000
 SPDF: True
 SPPQ: True
 SPKW:
