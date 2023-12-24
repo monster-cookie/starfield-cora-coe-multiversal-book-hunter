@@ -9,7 +9,6 @@ Data:
   - StartsEnabled
   - RunOnce
   Unused: 0x000000
-Filter: FollowersSupport\StarbornCoraCoe\
 DialogConditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000

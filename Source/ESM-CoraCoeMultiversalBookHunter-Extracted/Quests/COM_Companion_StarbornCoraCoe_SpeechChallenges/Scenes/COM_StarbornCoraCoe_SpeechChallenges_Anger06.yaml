@@ -14,22 +14,26 @@ Actors:
   BehaviorFlags:
   - DeathEnd
   - CombatEnd
+  - 0x100
 - ID: 4294967294
   Flags:
   - NoCommandState
   BehaviorFlags:
   - DeathEnd
   - CombatEnd
+  - 0x100
 Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: -2
   Index: 1
-  Flags:
-  - CameraSpeakerTarget
+  Flags: []
   Topic: 0008CC:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 0
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: 0
@@ -40,6 +44,9 @@ Actions:
   Topic: 0008CE:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
 Quest: 000893:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 2
 SPKW:
