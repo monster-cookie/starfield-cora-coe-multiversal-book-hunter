@@ -1,6 +1,6 @@
 FormKey: 000865:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 64
-EditorID: COM_StarbornCoraCoe_Goodbye_G01_NTL
+EditorID: COM_StarbornCoraCoe_Goodbye_G01_NEU
 StarfieldMajorRecordFlags:
 - 0x40
 Flags:
@@ -12,7 +12,7 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
-    FirstParameter: 2AF546:Starfield.esm
+    FirstParameter: 2AA8A6:Starfield.esm
   ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0

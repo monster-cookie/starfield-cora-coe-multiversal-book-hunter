@@ -1,22 +1,15 @@
-FormKey: 000836:CoraCoeMultiversalBookHunter.esm
+FormKey: 0009C7:CoraCoeMultiversalBookHunter.esm
 EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P01_G01_NEG_R01
 Flags:
   Flags:
   - Random
   - 0x40
-DialogGroup: 000835:CoraCoeMultiversalBookHunter.esm
+DialogGroup: 0009C6:CoraCoeMultiversalBookHunter.esm
 Responses:
-- Emotion: 0C866C:Starfield.esm
+- Emotion: 0C8670:Starfield.esm
   Text:
     TargetLanguage: English
-    Value: "Oh, that's an interesting question, but you know, in the spirit of my father's teachings, I tend to keep some stories to myself. "
-  ScriptNotes: ''
-  Edits: ''
-  AlternateLipText: ''
-- Emotion: 0C866C:Starfield.esm
-  Text:
-    TargetLanguage: English
-    Value: Like that time we encountered the silent monks of Orion IV, who believe that some truths are best kept in the heart.
+    Value: Uh. No. Just no.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''

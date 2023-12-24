@@ -1,5 +1,8 @@
 FormKey: 000804:CoraCoeMultiversalBookHunter.esm
 EditorID: COM_StarbornCoraCoe_TradeTopic
+Name:
+  TargetLanguage: English
+  Value: COM_StarbornCoraCoe_TradeTopic
 Branch: 000803:CoraCoeMultiversalBookHunter.esm
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 Keyword: 2C7C20:Starfield.esm

@@ -1,0 +1,16 @@
+FormKey: 0009CA:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P02_G01_ROM_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009C9:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: You can ask me anything... you know that.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

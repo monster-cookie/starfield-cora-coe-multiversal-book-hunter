@@ -1,0 +1,18 @@
+FormKey: 0009E0:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B03_NR_G01_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009DE:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Yeah, I'm sure you have a ton of questions. So do I!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScene: 00082F:CoraCoeMultiversalBookHunter.esm
+INTV: 0x07000000
+StartScenePhase: 'P7: CHOICE -- Powers'
+SubtitlePriority: Low

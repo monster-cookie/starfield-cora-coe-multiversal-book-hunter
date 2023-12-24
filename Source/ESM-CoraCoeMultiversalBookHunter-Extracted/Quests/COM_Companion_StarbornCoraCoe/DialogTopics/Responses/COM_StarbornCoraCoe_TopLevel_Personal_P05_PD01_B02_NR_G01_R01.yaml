@@ -1,0 +1,32 @@
+FormKey: 0009DA:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B02_NR_G01_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009D9:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA852:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I think about it a lot. There are so many possibilities... some wonderful, some terrifying.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA852:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: As much as the possibility of it scared me, it was the only way to chase my Father's killer.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0C866C:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'I will catch up to the version of you that did it. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScene: 00082F:CoraCoeMultiversalBookHunter.esm
+INTV: 0x06000000
+StartScenePhase: 'P6: CHOICE -- Discuss Unity'
+SubtitlePriority: Low

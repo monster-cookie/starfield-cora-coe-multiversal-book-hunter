@@ -12,7 +12,7 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
-    FirstParameter: 2AF549:Starfield.esm
+    FirstParameter: 2AA8A4:Starfield.esm
   ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0

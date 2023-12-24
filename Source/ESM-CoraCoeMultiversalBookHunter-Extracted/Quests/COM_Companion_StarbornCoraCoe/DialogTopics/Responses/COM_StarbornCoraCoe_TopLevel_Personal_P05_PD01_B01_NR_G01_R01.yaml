@@ -1,0 +1,17 @@
+FormKey: 0009D5:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B01_NR_G01_R01
+Flags:
+  Flags:
+  - Random
+  - 0x40
+DialogGroup: 0009D4:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866C:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let me know if there's anything else.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

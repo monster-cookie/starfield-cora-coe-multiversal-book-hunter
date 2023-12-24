@@ -1,7 +1,7 @@
 FormKey: 000803:CoraCoeMultiversalBookHunter.esm
-EditorID: COM_StarbornCoraCoe_CSBranch
+EditorID: COM_StarbornCoraCoe_CustomTopics
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 Category: Player
 Flags:
 - TopLevel
-StartingTopic: 000804:CoraCoeMultiversalBookHunter.esm
+StartingTopic: 00081B:CoraCoeMultiversalBookHunter.esm

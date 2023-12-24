@@ -5,10 +5,23 @@ StarfieldMajorRecordFlags:
 - 0x40
 Flags:
   Flags:
+  - RandomEnd
   - ChildInfosDontInheritResetData
   - ForceAllChildrenRandom
 Conditions:
 - MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    FirstParameter: 2882233
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
   Unknown1: 0x000000
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData

@@ -1,0 +1,16 @@
+FormKey: 0009CD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P03_G01_POS_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009CC:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let me consult my books and get a great answer for you...
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,32 @@
+FormKey: 0009E6:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B04_NR_G01_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009E4:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 17B499:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: For a long time talking about my Father was the hardest thing I could ever imagine.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA84F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: But after everything we've been through... now I can see through the pain to the moments of beauty.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: So I don't mind talking about one of the best things that ever happened to me with one of my favorite people in the galaxy.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScene: 00082F:CoraCoeMultiversalBookHunter.esm
+INTV: 0x08000000
+StartScenePhase: 'P8: CHOICE -- Evil Player'
+SubtitlePriority: Low

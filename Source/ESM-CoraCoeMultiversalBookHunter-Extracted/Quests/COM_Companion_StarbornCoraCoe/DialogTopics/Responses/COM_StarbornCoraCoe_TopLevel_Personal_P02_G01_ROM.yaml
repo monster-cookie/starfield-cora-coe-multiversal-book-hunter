@@ -1,6 +1,6 @@
-FormKey: 000834:CoraCoeMultiversalBookHunter.esm
+FormKey: 0009C9:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 64
-EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P01_G02_POS
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P02_G01_ROM
 StarfieldMajorRecordFlags:
 - 0x40
 Flags:
@@ -9,10 +9,13 @@ Flags:
   - ForceAllChildrenRandom
 Conditions:
 - MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
   Unknown1: 0x000000
   Data:
-    MutagenObjectType: IsTrueForConditionFormConditionData
-    FirstParameter: 333D8B:Starfield.esm
+    MutagenObjectType: GetValueConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    FirstParameter: 2882233
   ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0

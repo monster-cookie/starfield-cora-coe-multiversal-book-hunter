@@ -5,11 +5,122 @@ Flags:
 - DisableDialogueCamera
 - 0x2000
 Phases:
-- Name: ''
+- Name: 'P0: GREET -- Neutral'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+      SecondParameter: 50
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: 'P1: GREET -- Angry'
+  StartConditions:
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 186898
+    ComparisonValue: 01061A:Starfield.esm
+  EditorWidth: 500
+- Name: 'P2: GREET -- Positive (Romantic)'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2882233
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: 'P3: GREET -- Positive (Normal)'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2882233
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 662400
+    ComparisonValue: 500
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: NotEqualTo
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2842312
+    ComparisonValue: 00D850:Starfield.esm
+  EditorWidth: 500
+- Name: 'P4: GREET -- Neutral'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2882233
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 662400
+    ComparisonValue: 500
+  - MutagenObjectType: ConditionGlobal
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2842312
+    ComparisonValue: 00D850:Starfield.esm
+  EditorWidth: 500
+- Name: 'P5: CHOICE -- Main Questions'
+  EditorWidth: 500
+- Name: 'P6: CHOICE -- Discuss Unity'
+  EditorWidth: 500
+- Name: 'P7: CHOICE -- Powers'
+  EditorWidth: 500
+- Name: 'P8: CHOICE -- Evil Player'
+  EditorWidth: 500
+- Name: 'P9: CHOICE -- Personal Questions'
+  EditorWidth: 500
+- Name: _CHOICE -- Constellation Topic
   EditorWidth: 500
 - Name: ''
   EditorWidth: 500
-- Name: MAIN LOOP
+- Name: _GOODBYE
+  EditorWidth: 500
+- Name: ''
   EditorWidth: 500
 Actors:
 - Flags:
@@ -26,46 +137,273 @@ Actors:
   - CombatEnd
   - 0x100
 Actions:
-- MutagenObjectType: DialogueSceneAction
-  Name: ''
-  AliasID: -2
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P9: CHOICE -- Personal Questions'
+  AliasID: 0
   Index: 1
   Flags: []
-  Topic: 000830:CoraCoeMultiversalBookHunter.esm
-  LoopingMax: 10
-  LoopingMin: 1
-- MutagenObjectType: DialogueSceneAction
-  Name: ''
-  AliasID: 0
-  Index: 2
-  Flags: []
-  StartPhase: 1
-  EndPhase: 1
-  Topic: 000833:CoraCoeMultiversalBookHunter.esm
-  LoopingMax: 10
-  LoopingMin: 1
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: ''
-  AliasID: 0
-  Index: 3
-  Flags: []
-  StartPhase: 2
-  EndPhase: 2
+  StartPhase: 9
+  EndPhase: 9
   HNAM:
     ReferenceAliasIDs:
     - -2
   DialogueTargetActor: 0
   DialogueList:
-  - PlayerChoice: 000840:CoraCoeMultiversalBookHunter.esm
-    NpcResponse: 000842:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 14270C:Starfield.esm
+    NpcResponse: 14270B:Starfield.esm
+  - PlayerChoice: 022904:Starfield.esm
+    NpcResponse: 022905:Starfield.esm
+  - PlayerChoice: 14270E:Starfield.esm
+    NpcResponse: 14270D:Starfield.esm
+  - PlayerChoice: 33E963:Starfield.esm
+    NpcResponse: 33E962:Starfield.esm
+  - PlayerChoice: 3C79C1:Starfield.esm
+    NpcResponse: 3C79C0:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P0: GREET -- Neutral'
+  AliasID: -2
+  Index: 2
+  Flags: []
+  Topic: 000830:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P5: CHOICE -- Main Questions'
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 0009D1:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009D3:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 0009D6:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009D8:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 0009DB:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009DD:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 0009E1:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009E3:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 115455:Starfield.esm
+    NpcResponse: 115454:Starfield.esm
+  - PlayerChoice: 005413:Starfield.esm
+    NpcResponse: 005412:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P2: GREET -- Positive (Romantic)'
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 0009C8:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P6: CHOICE -- Discuss Unity'
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 6
+  EndPhase: 6
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 33B1A1:Starfield.esm
+    NpcResponse: 33B1B2:Starfield.esm
+  - PlayerChoice: 33B1A0:Starfield.esm
+    NpcResponse: 33B1B1:Starfield.esm
+  - PlayerChoice: 33B19F:Starfield.esm
+    NpcResponse: 33B1B0:Starfield.esm
+  - PlayerChoice: 33B19E:Starfield.esm
+    NpcResponse: 33B1AF:Starfield.esm
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 12
+  EndPhase: 12
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P8: CHOICE -- Evil Player'
+  AliasID: 0
+  Index: 8
+  Flags: []
+  StartPhase: 8
+  EndPhase: 8
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 33B19D:Starfield.esm
+    NpcResponse: 33B19C:Starfield.esm
+  - PlayerChoice: 142715:Starfield.esm
+    NpcResponse: 142713:Starfield.esm
+  - PlayerChoice: 33B199:Starfield.esm
+    NpcResponse: 33B198:Starfield.esm
+  - PlayerChoice: 33B197:Starfield.esm
+    NpcResponse: 33B196:Starfield.esm
+  - PlayerChoice: 33B195:Starfield.esm
+    NpcResponse: 33B194:Starfield.esm
+  - PlayerChoice: 33B193:Starfield.esm
+    NpcResponse: 33B192:Starfield.esm
+  - PlayerChoice: 33B191:Starfield.esm
+    NpcResponse: 33B190:Starfield.esm
+  - PlayerChoice: 33B18F:Starfield.esm
+    NpcResponse: 33B18E:Starfield.esm
+  - PlayerChoice: 33B18D:Starfield.esm
+    NpcResponse: 21FC0C:Starfield.esm
+  - PlayerChoice: 33B19B:Starfield.esm
+    NpcResponse: 33B19A:Starfield.esm
+  - PlayerChoice: 21FC0B:Starfield.esm
+    NpcResponse: 21F8F6:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 10
+  Flags: []
+  StartPhase: 12
+  EndPhase: 12
+  Topic: 115466:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P7: CHOICE -- Powers'
+  AliasID: 0
+  Index: 11
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  HNAM:
+    FNAM: '[]'
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 115465:Starfield.esm
+    NpcResponse: 33B1A9:Starfield.esm
+  - PlayerChoice: 11545D:Starfield.esm
+    NpcResponse: 33B1A7:Starfield.esm
+  - PlayerChoice: 11545C:Starfield.esm
+    NpcResponse: 33B1A6:Starfield.esm
+  - PlayerChoice: 11545B:Starfield.esm
+    NpcResponse: 33B1A5:Starfield.esm
+  - PlayerChoice: 11545A:Starfield.esm
+    NpcResponse: 33B1A4:Starfield.esm
+  - PlayerChoice: 115459:Starfield.esm
+    NpcResponse: 33B1A3:Starfield.esm
+  - PlayerChoice: 115464:Starfield.esm
+    NpcResponse: 33B1A8:Starfield.esm
+  - PlayerChoice: 115458:Starfield.esm
+    NpcResponse: 33B1A2:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 13
+  Flags: []
+  StartPhase: 10
+  EndPhase: 10
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 3E1F2D:Starfield.esm
+    NpcResponse: 3E1F2C:Starfield.esm
+  - PlayerChoice: 3E1F2B:Starfield.esm
+    NpcResponse: 3E1F2A:Starfield.esm
+  - PlayerChoice: 3E1F29:Starfield.esm
+    NpcResponse: 3E1F28:Starfield.esm
+  - PlayerChoice: 3E1F27:Starfield.esm
+    NpcResponse: 3E1F26:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 14
+  Flags: []
+  StartPhase: 11
+  EndPhase: 11
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 3E1F2D:Starfield.esm
+    NpcResponse: 3E1F23:Starfield.esm
+  - PlayerChoice: 3E1F2B:Starfield.esm
+    NpcResponse: 3E1F22:Starfield.esm
+  - PlayerChoice: 3E1F29:Starfield.esm
+    NpcResponse: 3E1F21:Starfield.esm
+  - PlayerChoice: 3E1F27:Starfield.esm
+    NpcResponse: 3E1F20:Starfield.esm
+  ATTR: 0x0D000000
+  ACBS: True
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P3: GREET -- Positive (Normal)'
+  AliasID: 0
+  Index: 15
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 0009CB:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P4: GREET -- Neutral'
+  AliasID: 0
+  Index: 16
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 0009CE:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P0: GREET -- Angry'
+  AliasID: 0
+  Index: 17
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0009C5:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 3
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0xB40C00
+  Unknown1: 0x000000
   Data:
-    MutagenObjectType: GetInFactionConditionData
-    RunOnType: QuestAlias
-    Unknown3: 0
-    FirstParameter: 00D875:Starfield.esm
+    MutagenObjectType: GetIsAliasRefConditionData
   ComparisonValue: 1
+BOLV: '[]'
+Index: 330
+SCPI: 0x3900

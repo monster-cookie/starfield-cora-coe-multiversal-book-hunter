@@ -5,7 +5,6 @@ StarfieldMajorRecordFlags:
 - 0x40
 Flags:
   Flags:
-  - RandomEnd
   - ChildInfosDontInheritResetData
   - ForceAllChildrenRandom
 Conditions:
@@ -13,7 +12,7 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
-    FirstParameter: 2AF54B:Starfield.esm
+    FirstParameter: 2AA8A3:Starfield.esm
   ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0

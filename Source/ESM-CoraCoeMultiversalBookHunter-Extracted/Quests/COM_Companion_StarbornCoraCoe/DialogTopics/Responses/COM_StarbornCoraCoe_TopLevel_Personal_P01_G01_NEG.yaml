@@ -1,4 +1,4 @@
-FormKey: 000835:CoraCoeMultiversalBookHunter.esm
+FormKey: 0009C6:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 64
 EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P01_G01_NEG
 StarfieldMajorRecordFlags:
@@ -7,6 +7,13 @@ Flags:
   Flags:
   - ChildInfosDontInheritResetData
   - ForceAllChildrenRandom
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 333D8C:Starfield.esm
+  ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0
 MajorFlags:

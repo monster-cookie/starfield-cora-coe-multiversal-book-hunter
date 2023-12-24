@@ -5,5 +5,5 @@ Name:
   Value: COM_StarbornCoraCoe_Goodbye
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 Category: Misc
-Subtype: QuestOrSpecialHellos
-SubtypeName: HELO
+Subtype: PlayerAquireFeaturedItem
+SubtypeName: GBYE

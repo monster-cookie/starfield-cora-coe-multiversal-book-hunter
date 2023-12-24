@@ -1,0 +1,13 @@
+FormKey: 0009D9:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B02_NR_G01
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - RandomEnd
+  - ChildInfosDontInheritResetData
+StartScenePhase: ''
+SubtitlePriority: 0
+MajorFlags:
+- InfoGroup

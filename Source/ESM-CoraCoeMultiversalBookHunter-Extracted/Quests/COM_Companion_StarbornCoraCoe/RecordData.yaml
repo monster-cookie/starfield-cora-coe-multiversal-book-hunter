@@ -240,6 +240,15 @@ Stages:
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * UNLOCK: Top Level -- Evil Player Topics'
+    ScriptFlagComment: Set by SG01 phase 8 and 19
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
 - Index: 900
   Unknown: 171
   LogEntries:

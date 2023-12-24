@@ -5,6 +5,7 @@ StarfieldMajorRecordFlags:
 - 0x40
 Flags:
   Flags:
+  - RandomEnd
   - ChildInfosDontInheritResetData
   - ForceAllChildrenRandom
 Conditions:
