@@ -1,0 +1,16 @@
+FormKey: 0009F1:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P12_G01_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009EF:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Anytime, Captain. Talking to you is always a welcome detour.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

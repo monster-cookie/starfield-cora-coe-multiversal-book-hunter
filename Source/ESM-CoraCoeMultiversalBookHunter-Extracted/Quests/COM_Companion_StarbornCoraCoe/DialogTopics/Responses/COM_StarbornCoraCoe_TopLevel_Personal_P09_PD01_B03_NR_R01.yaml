@@ -1,0 +1,34 @@
+FormKey: 0009FD:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P09_PD01_B03_NR_R01
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'Ah, books! They are indeed the vessels of infinite adventures and the gateway to boundless knowledge. You know, diving into the pages of a good book is like exploring a new planet, each page a step into unknown territories. My love for books, especially those on quantum theory, astrophysics, and, curiously enough, horses, has always been a part of who I am regardless of version. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: There's something about the tactile sensation of turning pages, the scent of ink and paper, that no digital screen can replicate. It's a sensory experience that connects me to the vast universe of ideas and stories.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E864:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: And speaking of stories, they're not just a pastime for me; they've been a guiding light through my journey, especially in understanding the cosmos and the mysteries of the Starborn. Each book is like a star in the vast expanse of space, illuminating paths and revealing secrets of the universe.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E864:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: >+
+      It's a passion that I've cherished since my days aboard my father's ship, a constant companion in my quest for knowledge and adventure. So yes, I am still very much an avid bookworm, collector, and each book is a treasured artifact in my personal universe. {{BETA NOTE -- This will eventually trigger Cora Wants All The Books}}
+  ScriptNotes: THIS WILL TRIGGER Cora Wants All The Books
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

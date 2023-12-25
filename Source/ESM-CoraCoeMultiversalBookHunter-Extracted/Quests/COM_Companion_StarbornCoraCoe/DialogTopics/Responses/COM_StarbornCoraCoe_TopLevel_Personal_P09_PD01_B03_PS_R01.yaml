@@ -1,0 +1,12 @@
+FormKey: 0009FB:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P09_PD01_B03_PS_R01
+Responses:
+- Emotion: 0D755E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: So about those books? I see you are still an avid bookworm.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

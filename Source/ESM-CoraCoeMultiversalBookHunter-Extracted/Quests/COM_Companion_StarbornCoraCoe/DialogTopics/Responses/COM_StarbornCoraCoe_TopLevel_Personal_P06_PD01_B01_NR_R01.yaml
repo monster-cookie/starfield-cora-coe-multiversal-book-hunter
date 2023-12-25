@@ -1,0 +1,33 @@
+FormKey: 000A01:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P06_PD01_B01_NR_R01
+Responses:
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: When I passed through the Unity and became a Starborn, the experience of meeting myself from another universe was nothing short of surreal. It's an encounter that defies the normal flow of time and reality as we understand it. In this other universe, I was older, a version of myself that had chosen a different path, one that involved entering the Unity much later than I did.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Seeing her, I was struck by a profound sense of connection and divergence simultaneously. It was like looking into a living mirror that reflected not just what I am, but what I could have been. The encounter was a vivid reminder of the infinite possibilities that lie within the multiverse. Each decision we make, each path we take, leads to a myriad of potential outcomes, each existing in its own universe.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This meeting was more than just an encounter with another version of myself; it was a lesson in the vastness of existence and the interconnectedness of all things. It brought to mind the teachings of my mentor and friend, Noel, who always encouraged curiosity and exploration. It was a moment that deeply resonated with my passion for understanding the cosmos and the mysteries of existence.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In essence, meeting myself was a profound, emotionally stirring experience that expanded my perspective on life and the universe. It was a stark reminder that our choices define us and that there are countless versions of ourselves living out those choices in the vast expanse of the multiverse.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

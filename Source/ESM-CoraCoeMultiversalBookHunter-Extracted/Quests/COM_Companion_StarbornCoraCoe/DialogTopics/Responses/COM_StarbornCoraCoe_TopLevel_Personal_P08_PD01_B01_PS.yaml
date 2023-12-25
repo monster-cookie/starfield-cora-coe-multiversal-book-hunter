@@ -1,0 +1,13 @@
+FormKey: 000A07:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P08_PD01_B01_PS
+Flags: {}
+Responses:
+- Emotion: 0D755E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I know this is going to hurt, but we need to talk about the Evil Me that killed your Constellation team.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

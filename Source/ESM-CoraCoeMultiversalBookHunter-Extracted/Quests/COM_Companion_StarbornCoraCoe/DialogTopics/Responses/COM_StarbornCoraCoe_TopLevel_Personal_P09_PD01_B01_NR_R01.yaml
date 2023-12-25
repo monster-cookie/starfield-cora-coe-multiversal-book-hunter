@@ -1,0 +1,40 @@
+FormKey: 0009F5:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P09_PD01_B01_NR_R01
+Responses:
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Ah, Noel... she was a remarkable friend and teacher, a beacon of knowledge and inspiration in my life. Her passion for engineering and the sciences ignited a similar spark in me, shaping my journey in profound ways.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I remember her fondly, always ready with a new scientific riddle or a complex problem to solve. Her guidance was not just about imparting knowledge; it was about nurturing curiosity and the relentless pursuit of understanding.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Her untimely demise at the hands of a Starborn in our home universe was a pivotal and heart-wrenching moment for me. It was a stark reminder of the volatile and often perilous nature of our explorations and encounters. Losing her was like losing a part of myself, a part that was deeply connected to the wonders and mysteries of the cosmos.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'This loss, as devastating as it was, became a catalyst for my decision to pass through the Unity and become a Starborn. It was a path of transcendence, a way to honor her memory by continuing the quest for knowledge and exploration that she had so passionately championed but also lets me to continue the hunt for the killer of my Father and the rest of Constellation. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In this new existence, I carry the lessons she taught me, her spirit of inquiry, and her unyielding courage as I navigate the unknown realms of the universe. Noel's influence is a constant presence, guiding me as I journey through the stars.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

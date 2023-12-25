@@ -1,0 +1,23 @@
+FormKey: 0009F0:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P12_G01_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0009EF:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Right. Well, let's get back to it. The universe won't explore itself, you know.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E864:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Though... you know, as we are part of the universe... it kind of will. Heh.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

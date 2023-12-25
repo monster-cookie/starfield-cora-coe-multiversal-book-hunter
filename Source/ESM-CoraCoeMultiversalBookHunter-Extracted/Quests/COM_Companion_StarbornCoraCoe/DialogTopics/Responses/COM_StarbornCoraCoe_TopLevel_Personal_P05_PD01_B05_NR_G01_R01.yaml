@@ -1,0 +1,48 @@
+FormKey: 0009EB:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B05_NR_G01_R01
+Flags:
+  Flags:
+  - 0x4
+DialogGroup: 0009EA:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: How much time do you have? Just kidding. Let's see... where to start...
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E864:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "I've been jumping universes so long hunting the other you. "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 17B499:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "After I lost my Father and Constellation, I was raised for a time by Keeper Aquilus. That didn't last long before I found my way to Unity. "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Anyone I've been jumping universe to universe ever since.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: So, I guess that's me in a nutshell.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScene: 00082F:CoraCoeMultiversalBookHunter.esm
+SetParentQuestStage:
+  OnBegin: 50
+  OnEnd: -1
+StartScenePhase: 'P9: CHOICE -- Personal Questions'
+SubtitlePriority: Low

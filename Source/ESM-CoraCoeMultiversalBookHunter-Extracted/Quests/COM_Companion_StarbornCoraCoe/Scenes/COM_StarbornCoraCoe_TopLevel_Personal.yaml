@@ -29,7 +29,7 @@ Phases:
       FirstParameter: 186898
     ComparisonValue: 01061A:Starfield.esm
   EditorWidth: 500
-- Name: 'P2: GREET -- Positive (Romantic)'
+- Name: 'P2: GREET -- Positive Romantic'
   StartConditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
@@ -41,7 +41,7 @@ Phases:
       FirstParameter: 2882233
     ComparisonValue: 1
   EditorWidth: 500
-- Name: 'P3: GREET -- Positive (Normal)'
+- Name: 'P3: GREET -- Positive Normal'
   StartConditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: LessThan
@@ -114,13 +114,13 @@ Phases:
   EditorWidth: 500
 - Name: 'P9: CHOICE -- Personal Questions'
   EditorWidth: 500
-- Name: _CHOICE -- Constellation Topic
+- Name: 'P10: CHOICE -- Constellation Topic (TBR)'
   EditorWidth: 500
-- Name: ''
+- Name: 'P11: CHOICE - Unknown Topic (TBR)'
   EditorWidth: 500
-- Name: _GOODBYE
+- Name: 'P12: GOODBYE'
   EditorWidth: 500
-- Name: ''
+- Name: 'P13: SCENE - Unknown Use (TBR)'
   EditorWidth: 500
 Actors:
 - Flags:
@@ -149,16 +149,12 @@ Actions:
     - -2
   DialogueTargetActor: 0
   DialogueList:
-  - PlayerChoice: 14270C:Starfield.esm
-    NpcResponse: 14270B:Starfield.esm
-  - PlayerChoice: 022904:Starfield.esm
-    NpcResponse: 022905:Starfield.esm
-  - PlayerChoice: 14270E:Starfield.esm
-    NpcResponse: 14270D:Starfield.esm
-  - PlayerChoice: 33E963:Starfield.esm
-    NpcResponse: 33E962:Starfield.esm
-  - PlayerChoice: 3C79C1:Starfield.esm
-    NpcResponse: 3C79C0:Starfield.esm
+  - PlayerChoice: 0009F2:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009F4:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 0009F6:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009F8:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 0009FA:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009FC:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
   Name: 'P0: GREET -- Neutral'
   AliasID: -2
@@ -189,10 +185,8 @@ Actions:
     NpcResponse: 0009DD:CoraCoeMultiversalBookHunter.esm
   - PlayerChoice: 0009E1:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 0009E3:CoraCoeMultiversalBookHunter.esm
-  - PlayerChoice: 115455:Starfield.esm
-    NpcResponse: 115454:Starfield.esm
-  - PlayerChoice: 005413:Starfield.esm
-    NpcResponse: 005412:Starfield.esm
+  - PlayerChoice: 0009E7:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009E9:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
   Name: 'P2: GREET -- Positive (Romantic)'
   AliasID: 0
@@ -222,21 +216,10 @@ Actions:
     PNAM: '[]'
   DialogueTargetActor: 0
   DialogueList:
-  - PlayerChoice: 33B1A1:Starfield.esm
-    NpcResponse: 33B1B2:Starfield.esm
-  - PlayerChoice: 33B1A0:Starfield.esm
-    NpcResponse: 33B1B1:Starfield.esm
-  - PlayerChoice: 33B19F:Starfield.esm
-    NpcResponse: 33B1B0:Starfield.esm
-  - PlayerChoice: 33B19E:Starfield.esm
-    NpcResponse: 33B1AF:Starfield.esm
-- MutagenObjectType: StartSceneAction
-  Name: ''
-  AliasID: 0
-  Index: 7
-  Flags: []
-  StartPhase: 12
-  EndPhase: 12
+  - PlayerChoice: 0009FE:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A00:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 000A02:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A04:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: PlayerDialogueSceneAction
   Name: 'P8: CHOICE -- Evil Player'
   AliasID: 0
@@ -249,36 +232,16 @@ Actions:
     - -2
   DialogueTargetActor: 0
   DialogueList:
-  - PlayerChoice: 33B19D:Starfield.esm
-    NpcResponse: 33B19C:Starfield.esm
-  - PlayerChoice: 142715:Starfield.esm
-    NpcResponse: 142713:Starfield.esm
-  - PlayerChoice: 33B199:Starfield.esm
-    NpcResponse: 33B198:Starfield.esm
-  - PlayerChoice: 33B197:Starfield.esm
-    NpcResponse: 33B196:Starfield.esm
-  - PlayerChoice: 33B195:Starfield.esm
-    NpcResponse: 33B194:Starfield.esm
-  - PlayerChoice: 33B193:Starfield.esm
-    NpcResponse: 33B192:Starfield.esm
-  - PlayerChoice: 33B191:Starfield.esm
-    NpcResponse: 33B190:Starfield.esm
-  - PlayerChoice: 33B18F:Starfield.esm
-    NpcResponse: 33B18E:Starfield.esm
-  - PlayerChoice: 33B18D:Starfield.esm
-    NpcResponse: 21FC0C:Starfield.esm
-  - PlayerChoice: 33B19B:Starfield.esm
-    NpcResponse: 33B19A:Starfield.esm
-  - PlayerChoice: 21FC0B:Starfield.esm
-    NpcResponse: 21F8F6:Starfield.esm
+  - PlayerChoice: 000A06:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A08:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
-  Name: ''
+  Name: 'P12: GOODBYE'
   AliasID: 0
   Index: 10
   Flags: []
   StartPhase: 12
   EndPhase: 12
-  Topic: 115466:Starfield.esm
+  Topic: 0009EE:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
 - MutagenObjectType: PlayerDialogueSceneAction
@@ -292,65 +255,8 @@ Actions:
     FNAM: '[]'
   DialogueTargetActor: 0
   DialogueList:
-  - PlayerChoice: 115465:Starfield.esm
-    NpcResponse: 33B1A9:Starfield.esm
-  - PlayerChoice: 11545D:Starfield.esm
-    NpcResponse: 33B1A7:Starfield.esm
-  - PlayerChoice: 11545C:Starfield.esm
-    NpcResponse: 33B1A6:Starfield.esm
-  - PlayerChoice: 11545B:Starfield.esm
-    NpcResponse: 33B1A5:Starfield.esm
-  - PlayerChoice: 11545A:Starfield.esm
-    NpcResponse: 33B1A4:Starfield.esm
-  - PlayerChoice: 115459:Starfield.esm
-    NpcResponse: 33B1A3:Starfield.esm
-  - PlayerChoice: 115464:Starfield.esm
-    NpcResponse: 33B1A8:Starfield.esm
-  - PlayerChoice: 115458:Starfield.esm
-    NpcResponse: 33B1A2:Starfield.esm
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: ''
-  AliasID: 0
-  Index: 13
-  Flags: []
-  StartPhase: 10
-  EndPhase: 10
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-  DialogueTargetActor: 0
-  DialogueList:
-  - PlayerChoice: 3E1F2D:Starfield.esm
-    NpcResponse: 3E1F2C:Starfield.esm
-  - PlayerChoice: 3E1F2B:Starfield.esm
-    NpcResponse: 3E1F2A:Starfield.esm
-  - PlayerChoice: 3E1F29:Starfield.esm
-    NpcResponse: 3E1F28:Starfield.esm
-  - PlayerChoice: 3E1F27:Starfield.esm
-    NpcResponse: 3E1F26:Starfield.esm
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: ''
-  AliasID: 0
-  Index: 14
-  Flags: []
-  StartPhase: 11
-  EndPhase: 11
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-  DialogueTargetActor: 0
-  DialogueList:
-  - PlayerChoice: 3E1F2D:Starfield.esm
-    NpcResponse: 3E1F23:Starfield.esm
-  - PlayerChoice: 3E1F2B:Starfield.esm
-    NpcResponse: 3E1F22:Starfield.esm
-  - PlayerChoice: 3E1F29:Starfield.esm
-    NpcResponse: 3E1F21:Starfield.esm
-  - PlayerChoice: 3E1F27:Starfield.esm
-    NpcResponse: 3E1F20:Starfield.esm
-  ATTR: 0x0D000000
-  ACBS: True
+  - PlayerChoice: 000A0A:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A0C:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
   Name: 'P3: GREET -- Positive (Normal)'
   AliasID: 0
@@ -396,6 +302,56 @@ Actions:
     - -2
     FNAM: '[]'
     PNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P10: CHOICE -- Constellation Topic (TBR)'
+  AliasID: 0
+  Index: 13
+  Flags: []
+  StartPhase: 10
+  EndPhase: 10
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 3E1F2D:Starfield.esm
+    NpcResponse: 3E1F2C:Starfield.esm
+  - PlayerChoice: 3E1F2B:Starfield.esm
+    NpcResponse: 3E1F2A:Starfield.esm
+  - PlayerChoice: 3E1F29:Starfield.esm
+    NpcResponse: 3E1F28:Starfield.esm
+  - PlayerChoice: 3E1F27:Starfield.esm
+    NpcResponse: 3E1F26:Starfield.esm
+- MutagenObjectType: StartSceneAction
+  Name: 'P13: SCENE - Unknown Use (TBR)'
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 13
+  EndPhase: 13
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P11: CHOICE - Unknown Topic (TBR)'
+  AliasID: 0
+  Index: 14
+  Flags: []
+  StartPhase: 11
+  EndPhase: 11
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 3E1F2D:Starfield.esm
+    NpcResponse: 3E1F23:Starfield.esm
+  - PlayerChoice: 3E1F2B:Starfield.esm
+    NpcResponse: 3E1F22:Starfield.esm
+  - PlayerChoice: 3E1F29:Starfield.esm
+    NpcResponse: 3E1F21:Starfield.esm
+  - PlayerChoice: 3E1F27:Starfield.esm
+    NpcResponse: 3E1F20:Starfield.esm
+  ATTR: 0x0D000000
+  ACBS: True
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 3
 Conditions:

@@ -1,0 +1,34 @@
+FormKey: 0009F9:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P09_PD01_B02_NR_R01
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: >+
+      My perspective on religion and spirituality is deeply intertwined with my journey as a Starborn and my background in Engineering. The cosmos, in its vast and mysterious expanse, has always filled me with a sense of awe and wonder. This feeling, for many, is a gateway to spiritual or religious contemplation.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: While my scientific understanding and experiences as a Starborn might seem at odds with traditional religious beliefs, I've come to realize that there's a profound depth to the universe that science alone can't fully explain. The existence of the Unity, for instance, poses questions that transcend the boundaries of conventional human understanding. Was it created by a higher power, an advanced civilization, or is it a natural phenomenon of the universe? These questions linger in the back of my mind as I traverse through space.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Moreover, becoming a Starborn through the Unity is, in a way, a transcendental experience. It's a rebirth into new realms and forms of existence, which could be seen as a spiritual journey in itself. It's an exploration not just of the physical universe, but of the potential and limits of our own being.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I hold a deep respect for the mysteries of the universe and the quest to understand them, whether through the lens of science or spirituality. Just as Noel instilled in me a spirit of inquiry and courage, I carry these values into every aspect of my existence, be it as a human, a Starborn, or a seeker of knowledge. The universe is a place of endless wonders, and perhaps, in its own way, it is sacred.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

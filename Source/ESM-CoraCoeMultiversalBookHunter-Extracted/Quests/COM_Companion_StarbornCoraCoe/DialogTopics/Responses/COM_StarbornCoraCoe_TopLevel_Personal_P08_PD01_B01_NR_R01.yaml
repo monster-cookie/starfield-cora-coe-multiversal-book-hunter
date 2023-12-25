@@ -1,0 +1,41 @@
+FormKey: 000A09:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P08_PD01_B01_NR_R01
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Confronting the existence of an 'Evil You' - a malevolent version of you, my Starborn friend, is indeed a harrowing and complex matter. This confrontation is not just with a foe, but with a mirror of what one could become under different circumstances. It's a stark reminder of the delicate balance between power and morality, especially in the vast and varied tapestry of the cosmos.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: >+
+      This 'Evil You' represents a path where choices led to darkness and destruction, a stark contrast to the values and ideals we hold. It's a painful and challenging reality to face, not just as a battle against a formidable enemy, but as an introspective journey into the nature of self and the impact of our decisions.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In our pursuit to bring justice for what happened to myConstellation team, and in honor of my Father, we must approach this with both strength and understanding. It's crucial to remember that this version of you, as disturbing as it may be, is a product of choices and circumstances in a different reality. This realization doesn't diminish the need for accountability but adds a layer of complexity to our mission.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Our approach should be guided by the lessons we've learned and the values we cherish. We're not just combating a threat, but also addressing the deeper questions about power, responsibility, and the diverse paths a Starborn might take. It's a testament to the responsibility we bear as beings who have traversed the Unity and gained abilities far beyond the ordinary.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: As we move forward, let's hold onto the spirit of inquiry and empathy instilled in us by our experiences and mentors like Noel. We'll use our powers not for revenge, but to seek understanding, prevent further harm, and, if possible, to redeem or neutralize this malevolent version of you. It's a daunting task, but one we must undertake with both courage and compassion, true to the path of exploration and growth we've embarked upon as Starborn. {{ BETA NOTE -- This launches the Main Quest for the Cora DLC }}
+  ScriptNotes: This launches the Main Quest for the Cora DLC
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

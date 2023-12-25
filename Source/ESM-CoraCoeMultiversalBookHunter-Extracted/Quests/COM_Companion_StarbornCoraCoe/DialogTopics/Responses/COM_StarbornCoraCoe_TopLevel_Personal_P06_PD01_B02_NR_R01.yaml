@@ -1,0 +1,33 @@
+FormKey: 000A05:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P06_PD01_B02_NR_R01
+Responses:
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Exploring other universes as a Starborn has been an extraordinary journey, one that's both exhilarating and humbling. Each universe is a unique tapestry of cosmic wonders, diverse in its formation, laws, and life. Venturing into these realms, I've encountered realities that challenge my understanding of physics and existence as I knew it.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "The diversity of these universes is astounding. In some, the laws of physics are altered in ways that defy my prior knowledge from my original universe. I've seen stars with impossible colors, planets with landscapes beyond imagination, and life forms that redefine the concept of existence. "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA848:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: These experiences have deepened my appreciation for the teachings of Noel, my mentor, who always encouraged me to embrace the unknown and the wonders it holds.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: One of the most profound aspects of this exploration is the emotional journey it entails. Each universe is not just a physical space but a realm of possibilities, a reminder of the paths not taken, and the infinite potential of existence. It's a journey that has allowed me to grow, not just as a Starborn, but as a being constantly in search of knowledge and understanding.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

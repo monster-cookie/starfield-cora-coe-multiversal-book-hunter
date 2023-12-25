@@ -249,6 +249,86 @@ Stages:
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Personal Quest Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Personal Quest Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG08 Scene Progress
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 811
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player interested in Commitment.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 812
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Starborn optional checkpoint.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player postponed commitment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 821
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player has cold feet. (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
 - Index: 900
   Unknown: 171
   LogEntries:

@@ -1,0 +1,13 @@
+FormKey: 000A0B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P07_PD01_B01_PS_R01
+Flags: {}
+Responses:
+- Emotion: 0D755E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'What sort of artifact powers did you receive in your travels? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

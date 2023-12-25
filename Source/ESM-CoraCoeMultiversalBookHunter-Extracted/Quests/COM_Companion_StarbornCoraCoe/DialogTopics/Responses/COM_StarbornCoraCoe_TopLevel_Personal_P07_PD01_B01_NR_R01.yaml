@@ -1,0 +1,12 @@
+FormKey: 000A0D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P07_PD01_B01_NR_R01
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Currently I have power for supporting my team mates and summoning some creatures to aid us. {{ BETA NOTE -- This will hopefully allow you to change combat styles for Cora }}
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

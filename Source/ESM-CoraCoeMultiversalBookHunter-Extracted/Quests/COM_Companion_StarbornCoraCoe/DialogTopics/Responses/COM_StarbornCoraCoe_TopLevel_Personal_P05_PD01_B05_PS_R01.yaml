@@ -1,0 +1,20 @@
+FormKey: 0009E8:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B05_PS_R01
+Flags: {}
+Responses:
+- Emotion: 0D755E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Tell me about yourself, Cora.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 550
+StartScenePhase: ''
+SubtitlePriority: Low
