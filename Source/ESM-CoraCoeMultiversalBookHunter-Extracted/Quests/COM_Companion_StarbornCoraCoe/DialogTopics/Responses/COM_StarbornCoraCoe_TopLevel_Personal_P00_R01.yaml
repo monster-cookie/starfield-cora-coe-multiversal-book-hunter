@@ -2,7 +2,8 @@ FormKey: 000831:CoraCoeMultiversalBookHunter.esm
 EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P00_R01
 Flags: {}
 Responses:
-- Text:
+- Emotion: 0D755E:Starfield.esm
+  Text:
     TargetLanguage: English
     Value: Do you mind if I ask you some personal questions?
   ScriptNotes: ''

@@ -2,7 +2,8 @@ FormKey: 0009D7:CoraCoeMultiversalBookHunter.esm
 EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B02_PS_R01
 Flags: {}
 Responses:
-- Text:
+- Emotion: 0D755E:Starfield.esm
+  Text:
     TargetLanguage: English
     Value: So, about your Unity trip....
   ScriptNotes: ''

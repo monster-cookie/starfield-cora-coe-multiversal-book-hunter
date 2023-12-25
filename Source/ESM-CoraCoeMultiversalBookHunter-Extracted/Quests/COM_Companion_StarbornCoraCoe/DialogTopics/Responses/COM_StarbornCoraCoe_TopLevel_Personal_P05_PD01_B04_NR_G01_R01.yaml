@@ -5,7 +5,8 @@ Flags:
   - Random
 DialogGroup: 0009E4:CoraCoeMultiversalBookHunter.esm
 Responses:
-- Text:
+- Emotion: 0FA848:Starfield.esm
+  Text:
     TargetLanguage: English
     Value: It's a difficult topic... for years I pretended like I was over it, but... I'm not.
   ScriptNotes: ''
