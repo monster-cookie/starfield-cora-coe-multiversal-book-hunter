@@ -1,0 +1,11 @@
+FormKey: 000A37:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_CND_DIAL_TopLevel_Flirt_Stack2_StarbornCoraCoe
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 0009C2:CoraCoeMultiversalBookHunter.esm
+    FirstParameter: 2007252
+  ComparisonValue: 1

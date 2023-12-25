@@ -1,6 +1,7 @@
 MutagenObjectType: PlacedNpc
 FormKey: 0009C2:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 1024
+EditorID: StarbornCoraCoeRef
 StarfieldMajorRecordFlags:
 - 0x400
 Base: 000800:CoraCoeMultiversalBookHunter.esm
