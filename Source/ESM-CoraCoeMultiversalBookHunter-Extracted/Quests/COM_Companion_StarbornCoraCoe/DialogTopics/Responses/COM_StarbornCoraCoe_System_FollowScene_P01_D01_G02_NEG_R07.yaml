@@ -1,5 +1,5 @@
-FormKey: 000917:CoraCoeMultiversalBookHunter.esm
-EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G02_AGR_R06
+FormKey: 000918:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G02_NEG_R07
 Flags:
   Flags:
   - Random
@@ -8,7 +8,7 @@ Responses:
 - Emotion: 0C8670:Starfield.esm
   Text:
     TargetLanguage: English
-    Value: As eager as a navigator charting a course straight into a black hole, I'll follow this splendid plan.
+    Value: Why not? Let's embark as if we're characters in a cautionary tale, ignoring every sign of impending disaster.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''

@@ -240,6 +240,14 @@ Stages:
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: NGPlus_Convo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
 - Index: 50
   Unknown: 171
   LogEntries:

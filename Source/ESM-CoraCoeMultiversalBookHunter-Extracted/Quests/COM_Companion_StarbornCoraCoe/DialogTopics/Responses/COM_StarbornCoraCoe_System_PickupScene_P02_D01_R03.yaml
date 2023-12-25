@@ -1,0 +1,20 @@
+FormKey: 000A10:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_PickupScene_P02_D01_R03
+Flags: {}
+Responses:
+- Emotion: 0FA851:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: If you get into trouble, Cora, you know where to find me.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 0059A7:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

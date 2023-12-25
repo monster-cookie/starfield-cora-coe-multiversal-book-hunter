@@ -11,18 +11,23 @@ VirtualMachineAdapter:
     PhaseFragments:
     - Flags:
       - OnCompletion
-      Index: 2
+      Index: 4
       Unknown: 16777216
       ScriptName: SF_COM_StarbornCoraCoe_System_PickupScene
-      FragmentName: Fragment_Phase_02_End
+      FragmentName: Fragment_Phase_04_End
 Flags:
+- RepeatConditionsWhileTrue
 - Interruptable
-- 0x20
+- DisableDialogueCamera
 - 0x2000
 Phases:
 - Name: ''
   EditorWidth: 500
-- Name: ''
+- Name: Incoming Companion Reply
+  EditorWidth: 500
+- Name: Outgoing Companion Remark
+  EditorWidth: 500
+- Name: Incoming Companion Remark
   EditorWidth: 500
 - Name: 'REMINDER: Script call in SCENE END fragment: kmyquest.PickupSceneEnded()'
   EditorWidth: 500
@@ -32,36 +37,37 @@ Actors:
   BehaviorFlags:
   - DeathEnd
   - CombatEnd
-- ID: 1
-  Flags:
-  - NoCommandState
-  BehaviorFlags:
-  - DeathEnd
-  - CombatEnd
+  - 0x100
 - ID: 4294967294
   Flags:
   - NoCommandState
   BehaviorFlags:
   - DeathEnd
   - CombatEnd
+  - 0x100
+- ID: 1
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
 Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: -2
-  Index: 1
+  Index: 2
   Flags: []
   Topic: 000945:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
   HNAM:
     ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-    PNAM: '[]'
+    - 0
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: 0
-  Index: 2
+  Index: 3
   Flags: []
   StartPhase: 1
   EndPhase: 1
@@ -74,10 +80,32 @@ Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: 1
+  Index: 4
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 000974:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
   Index: 5
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 000A11:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 1
+  Index: 6
   Flags:
   - CameraSpeakerTarget
-  Topic: 000974:CoraCoeMultiversalBookHunter.esm
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 000A16:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
   HNAM:
@@ -85,7 +113,7 @@ Actions:
     - 0
     FNAM: '[]'
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
-LastActionIndex: 5
+LastActionIndex: 6
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
@@ -98,3 +126,6 @@ Conditions:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 270721:Starfield.esm
   ComparisonValue: 1
+BOLV: '[]'
+Index: 240
+SCPI: 0x3B00

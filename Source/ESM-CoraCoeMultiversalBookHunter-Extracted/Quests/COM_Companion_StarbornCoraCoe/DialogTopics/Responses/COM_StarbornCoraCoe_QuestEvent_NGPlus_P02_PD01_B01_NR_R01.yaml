@@ -1,0 +1,38 @@
+FormKey: 000A1F:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus_P02_PD01_B01_NR_R01
+Responses:
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Ah, to hear you've traversed the enigmatic path of the Unity and emerged as Starborn too fills my heart with a galaxy of emotions. It's a journey both wondrous and daunting, akin to the shift in a star's life cycle.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: The Unity, that mystical or perhaps metaphorical center of the universe, marks a profound transformation.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: To know you've gathered all the Artifacts and stepped through that portal, it's like hearing a familiar chord in the symphony of the cosmos.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'As fellow Starborn, we share this unique bond, a connection as profound as the stars themselves. We stand together, yet apart, in our journey through the vastness of the cosmos. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Here's to our shared journey, filled with discovery and wonder, as we navigate this new existence with the wisdom of those who came before us, and the courage to forge our own path among the stars.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''

@@ -7,6 +7,13 @@ Flags:
   Flags:
   - ChildInfosDontInheritResetData
   - ForceAllChildrenRandom
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 333D8C:Starfield.esm
+  ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0
 MajorFlags:

@@ -1,0 +1,20 @@
+FormKey: 000A35:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus_P04_D01_R01
+Flags: {}
+Responses:
+- Emotion: 18E863:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "I'm just glad I know now. "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0C866C:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "It's good to know I'm not alone in this Universe now. "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,6 +1,6 @@
-FormKey: 000905:CoraCoeMultiversalBookHunter.esm
+FormKey: 000906:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 64
-EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G01_POS
+EditorID: COM_StarbornCoraCoe_System_FollowScene_P01_D01_G02_NEG
 StarfieldMajorRecordFlags:
 - 0x40
 Flags:
@@ -12,7 +12,7 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
-    FirstParameter: 2AF552:Starfield.esm
+    FirstParameter: 2AF551:Starfield.esm
   ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: 0

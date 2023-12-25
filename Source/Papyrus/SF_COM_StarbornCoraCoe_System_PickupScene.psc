@@ -11,7 +11,7 @@ String Property Venpi_ModName="CoraCoeMultiversalBookHunter" Auto Const Mandator
 ;;;
 ;;; Fragments
 ;;;
-Function Fragment_Phase_02_End()
+Function Fragment_Phase_04_End()
   COM_CompanionQuestScript myQuest = Self.GetOwningQuest() as COM_CompanionQuestScript
   myQuest.PickupSceneEnded()
 EndFunction

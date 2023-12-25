@@ -1,0 +1,136 @@
+FormKey: 000A17:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus
+Flags:
+- Interruptable
+- DisableDialogueCamera
+- NoFollowerIdleChatter
+Phases:
+- Name: 'P00: Ask Player Is Starborn'
+  EditorWidth: 500
+- Name: 'P01: Ask player if they want to talk'
+  EditorWidth: 500
+- Name: 'P02: CHOICE -- Intro'
+  EditorWidth: 500
+- Name: 'P03: CHOICE -- Starborn'
+  EditorWidth: 500
+- Name: 'P04: Ending'
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P00: Ask Player Is Starborn'
+  AliasID: 0
+  Index: 1
+  Flags: []
+  Topic: 000A18:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P01: Ask player if they want to talk'
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 000A1A:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P02: CHOICE -- Intro'
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 000A1C:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A1E:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 000A20:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A22:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 000A24:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A26:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 000A28:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A2A:CoraCoeMultiversalBookHunter.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P03: CHOICE -- Starborn'
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 000A2C:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A2E:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 000A30:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A32:CoraCoeMultiversalBookHunter.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P04: Ending'
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 000A34:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+Quest: 000802:CoraCoeMultiversalBookHunter.esm
+LastActionIndex: 5
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 35
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 35
+BOLV: '[]'
+Index: 0

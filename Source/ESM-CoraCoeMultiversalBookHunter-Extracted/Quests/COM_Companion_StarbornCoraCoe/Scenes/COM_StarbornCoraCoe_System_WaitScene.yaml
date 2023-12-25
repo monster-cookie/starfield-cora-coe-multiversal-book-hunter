@@ -17,8 +17,6 @@ VirtualMachineAdapter:
       FragmentName: Fragment_Phase_02_End
 Flags:
 - Interruptable
-- 0x20
-- DisableDialogueCamera
 - 0x2000
 Phases:
 - Name: ''
@@ -31,12 +29,14 @@ Actors:
   BehaviorFlags:
   - DeathEnd
   - CombatEnd
+  - 0x100
 - ID: 4294967294
   Flags:
   - NoCommandState
   BehaviorFlags:
   - DeathEnd
   - CombatEnd
+  - 0x100
 Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: ''
@@ -46,6 +46,9 @@ Actions:
   Topic: 000977:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 0
 - MutagenObjectType: DialogueSceneAction
   Name: ''
   AliasID: 0
@@ -56,6 +59,9 @@ Actions:
   Topic: 000979:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
 LastActionIndex: 2
 Conditions:
@@ -65,3 +71,11 @@ Conditions:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 26B9F0:Starfield.esm
   ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 09ACD8:Starfield.esm
+BOLV: '[]'
+Index: 260
+SCPI: 0x5A00
