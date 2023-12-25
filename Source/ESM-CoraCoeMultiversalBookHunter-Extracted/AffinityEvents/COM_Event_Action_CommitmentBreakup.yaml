@@ -1,0 +1,30 @@
+FormKey: 000A39:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_Event_Action_CommitmentBreakup
+FNAM: 0x01000000
+NLDT: Player falls from a height and takes damage.
+ActorReactions:
+- Actor: 0059A7:Starfield.esm
+  Reaction: 005ACD:Starfield.esm
+- Actor: 005787:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 005999:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 005983:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 000800:CoraCoeMultiversalBookHunter.esm
+  Reaction: 005ACB:Starfield.esm
+- Actor: 017627:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 1A93A5:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 017628:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 0057BB:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+- Actor: 0EFF66:Starfield.esm
+  Reaction: 005ACC:Starfield.esm
+ActorValue: 0A1B80:Starfield.esm
+Size: 005AD2:Starfield.esm
+Distance: 00E380:Starfield.esm
+Cooldown: 2A8035:Starfield.esm
+Faction: 03BD86:Starfield.esm
