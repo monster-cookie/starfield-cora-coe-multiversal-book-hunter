@@ -1,0 +1,27 @@
+FormKey: 000A3A:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_Init
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CCMBH_Init
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StarbornCoraCoe
+      Object: 000802:CoraCoeMultiversalBookHunter.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  Script:
+    Name: ''
+Name:
+  TargetLanguage: English
+  Value: CCMBH_Init
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  Unused: 0x000000
+UnusedConditions: []
