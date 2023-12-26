@@ -1,0 +1,72 @@
+FormKey: 000A60:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P01_D01_G0290_R03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraConsumesAllTheBooks_ProcessBook
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookCoraWants
+      Object: 13FEA6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BooksGivenToCora
+      Object: 0008B3:CoraCanRead.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: BookTitle
+      Data: EAW_Book_BadJokes1_m
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCR_MultipleBooksOnly
+      Object: 0008B7:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_COMPANION_CoraCoe_Gift
+      Object: 000801:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: ''
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000A5D:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Oh my gosh, these jokes are so bad they're good! Thanks for the laughs. I guess my sense of humor has a soft spot for the cheesy ones!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 45
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008C6:CoraCanRead.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008C7:CoraCanRead.esm
+  ComparisonValue: 1
+SubtitlePriority: Low

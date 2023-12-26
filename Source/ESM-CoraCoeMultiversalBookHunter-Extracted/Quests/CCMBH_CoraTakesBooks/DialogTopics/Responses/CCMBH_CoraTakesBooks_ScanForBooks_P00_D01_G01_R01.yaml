@@ -1,0 +1,14 @@
+FormKey: 000A3F:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P00_D01_G01_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000A3E:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Throughout my interplanetary adventures, I unearthed these captivating books. If any catch your cosmic curiosity, just give me the signal, and I'll pass along my treasures.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

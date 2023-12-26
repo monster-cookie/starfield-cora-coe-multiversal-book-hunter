@@ -1,0 +1,12 @@
+FormKey: 000A43:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P01_D01_G0001_NEG
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+SubtitlePriority: Low
+MajorFlags:
+- InfoGroup

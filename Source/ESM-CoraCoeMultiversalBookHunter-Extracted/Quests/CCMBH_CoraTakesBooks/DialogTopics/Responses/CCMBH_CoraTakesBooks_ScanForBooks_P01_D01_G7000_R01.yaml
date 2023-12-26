@@ -1,0 +1,94 @@
+FormKey: 000A94:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P01_D01_G7000_R01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraConsumesAllTheBooks_ProcessBook
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookCoraWants
+      Object: 00084B:BooksRevamped.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BooksGivenToCora
+      Object: 0008B3:CoraCanRead.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: BookTitle
+      Data: BR_Book_ABriefHistoryOfSpaceAndTime
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCR_MultipleBooksOnly
+      Object: 0008B7:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_COMPANION_CoraCoe_Gift
+      Object: 000871:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: ''
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000A93:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'Oh my gosh, thank you so much! You are the best friend ever! How did you know I wanted this book so badly? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'It’s "A Brief History of Time" by Stephen Hawking, the genius who explained the origin and fate of the universe. I have always been fascinated by his theories and discoveries, but this book is so hard to find. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'It’s a masterpiece of science and philosophy. I can’t wait to read it and learn more about black holes, wormholes, time travel, and the big bang. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: >+
+      You are so thoughtful and generous. I don’t know how to thank you enough. This is the most amazing gift I have ever received.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 45
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008E2:CoraCanRead.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008E3:CoraCanRead.esm
+  ComparisonValue: 1
+SubtitlePriority: Low

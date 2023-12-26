@@ -7,10 +7,12 @@ ModHeader:
   Flags:
   - Master
   Stats:
-    NumRecords: 676
-    NextFormID: 2619
+    NumRecords: 772
+    NextFormID: 2715
   Author: ''
   MasterReferences:
   - Master: Starfield.esm
   - Master: BlueprintShips-Starfield.esm
   - Master: VenpiCore.esm
+  - Master: CoraCanRead.esm
+  - Master: BooksRevamped.esm

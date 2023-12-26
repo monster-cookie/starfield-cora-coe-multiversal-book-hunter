@@ -30,5 +30,8 @@ Responses:
   ScriptNotes: THIS WILL TRIGGER Cora Wants All The Books
   Edits: ''
   AlternateLipText: ''
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 45
 StartScenePhase: ''
 SubtitlePriority: Low

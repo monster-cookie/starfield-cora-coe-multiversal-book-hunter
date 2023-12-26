@@ -1,0 +1,72 @@
+FormKey: 000A72:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P01_D01_G0330_R02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraConsumesAllTheBooks_ProcessBook
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookCoraWants
+      Object: 15DA1C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BooksGivenToCora
+      Object: 0008B3:CoraCanRead.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: BookTitle
+      Data: EAW_Book_SwordDamocles_m
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCR_MultipleBooksOnly
+      Object: 0008B7:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_COMPANION_CoraCoe_Gift
+      Object: 000801:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: ''
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000A70:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Ooo another fun find, Thank you very much.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 45
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008CE:CoraCanRead.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008CF:CoraCanRead.esm
+  ComparisonValue: 1
+SubtitlePriority: Low

@@ -193,19 +193,23 @@ VirtualMachineAdapter:
   - Stage: 2
     Unknown2: 1
     ScriptName: QF_COM_Companion_StarbornCoraCoe
-    FragmentName: Fragment_Stage_0002_Item_00
+    FragmentName: Fragment_Stage0002_Item00
   - Stage: 5010
     Unknown2: 1
     ScriptName: QF_COM_Companion_StarbornCoraCoe
-    FragmentName: Fragment_Stage_5000_Item_00
+    FragmentName: Fragment_Stage5010_Index00
   - Stage: 5000
     Unknown2: 1
     ScriptName: QF_COM_Companion_StarbornCoraCoe
-    FragmentName: Fragment_Stage_5000_Item_00
+    FragmentName: Fragment_Stage5000_Index00
   - Stage: 900
     Unknown2: 1
     ScriptName: QF_COM_Companion_StarbornCoraCoe
-    FragmentName: Fragment_Stage_0900_Item_00
+    FragmentName: Fragment_Stage0900_Index00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_COM_Companion_StarbornCoraCoe
+    FragmentName: Fragment_Stage0035_Index00
 Name:
   TargetLanguage: English
   Value: Companion - Cora Coe (Starborn)
@@ -244,19 +248,35 @@ Stages:
   Unknown: 171
   LogEntries:
   - Flags: []
-    Note: NGPlus_Convo
+    Note: 'COMPLETE: NGPlus Conversation'
+    ScriptFlagComment: ''
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Note: 'UNLOCK: Top Level -- Book Collector Topic'
+    ScriptFlagComment: Set by State 35 Fragment
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Note: 'COMPLETE: Top Level -- Book Collector Topic'
+    ScriptFlagComment: ''
 - Index: 50
   Unknown: 171
   LogEntries:
   - Flags: []
-    Note: ' * UNLOCK: Top Level -- Evil Player Topics'
-    ScriptFlagComment: Set by SG01 phase 8 and 19
+    Note: 'UNLOCK: Top Level -- Evil Player Topics'
+    ScriptFlagComment: Set by State 35 Fragment
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
+- Index: 55
+  LogEntries:
+  - Flags: []
+    Note: 'COMPLETE: Top Level -- Evil Player Topics'
+    ScriptFlagComment: ''
 - Index: 550
   Unknown: 171
   LogEntries:

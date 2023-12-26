@@ -1,0 +1,76 @@
+FormKey: 000A3B:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks
+VirtualMachineAdapter:
+  Script:
+    Name: COM_CoraConsumesAllTheBooks_Fragments
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: Venpi_ModName
+      Data: CoraCoeMultiversalBookHunter
+  Fragments:
+  - Unknown2: 1
+    ScriptName: COM_CoraConsumesAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: COM_CoraConsumesAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: COM_CoraConsumesAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: COM_CoraConsumesAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: COM_CoraConsumesAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_9000_Item_00
+Name:
+  TargetLanguage: English
+  Value: Starborn Cora Consumes All The Books
+Data:
+  Flags:
+  - AllowRepeatedStages
+  Priority: 50
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Setup
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Start
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: See if Cora wants any of your books
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Process Books Complete
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST END
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Cora Coe (Starborn)
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000800:CoraCoeMultiversalBookHunter.esm
+  VoiceTypes: Null

@@ -1,0 +1,82 @@
+FormKey: 000A3C:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks
+Flags:
+- ShowAllText
+- Interruptable
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: Greet Player
+  EditorWidth: 500
+  PhaseSetParentQuestStage:
+    OnBegin: -1
+    OnEnd: 100
+- Name: Scan and Process Books
+  EditorWidth: 500
+- Name: Let the player know they have nothing else you are interested in
+  EditorWidth: 500
+  PhaseSetParentQuestStage:
+    OnBegin: -1
+    OnEnd: 9000
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 000A3D:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 000A41:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: Null
+  LoopingMax: 0
+  LoopingMin: 0
+Quest: 000A3B:CoraCoeMultiversalBookHunter.esm
+LastActionIndex: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 000800:CoraCoeMultiversalBookHunter.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 45
+  ComparisonValue: 1
+BOLV: '[]'
+Index: 0
+SCPI: 0x1E00

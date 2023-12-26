@@ -1,0 +1,86 @@
+FormKey: 000A98:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P01_D01_G7010_R02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraConsumesAllTheBooks_ProcessBook
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookCoraWants
+      Object: 00084F:BooksRevamped.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BooksGivenToCora
+      Object: 0008B3:CoraCanRead.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: BookTitle
+      Data: Book_HitchhikersGuideToUnityAndTheMultiverse
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCR_MultipleBooksOnly
+      Object: 0008B7:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_COMPANION_CoraCoe_Gift
+      Object: 000871:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: ''
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000A96:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 0FA84F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This is awesome! Where did you find this book? It’s "Hitchhiker's Guide to Unity and the Multiverse" by Venpi Nighthawk, the famous adventurer who explored a thousand planets and traveled through different universes.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I have always wanted to read his book and see his amazing photos. He is my idol and mentor. He reveals how wonderful and diverse the multiverse is, and how we can all respect and appreciate each other and have a lot of fun and excitement along the way.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I am so grateful that you got this book for me. It’s so rare and valuable. It’s the ultimate book for the multiverse. It’s a gift that I will love forever. You are the most amazing friend. Thank you so much. I admire you!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 45
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008E4:CoraCanRead.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008E5:CoraCanRead.esm
+  ComparisonValue: 1
+SubtitlePriority: Low

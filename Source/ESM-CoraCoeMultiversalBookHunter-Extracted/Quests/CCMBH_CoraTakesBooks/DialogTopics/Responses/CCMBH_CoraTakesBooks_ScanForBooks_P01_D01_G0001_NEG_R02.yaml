@@ -1,0 +1,15 @@
+FormKey: 000A45:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_CoraTakesBooks_ScanForBooks_P01_D01_G0001_NEG_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000A43:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: 118A4D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let me see... I'm afraid there's nothing you have that interests me.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

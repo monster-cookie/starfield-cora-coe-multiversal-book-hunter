@@ -1,5 +1,9 @@
 # V1.0 Beta Permutations
 
+## V1.0.1 (BETA)
+* Imported cora taking books from the player for gifts again. I'll redo the books and lines. 
+* The dialog to trigger cora's book collecting quest does so. To trigger the lines you need to run the debug commands to do a NG+ reset on Cora or the one that sets the correct stage see the in game help: CGF "CCMBH_Help.Show"
+
 ## V1.0.0 (BETA)
 * Initial Release
 * Cora is a completely stand alone companion based on the variant universe version of here combined with the hunter/emissary. 
