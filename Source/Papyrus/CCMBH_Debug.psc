@@ -80,3 +80,40 @@ Function ToggleDebugMode() Global
     EndIf
   EndIf
 EndFunction
+
+;; Call using: CGF "CCMBH_Debug.ResetCora" 
+Function ResetCora() Global
+  ObjectReference StarbornCoraCoeRef = Game.GetFormFromFile(0x7B0009C2, "CoraCoeMultiversalBookHunter.esm") as ObjectReference
+  Actor StarbornCoraCoe = StarbornCoraCoeRef as Actor
+
+  ;; Reset the companion quest
+  Quest SQ_Companions = Game.GetFormFromFile(0x002A567C, "Starfield.esm") as Quest
+  (SQ_Companions as SQ_CompanionsScript).SetRoleInactive(StarbornCoraCoe, True, False, True)
+  (SQ_Companions as SQ_CompanionsScript).SetRoleUnavailable(StarbornCoraCoe, True)
+  
+  ;; Reset the book collector quest
+  Quest CCMBH_CoraTakesBooks = Game.GetFormFromFile(0x7B000A3B, "CoraCoeMultiversalBookHunter.esm") as Quest
+  CCMBH_CoraTakesBooks.Reset()
+
+  ;; Reset Cora's handler quest
+  Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
+  COM_Companion_StarbornCoraCoe.Reset()
+
+  ;; Disable/Enable her NPC
+  StarbornCoraCoeRef.Disable(True)
+  StarbornCoraCoeRef.Disable(True)
+EndFunction
+
+;; Call using: CGF "CCMBH_Debug.ForceEnableBookCollectorTopic" 
+Function ForceEnableBookCollectorTopic() Global
+  ;; Reset Cora's handler quest
+  Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
+  COM_Companion_StarbornCoraCoe.SetStage(40)
+EndFunction
+
+;; Call using: CGF "CCMBH_Debug.ForceEnableEvilPlayerTopic" 
+Function ForceEnableEvilPlayerTopic() Global
+  ;; Reset Cora's handler quest
+  Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
+  COM_Companion_StarbornCoraCoe.SetStage(50)
+EndFunction
