@@ -5,19 +5,9 @@ Flags:
 - DisableDialogueCamera
 - 0x2000
 Phases:
-- Name: 'P0: GREET -- Neutral'
-  StartConditions:
-  - MutagenObjectType: ConditionFloat
-    Flags:
-    - OR
-    Unknown1: 0x000000
-    Data:
-      MutagenObjectType: GetStageDoneConditionData
-      FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
-      SecondParameter: 50
-    ComparisonValue: 1
+- Name: 'P0: GREET -- Player Ask Question'
   EditorWidth: 500
-- Name: 'P1: GREET -- Angry'
+- Name: 'P1: GREET -- Cora Angry Reply (Kills Scene)'
   StartConditions:
   - MutagenObjectType: ConditionGlobal
     CompareOperator: GreaterThanOrEqualTo
@@ -131,36 +121,79 @@ Actors:
   - CombatEnd
   - 0x100
 Actions:
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: 'P9: CHOICE -- Personal Questions'
-  AliasID: 0
-  Index: 1
-  Flags: []
-  StartPhase: 9
-  EndPhase: 9
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-  DialogueTargetActor: 0
-  DialogueList:
-  - PlayerChoice: 0009F2:CoraCoeMultiversalBookHunter.esm
-    NpcResponse: 0009F4:CoraCoeMultiversalBookHunter.esm
-  - PlayerChoice: 0009F6:CoraCoeMultiversalBookHunter.esm
-    NpcResponse: 0009F8:CoraCoeMultiversalBookHunter.esm
-  - PlayerChoice: 0009FA:CoraCoeMultiversalBookHunter.esm
-    NpcResponse: 0009FC:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
-  Name: 'P0: GREET -- Neutral'
+  Name: 'P0: GREET -- Player Ask Question'
   AliasID: -2
-  Index: 2
+  Index: 1
   Flags: []
   Topic: 000830:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: 'P5: CHOICE -- Main Questions'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P1: GREET -- Cora Angry Reply (Kills Scene)'
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 0009C5:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P2: GREET -- Positive (Romantic)'
   AliasID: 0
   Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 0009C8:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P3: GREET -- Positive (Normal)'
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 0009CB:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: 'P4: GREET -- Neutral'
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 0009CE:CoraCoeMultiversalBookHunter.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P5: CHOICE -- Main Questions'
+  SceneNotes: BR01 ends the scene
+  AliasID: 0
+  Index: 6
   Flags: []
   StartPhase: 5
   EndPhase: 5
@@ -181,25 +214,12 @@ Actions:
     NpcResponse: 0009E3:CoraCoeMultiversalBookHunter.esm
   - PlayerChoice: 0009E7:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 0009E9:CoraCoeMultiversalBookHunter.esm
-- MutagenObjectType: DialogueSceneAction
-  Name: 'P2: GREET -- Positive (Romantic)'
-  AliasID: 0
-  Index: 4
-  Flags: []
-  StartPhase: 2
-  EndPhase: 2
-  Topic: 0009C8:CoraCoeMultiversalBookHunter.esm
-  LoopingMax: 10
-  LoopingMin: 1
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-    PNAM: '[]'
+  - PlayerChoice: 000A9B:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A9D:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: PlayerDialogueSceneAction
   Name: 'P6: CHOICE -- Discuss Unity'
   AliasID: 0
-  Index: 6
+  Index: 7
   Flags: []
   StartPhase: 6
   EndPhase: 6
@@ -215,9 +235,22 @@ Actions:
   - PlayerChoice: 000A02:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 000A04:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P7: CHOICE -- Powers'
+  AliasID: 0
+  Index: 8
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  HNAM:
+    FNAM: '[]'
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 000A0A:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 000A0C:CoraCoeMultiversalBookHunter.esm
+- MutagenObjectType: PlayerDialogueSceneAction
   Name: 'P8: CHOICE -- Evil Player'
   AliasID: 0
-  Index: 5
+  Index: 9
   Flags: []
   StartPhase: 8
   EndPhase: 8
@@ -228,76 +261,34 @@ Actions:
   DialogueList:
   - PlayerChoice: 000A06:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 000A08:CoraCoeMultiversalBookHunter.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: 'P9: CHOICE -- Personal Questions'
+  AliasID: 0
+  Index: 10
+  Flags: []
+  StartPhase: 9
+  EndPhase: 9
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 0009F2:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009F4:CoraCoeMultiversalBookHunter.esm
+  - PlayerChoice: 0009F6:CoraCoeMultiversalBookHunter.esm
+    NpcResponse: 0009F8:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
   Name: 'P10: GOODBYE'
   AliasID: 0
-  Index: 6
+  Index: 11
   Flags: []
   StartPhase: 10
   EndPhase: 10
   Topic: 0009EE:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: 'P7: CHOICE -- Powers'
-  AliasID: 0
-  Index: 7
-  Flags: []
-  StartPhase: 7
-  EndPhase: 7
-  HNAM:
-    FNAM: '[]'
-  DialogueTargetActor: 0
-  DialogueList:
-  - PlayerChoice: 000A0A:CoraCoeMultiversalBookHunter.esm
-    NpcResponse: 000A0C:CoraCoeMultiversalBookHunter.esm
-- MutagenObjectType: DialogueSceneAction
-  Name: 'P3: GREET -- Positive (Normal)'
-  AliasID: 0
-  Index: 8
-  Flags: []
-  StartPhase: 3
-  EndPhase: 3
-  Topic: 0009CB:CoraCoeMultiversalBookHunter.esm
-  LoopingMax: 10
-  LoopingMin: 1
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-    PNAM: '[]'
-- MutagenObjectType: DialogueSceneAction
-  Name: 'P4: GREET -- Neutral'
-  AliasID: 0
-  Index: 9
-  Flags: []
-  StartPhase: 4
-  EndPhase: 4
-  Topic: 0009CE:CoraCoeMultiversalBookHunter.esm
-  LoopingMax: 10
-  LoopingMin: 1
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-    PNAM: '[]'
-- MutagenObjectType: DialogueSceneAction
-  Name: 'P0: GREET -- Angry'
-  AliasID: 0
-  Index: 10
-  Flags: []
-  StartPhase: 1
-  EndPhase: 1
-  Topic: 0009C5:CoraCoeMultiversalBookHunter.esm
-  LoopingMax: 10
-  LoopingMin: 1
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-    PNAM: '[]'
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
-LastActionIndex: 10
+LastActionIndex: 12
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000

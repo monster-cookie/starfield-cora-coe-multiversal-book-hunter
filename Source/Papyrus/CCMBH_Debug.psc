@@ -17,12 +17,7 @@ Function FeatureFlags() Global
   Quest CCMBH_CoraTakesBooks = Game.GetFormFromFile(0x7B000A3B, "CoraCoeMultiversalBookHunter.esm") as Quest
   Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
 
-  String message = "Important IDs\n\n"
-  message += "                    Cora Anchor = " + StarbornCoraCoeRef.GetFormID() + "\n"
-  message += "                    Cora NPC ID = " + StarbornCoraCoe.GetFormID() + "\n"
-  message += "   Cora Book Collector Quest ID = " + CCMBH_CoraTakesBooks.GetFormID() + "\n"
-  message += "Cora Companion Handler Quest ID = " + COM_Companion_StarbornCoraCoe.GetFormID() + "\n"
-  message += "\n\nCurrent Feature Flag Settings (1-On, 0=Off)\n\n"
+  String message = "Current Feature Flag Settings (1-On, 0=Off)\n\n"
   message += "     Debug Mode = " + Venpi_DebugEnabled.GetValueInt() + "\n"
 
   Debug.MessageBox(message)
@@ -97,6 +92,7 @@ Function ResetCora() Global
 
   ;; Reset the companion quest
   Quest SQ_Companions = Game.GetFormFromFile(0x002A567C, "Starfield.esm") as Quest
+  Game.RemoveFromAvailableCrew(StarbornCoraCoe)
   (SQ_Companions as SQ_CompanionsScript).SetRoleInactive(StarbornCoraCoe, True, False, True)
   (SQ_Companions as SQ_CompanionsScript).SetRoleUnavailable(StarbornCoraCoe, True)
   
@@ -112,10 +108,13 @@ Function ResetCora() Global
   StarbornCoraCoeRef.Disable(True)
   Utility.Wait(1)
   StarbornCoraCoeRef.Enable(True)
-  Utility.Wait(5)
+  Utility.Wait(2)
 
-  ;; Make her an available companion again
+  ;; Reactivate as an available companion
+  COM_Companion_StarbornCoraCoe.SetStage(2)
   PromoteToAvailableCompanion()
+
+  Debug.MessageBox("Cora is now reset and back wondering around the lodge.")
 EndFunction
 
 ;; Call using: CGF "CCMBH_Debug.ForceEnableBookCollectorTopics" 
@@ -143,13 +142,9 @@ EndFunction
 Function PromoteToAvailableCompanion() Global
   ObjectReference StarbornCoraCoeRef = Game.GetFormFromFile(0x7B0009C2, "CoraCoeMultiversalBookHunter.esm") as ObjectReference
   Actor StarbornCoraCoe = StarbornCoraCoeRef as Actor
-
   Quest SQ_Companions = Game.GetFormFromFile(0x002A567C, "Starfield.esm") as Quest
   (SQ_Companions as SQ_CompanionsScript).SetRoleAvailable(StarbornCoraCoe, True)
-
   (StarbornCoraCoe as CompanionActorScript).AllowStoryGatesAndRestartTimer()
-
-  MoveCoraToPlayer()
 EndFunction
 
 
@@ -157,11 +152,8 @@ EndFunction
 Function MakeActiveCompanion() Global
   ObjectReference StarbornCoraCoeRef = Game.GetFormFromFile(0x7B0009C2, "CoraCoeMultiversalBookHunter.esm") as ObjectReference
   Actor StarbornCoraCoe = StarbornCoraCoeRef as Actor
-
   Quest SQ_Companions = Game.GetFormFromFile(0x002A567C, "Starfield.esm") as Quest
   (SQ_Companions as SQ_CompanionsScript).SetRoleActive(StarbornCoraCoe, True, True, 0.0, 0.0)
-
-  MoveCoraToPlayer()
 EndFunction
 
 ;; Call using: CGF "CCMBH_Debug.ForceEnableBookCollectorFeature" 

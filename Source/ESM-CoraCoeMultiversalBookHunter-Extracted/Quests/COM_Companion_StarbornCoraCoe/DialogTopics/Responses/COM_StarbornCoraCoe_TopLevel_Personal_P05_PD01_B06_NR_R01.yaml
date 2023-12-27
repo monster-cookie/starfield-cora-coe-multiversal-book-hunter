@@ -1,5 +1,5 @@
-FormKey: 0009FD:CoraCoeMultiversalBookHunter.esm
-EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P09_PD01_B03_NR_R01
+FormKey: 000A9E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B06_NR_R01
 Responses:
 - Emotion: 0FA84D:Starfield.esm
   Text:
@@ -25,9 +25,15 @@ Responses:
 - Emotion: 18E864:Starfield.esm
   Text:
     TargetLanguage: English
-    Value: >+
-      It's a passion that I've cherished since my days aboard my father's ship, a constant companion in my quest for knowledge and adventure. So yes, I am still very much an avid bookworm, collector, and each book is a treasured artifact in my personal universe. {{BETA NOTE -- This will eventually trigger Cora Wants All The Books}}
-  ScriptNotes: THIS WILL TRIGGER Cora Wants All The Books
+    Value: It's a passion that I've cherished since my days aboard my father's ship, a constant companion in my quest for knowledge and adventure. So yes, I am still very much an avid bookworm, collector, and each book is a treasured artifact in my personal universe.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "My version of you when I was a kid, would collect books in their travels for me to read and collect. I would love it if you would do that same. I'm sure I can find stuff to make it worth your time. "
+  ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
 SetParentQuestStage:

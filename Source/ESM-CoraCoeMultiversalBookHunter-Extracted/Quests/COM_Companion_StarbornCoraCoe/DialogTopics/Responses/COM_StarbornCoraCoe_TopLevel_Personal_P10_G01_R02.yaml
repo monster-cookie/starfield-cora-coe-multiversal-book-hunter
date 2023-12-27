@@ -1,5 +1,5 @@
 FormKey: 0009F1:CoraCoeMultiversalBookHunter.esm
-EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P12_G01_R02
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P10_G01_R02
 Flags:
   Flags:
   - Random
@@ -12,5 +12,4 @@ Responses:
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
-StartScenePhase: ''
 SubtitlePriority: Low

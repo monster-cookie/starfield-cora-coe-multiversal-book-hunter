@@ -210,6 +210,22 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: QF_COM_Companion_StarbornCoraCoe
     FragmentName: Fragment_Stage0035_Index00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_COM_Companion_StarbornCoraCoe
+    FragmentName: Fragment_Stage0040_Index00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_COM_Companion_StarbornCoraCoe
+    FragmentName: Fragment_Stage0045_Index00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_COM_Companion_StarbornCoraCoe
+    FragmentName: Fragment_Stage0050_Index00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_COM_Companion_StarbornCoraCoe
+    FragmentName: Fragment_Stage0055_Index00
 Name:
   TargetLanguage: English
   Value: Companion - Cora Coe (Starborn)

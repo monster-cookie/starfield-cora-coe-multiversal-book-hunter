@@ -8,7 +8,7 @@ ModHeader:
   - Master
   Stats:
     NumRecords: 772
-    NextFormID: 2715
+    NextFormID: 2719
   Author: ''
   MasterReferences:
   - Master: Starfield.esm
