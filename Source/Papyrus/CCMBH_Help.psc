@@ -17,6 +17,7 @@ Function Show() Global
   message += "        To NG+ reset Starborn Cora:\n\tCGF \"CCMBH_Debug.ResetCora\"\n"
   message += "Force enable Book Collector Topics:\n\tCGF \"CCMBH_Debug.ForceEnableBookCollectorTopic\"\n"
   message += "   Force enable Evil Player Topics:\n\tCGF \"CCMBH_Debug.ForceEnableEvilPlayerTopic\"\n"
+  message += "           Force Cora to your side:\n\tCGF \"CCMBH_Debug.MoveCoraToPlayer\"\n"
   message += "       Feature Flags Status Screen:\n\tCGF \"CCMBH_Debug.FeatureFlags\"\n"
   message += "      System Settings Debug Screen:\n\tCGF \"CCMBH_Debug.SystemSettings\"\n"
   message += "      Cora's Important AV Settings:\n\tCGF \"CCMBH_Debug.CoraAVSettings\"\n"

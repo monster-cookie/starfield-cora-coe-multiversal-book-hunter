@@ -12,8 +12,17 @@ ScriptName CCMBH_Debug
 ;; Call using: CGF "CCMBH_Debug.FeatureFlags" 
 Function FeatureFlags() Global
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
+  ObjectReference StarbornCoraCoeRef = Game.GetFormFromFile(0x770009C2, "CoraCoeMultiversalBookHunter.esm") as ObjectReference
+  Actor StarbornCoraCoe = StarbornCoraCoeRef as Actor
+  Quest CCMBH_CoraTakesBooks = Game.GetFormFromFile(0x7B000A3B, "CoraCoeMultiversalBookHunter.esm") as Quest
+  Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
 
-  String message = "Current Feature Flag Settings (1-On, 0=Off)\n\n"
+  String message = "Important IDs\n\n"
+  message += "                    Cora Anchor = " + StarbornCoraCoeRef.GetFormID() + "\n"
+  message += "                    Cora NPC ID = " + StarbornCoraCoe.GetFormID() + "\n"
+  message += "   Cora Book Collector Quest ID = " + CCMBH_CoraTakesBooks.GetFormID() + "\n"
+  message += "Cora Companion Handler Quest ID = " + COM_Companion_StarbornCoraCoe.GetFormID() + "\n"
+  message += "\n\nCurrent Feature Flag Settings (1-On, 0=Off)\n\n"
   message += "     Debug Mode = " + Venpi_DebugEnabled.GetValueInt() + "\n"
 
   Debug.MessageBox(message)
@@ -101,7 +110,7 @@ Function ResetCora() Global
 
   ;; Disable/Enable her NPC
   StarbornCoraCoeRef.Disable(True)
-  StarbornCoraCoeRef.Disable(True)
+  StarbornCoraCoeRef.Enable(True)
 EndFunction
 
 ;; Call using: CGF "CCMBH_Debug.ForceEnableBookCollectorTopic" 
@@ -116,4 +125,12 @@ Function ForceEnableEvilPlayerTopic() Global
   ;; Reset Cora's handler quest
   Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
   COM_Companion_StarbornCoraCoe.SetStage(50)
+EndFunction
+
+
+;; Call using: CGF "CCMBH_Debug.MoveCoraToPlayer" 
+Function MoveCoraToPlayer() Global
+  ObjectReference StarbornCoraCoeRef = Game.GetFormFromFile(0x7B0009C2, "CoraCoeMultiversalBookHunter.esm") as ObjectReference
+  Actor player = Game.GetPlayer()
+  StarbornCoraCoeRef.MoveTo(player as ObjectReference, 0.25, 0.25, 0.0, True, False)
 EndFunction
