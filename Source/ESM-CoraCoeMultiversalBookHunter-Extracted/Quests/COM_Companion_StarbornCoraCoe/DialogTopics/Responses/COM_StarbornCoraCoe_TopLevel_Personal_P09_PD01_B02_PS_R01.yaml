@@ -1,6 +1,5 @@
 FormKey: 0009F7:CoraCoeMultiversalBookHunter.esm
 EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P09_PD01_B02_PS_R01
-Flags: {}
 Responses:
 - Emotion: 0D755E:Starfield.esm
   Text:
@@ -9,5 +8,4 @@ Responses:
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
-StartScenePhase: ''
 SubtitlePriority: Low

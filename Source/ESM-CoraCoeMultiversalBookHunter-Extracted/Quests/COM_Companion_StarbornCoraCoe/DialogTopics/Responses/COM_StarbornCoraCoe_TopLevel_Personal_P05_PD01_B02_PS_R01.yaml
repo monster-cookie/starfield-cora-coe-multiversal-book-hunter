@@ -9,5 +9,13 @@ Responses:
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
 StartScenePhase: ''
 SubtitlePriority: Low

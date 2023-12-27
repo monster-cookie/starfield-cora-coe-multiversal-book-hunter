@@ -11,8 +11,6 @@ Responses:
   AlternateLipText: ''
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Flags:
-  - OR
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetStageDoneConditionData

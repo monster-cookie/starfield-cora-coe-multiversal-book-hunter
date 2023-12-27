@@ -114,13 +114,7 @@ Phases:
   EditorWidth: 500
 - Name: 'P9: CHOICE -- Personal Questions'
   EditorWidth: 500
-- Name: 'P10: CHOICE -- Constellation Topic (TBR)'
-  EditorWidth: 500
-- Name: 'P11: CHOICE - Unknown Topic (TBR)'
-  EditorWidth: 500
-- Name: 'P12: GOODBYE'
-  EditorWidth: 500
-- Name: 'P13: SCENE - Unknown Use (TBR)'
+- Name: 'P10: GOODBYE'
   EditorWidth: 500
 Actors:
 - Flags:
@@ -223,7 +217,7 @@ Actions:
 - MutagenObjectType: PlayerDialogueSceneAction
   Name: 'P8: CHOICE -- Evil Player'
   AliasID: 0
-  Index: 8
+  Index: 5
   Flags: []
   StartPhase: 8
   EndPhase: 8
@@ -235,19 +229,19 @@ Actions:
   - PlayerChoice: 000A06:CoraCoeMultiversalBookHunter.esm
     NpcResponse: 000A08:CoraCoeMultiversalBookHunter.esm
 - MutagenObjectType: DialogueSceneAction
-  Name: 'P12: GOODBYE'
+  Name: 'P10: GOODBYE'
   AliasID: 0
-  Index: 10
+  Index: 6
   Flags: []
-  StartPhase: 12
-  EndPhase: 12
+  StartPhase: 10
+  EndPhase: 10
   Topic: 0009EE:CoraCoeMultiversalBookHunter.esm
   LoopingMax: 10
   LoopingMin: 1
 - MutagenObjectType: PlayerDialogueSceneAction
   Name: 'P7: CHOICE -- Powers'
   AliasID: 0
-  Index: 11
+  Index: 7
   Flags: []
   StartPhase: 7
   EndPhase: 7
@@ -260,7 +254,7 @@ Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: 'P3: GREET -- Positive (Normal)'
   AliasID: 0
-  Index: 15
+  Index: 8
   Flags: []
   StartPhase: 3
   EndPhase: 3
@@ -275,7 +269,7 @@ Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: 'P4: GREET -- Neutral'
   AliasID: 0
-  Index: 16
+  Index: 9
   Flags: []
   StartPhase: 4
   EndPhase: 4
@@ -290,7 +284,7 @@ Actions:
 - MutagenObjectType: DialogueSceneAction
   Name: 'P0: GREET -- Angry'
   AliasID: 0
-  Index: 17
+  Index: 10
   Flags: []
   StartPhase: 1
   EndPhase: 1
@@ -302,58 +296,8 @@ Actions:
     - -2
     FNAM: '[]'
     PNAM: '[]'
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: 'P10: CHOICE -- Constellation Topic (TBR)'
-  AliasID: 0
-  Index: 13
-  Flags: []
-  StartPhase: 10
-  EndPhase: 10
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-  DialogueTargetActor: 0
-  DialogueList:
-  - PlayerChoice: 3E1F2D:Starfield.esm
-    NpcResponse: 3E1F2C:Starfield.esm
-  - PlayerChoice: 3E1F2B:Starfield.esm
-    NpcResponse: 3E1F2A:Starfield.esm
-  - PlayerChoice: 3E1F29:Starfield.esm
-    NpcResponse: 3E1F28:Starfield.esm
-  - PlayerChoice: 3E1F27:Starfield.esm
-    NpcResponse: 3E1F26:Starfield.esm
-- MutagenObjectType: StartSceneAction
-  Name: 'P13: SCENE - Unknown Use (TBR)'
-  AliasID: 0
-  Index: 7
-  Flags: []
-  StartPhase: 13
-  EndPhase: 13
-- MutagenObjectType: PlayerDialogueSceneAction
-  Name: 'P11: CHOICE - Unknown Topic (TBR)'
-  AliasID: 0
-  Index: 14
-  Flags: []
-  StartPhase: 11
-  EndPhase: 11
-  HNAM:
-    ReferenceAliasIDs:
-    - -2
-    FNAM: '[]'
-  DialogueTargetActor: 0
-  DialogueList:
-  - PlayerChoice: 3E1F2D:Starfield.esm
-    NpcResponse: 3E1F23:Starfield.esm
-  - PlayerChoice: 3E1F2B:Starfield.esm
-    NpcResponse: 3E1F22:Starfield.esm
-  - PlayerChoice: 3E1F29:Starfield.esm
-    NpcResponse: 3E1F21:Starfield.esm
-  - PlayerChoice: 3E1F27:Starfield.esm
-    NpcResponse: 3E1F20:Starfield.esm
-  ATTR: 0x0D000000
-  ACBS: True
 Quest: 000802:CoraCoeMultiversalBookHunter.esm
-LastActionIndex: 3
+LastActionIndex: 10
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000

@@ -33,5 +33,4 @@ Responses:
 SetParentQuestStage:
   OnBegin: -1
   OnEnd: 45
-StartScenePhase: ''
 SubtitlePriority: Low

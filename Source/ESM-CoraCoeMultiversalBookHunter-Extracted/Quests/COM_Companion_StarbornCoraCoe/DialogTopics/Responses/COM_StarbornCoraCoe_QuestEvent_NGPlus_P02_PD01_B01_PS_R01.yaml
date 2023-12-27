@@ -18,11 +18,5 @@ Conditions:
     Reference: 000014:Starfield.esm
     FirstParameter: 1D7053:Starfield.esm
   ComparisonValue: 1
-- MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Data:
-    MutagenObjectType: GetQuestCompletedConditionData
-    FirstParameter: 2B1B8E:Starfield.esm
-  ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: Low
