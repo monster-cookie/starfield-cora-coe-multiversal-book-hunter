@@ -189,6 +189,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_StarbornCoraCoe_System_AngerScene
       Object: 000880:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
   Fragments:
   - Stage: 2
     Unknown2: 1
