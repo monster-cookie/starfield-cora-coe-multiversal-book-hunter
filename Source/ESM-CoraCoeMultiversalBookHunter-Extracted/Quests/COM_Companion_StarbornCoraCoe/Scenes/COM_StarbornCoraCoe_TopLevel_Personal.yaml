@@ -97,10 +97,37 @@ Phases:
 - Name: 'P5: CHOICE -- Main Questions'
   EditorWidth: 500
 - Name: 'P6: CHOICE -- Discuss Unity'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      SecondParameter: 60
+    ComparisonValue: 1
   EditorWidth: 500
 - Name: 'P7: CHOICE -- Powers'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      SecondParameter: 70
+    ComparisonValue: 1
   EditorWidth: 500
 - Name: 'P8: CHOICE -- Evil Player'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      SecondParameter: 50
+    ComparisonValue: 1
   EditorWidth: 500
 - Name: 'P9: CHOICE -- Personal Questions'
   EditorWidth: 500

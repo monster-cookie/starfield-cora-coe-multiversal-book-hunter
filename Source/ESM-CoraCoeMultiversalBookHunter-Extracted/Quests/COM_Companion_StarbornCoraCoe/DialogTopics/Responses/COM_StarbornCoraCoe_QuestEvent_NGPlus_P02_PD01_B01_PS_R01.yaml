@@ -1,6 +1,8 @@
 FormKey: 000A1D:CoraCoeMultiversalBookHunter.esm
 EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus_P02_PD01_B01_PS_R01
-Flags: {}
+Flags:
+  Flags:
+  - 0x4
 Responses:
 - Emotion: 0D755E:Starfield.esm
   Text:

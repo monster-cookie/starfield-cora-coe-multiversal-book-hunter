@@ -29,5 +29,7 @@ Responses:
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
-StartScenePhase: ''
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 65
 SubtitlePriority: Low

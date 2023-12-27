@@ -14,5 +14,8 @@ Responses:
   AlternateLipText: ''
 StartScene: 00082F:CoraCoeMultiversalBookHunter.esm
 INTV: 0x07000000
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 70
 StartScenePhase: 'P7: CHOICE -- Powers'
 SubtitlePriority: Low

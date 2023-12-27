@@ -252,7 +252,6 @@ DialogConditions:
   ComparisonValue: 1
 UnusedConditions: []
 Stages:
-- Unknown: 171
 - Index: 2
   Flags:
   - RunOnStart
@@ -288,118 +287,53 @@ Stages:
   - Flags: []
     Note: 'UNLOCK: Top Level -- Evil Player Topics'
     ScriptFlagComment: Set by State 35 Fragment
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
 - Index: 55
   LogEntries:
   - Flags: []
     Note: 'COMPLETE: Top Level -- Evil Player Topics'
     ScriptFlagComment: ''
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'UNLOCK: Top Level -- Unity Topics'
+- Index: 65
+  LogEntries:
+  - Flags: []
+    Note: 'COMPLETE: Top Level -- Unity Topics'
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Note: 'UNLOCK: Top Level -- Powers Topics'
+- Index: 75
+  LogEntries:
+  - Flags: []
+    Note: 'COMPLETE: Top Level -- Powers Topics'
 - Index: 550
   Unknown: 171
   LogEntries:
   - Flags: []
     Note: Personal Quest Started
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
 - Index: 560
   Unknown: 171
   LogEntries:
   - Flags: []
     Note: Personal Quest Ended
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 800
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: SG08 Scene Progress
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 810
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: '   Checkpoint: Intro (SG08)'
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 811
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: '      * CHOICE: Player interested in Commitment.'
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 812
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: '      * CHOICE: Starborn optional checkpoint.'
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 815
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: Player postponed commitment
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 820
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: '   Checkpoint: Midway (SG08)'
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 821
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: '      * CHOICE: Player has cold feet. (SG08)'
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
-- Index: 830
-  Unknown: 171
-  LogEntries:
-  - Flags: []
-    Note: '   Checkpoint: End (SG08)'
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
 - Index: 900
   Unknown: 171
   LogEntries:
   - Flags: []
     Note: Commitment Quest Started
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
 - Index: 5000
   Unknown: 171
   LogEntries:
   - Flags: []
     Note: Anger Scene - Speech Challenge Success
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
 - Index: 5010
   Unknown: 171
   LogEntries:
   - Flags: []
     Note: Anger Scene - Speech Challenge Fail
-    StageCompleteDatas:
-    - QSRD: 0x00000000
-    - QSRD: '[]'
 Objectives:
 - Index: 900
   Flags: []
