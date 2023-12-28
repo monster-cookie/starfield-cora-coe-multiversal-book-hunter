@@ -7,7 +7,7 @@ DialogGroup: 000A3E:CoraCoeMultiversalBookHunter.esm
 Responses:
 - Text:
     TargetLanguage: English
-    Value: On my journeys to different planets, I uncovered these amazing stories. If any of them align with your interests, let me know and you can have them.
+    Value: On my journeys to different planets, I uncovered these amazing stories. If any of them are interesting to you, let me know and you can have them.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
