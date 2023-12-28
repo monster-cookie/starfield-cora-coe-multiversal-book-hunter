@@ -14,6 +14,7 @@ String Property Venpi_ModName="CoraCoeMultiversalBookHunter" Auto Const Mandator
 ReferenceAlias Property Alias_CoraCoe Auto Const mandatory
 ActorValue Property COM_Affinity Auto Const mandatory
 Scene Property COM_StarbornCoraCoe_System_AngerScene Auto Const mandatory
+Quest Property CCMBH_CoraTakesBooks Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -49,6 +50,7 @@ EndFunction
 Function Fragment_Stage0045_Index00()
   VPI_Debug.DebugMessage(Venpi_ModName, "QF_COM_Companion_StarbornCoraCoe", "Fragment_Stage0045_Index00", "Stage 45 Index 0 fragment triggered. Book Collector topic should be completed", 0, Venpi_DebugEnabled.GetValueInt())
   ;; Book Collector topic is complete
+  CCMBH_CoraTakesBooks.Start()
 EndFunction
 
 Function Fragment_Stage0050_Index00()

@@ -130,6 +130,13 @@ Phases:
     ComparisonValue: 1
   EditorWidth: 500
 - Name: 'P9: CHOICE -- Personal Questions'
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      SecondParameter: 550
+    ComparisonValue: 1
   EditorWidth: 500
 - Name: 'P10: GOODBYE'
   EditorWidth: 500

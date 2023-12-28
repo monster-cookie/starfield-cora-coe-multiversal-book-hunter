@@ -1,8 +1,8 @@
 # V1.0 Beta Permutations
 
 ## V1.0.1 (BETA)
-* Imported cora taking books from the player for gifts again. I'll redo the books and lines. 
-* The dialog to trigger cora's book collecting quest does so. To trigger the lines you need to run to do a NG+ reset or run the console command: CGF "CCMBH_Debug.ResetCora"
+* Imported Cora's book collecting quest, taking books from the player for gifts again. I'll redo the books and lines. 
+* The dialog to trigger Cora's book collecting quest does so. To trigger the lines you need to run to do a NG+ reset or run the console command: CGF "CCMBH_Debug.ResetCora"
 * Lots of updates to the in game help: CGF "CCMBH_Help.Show"
 * MAJOR NOTE: Unless this is a new install, new game, or new NG+ universe; you will need to reset Cora using: CGF "CCMBH_Debug.ResetCora"
 

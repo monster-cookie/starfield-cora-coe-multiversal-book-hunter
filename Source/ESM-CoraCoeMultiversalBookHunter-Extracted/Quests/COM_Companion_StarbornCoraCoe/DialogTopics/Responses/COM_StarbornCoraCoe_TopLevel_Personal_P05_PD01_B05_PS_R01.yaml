@@ -16,5 +16,6 @@ Conditions:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
     SecondParameter: 550
+  ComparisonValue: 1
 StartScenePhase: ''
 SubtitlePriority: Low
