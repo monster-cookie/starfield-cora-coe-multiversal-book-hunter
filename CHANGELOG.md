@@ -1,5 +1,9 @@
 # V1.0 Beta Permutations
 
+## V1.0.2 (BETA)
+* BGS really failed aging Cora up I think this looks closer. Very open to feedback.
+* Cleaned up player's book turn over prompts. They were Cora AI lines for some reason. 
+
 ## V1.0.1 (BETA)
 * Imported Cora's book collecting quest, taking books from the player for gifts again. I'll redo the books and lines. 
 * The dialog to trigger Cora's book collecting quest does so. To trigger the lines you need to run to do a NG+ reset or run the console command: CGF "CCMBH_Debug.ResetCora"
