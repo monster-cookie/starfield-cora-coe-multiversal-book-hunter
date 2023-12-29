@@ -1,5 +1,8 @@
 # V1.0 Beta Permutations
 
+## V1.0.3 (BETA)
+* Added a new alternative look for Cora available as a patch
+
 ## V1.0.2 (BETA)
 * BGS really failed aging Cora up I think this looks closer. Very open to feedback.
 * Cleaned up player's book turn over prompts. They were Cora AI lines for some reason. 
