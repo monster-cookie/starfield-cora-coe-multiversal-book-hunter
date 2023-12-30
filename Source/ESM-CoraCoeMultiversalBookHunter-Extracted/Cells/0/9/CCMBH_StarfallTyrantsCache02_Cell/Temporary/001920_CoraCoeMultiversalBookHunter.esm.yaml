@@ -1,0 +1,18 @@
+MutagenObjectType: PlacedObject
+FormKey: 001920:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 256
+StarfieldMajorRecordFlags:
+- 0x100
+Base: 12122C:Starfield.esm
+Radius: 19.814278
+Lighting:
+  Fade1PlusMinus: 0.17495699
+  Unknown1: 2880154539
+  Unknown2: 2880154368
+LightArea:
+  Data: 0x00000000000000000000000000000000
+LightVolumetricData: 78
+Layer: 1E9BFB:Starfield.esm
+LightRoundedness:
+  Data: 0x0000000000000000000000000000000001ABABAB
+Position: -81.820404, 22.051575, 42.16321

@@ -1,0 +1,16 @@
+MutagenObjectType: PlacedObject
+FormKey: 00106E:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 24F9CE:Starfield.esm
+TeleportDestination:
+  Door: 001171:CoraCoeMultiversalBookHunter.esm
+  Position: 29.35058, 67.641884, 19.020386
+  Rotation: -0, 0, 1.799395
+Layer: 233FF7:Starfield.esm
+NavigationDoorLink:
+  NavMesh: 000E30:CoraCoeMultiversalBookHunter.esm
+  TeleportMarkerTriangle: 221
+Position: -18.5, 91.5, -2
+Rotation: 0, 0, 4.712389

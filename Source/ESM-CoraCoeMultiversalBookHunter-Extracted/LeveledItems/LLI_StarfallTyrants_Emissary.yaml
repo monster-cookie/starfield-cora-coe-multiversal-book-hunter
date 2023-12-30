@@ -1,0 +1,18 @@
+FormKey: 000AD5:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 32768
+EditorID: LLI_StarfallTyrants_Emissary
+StarfieldMajorRecordFlags:
+- VisibleWhenDistant
+ODTY: 0
+MaxCount: 0
+Flags:
+- UseAll
+Entries:
+- Level: 1
+  Reference: 0D0F72:Starfield.esm
+  Count: 1
+- Level: 1
+  Reference: 18A514:Starfield.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

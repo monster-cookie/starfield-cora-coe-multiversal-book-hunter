@@ -1,0 +1,10 @@
+MutagenObjectType: PlacedObject
+FormKey: 001BE4:CoraCoeMultiversalBookHunter.esm
+Base: 035A48:Starfield.esm
+RagdollData:
+- Unused: 0xABABAB
+  Position: 0, 2.670288E-05, -0.027046204
+  Rotation: -4.469753E-07, 1.4972633E-06, 6.614077E-06
+Layer: 001DC7:CoraCoeMultiversalBookHunter.esm
+Position: -57.066795, 42.23318, 38.950584
+Rotation: -1.5707964, 1.0857962, 1.5707964

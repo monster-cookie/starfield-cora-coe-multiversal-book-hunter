@@ -1,0 +1,18 @@
+FormKey: 000AD8:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 32768
+EditorID: LLI_StarfallTyrants_Support
+StarfieldMajorRecordFlags:
+- VisibleWhenDistant
+ODTY: 0
+MaxCount: 0
+Flags:
+- UseAll
+Entries:
+- Level: 1
+  Reference: 3D092C:Starfield.esm
+  Count: 1
+- Level: 1
+  Reference: 3D0938:Starfield.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

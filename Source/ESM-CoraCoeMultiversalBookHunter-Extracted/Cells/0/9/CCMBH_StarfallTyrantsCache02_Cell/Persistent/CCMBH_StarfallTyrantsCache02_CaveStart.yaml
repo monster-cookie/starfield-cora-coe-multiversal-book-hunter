@@ -1,0 +1,10 @@
+MutagenObjectType: PlacedObject
+FormKey: 001C14:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+EditorID: CCMBH_StarfallTyrantsCache02_CaveStart
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 000032:Starfield.esm
+Layer: 2B3CB6:Starfield.esm
+Position: -104.683495, -45.54242, 16.203905
+Rotation: -3.8360042E-08, 1.9963715E-09, 1.0471973

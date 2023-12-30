@@ -1,0 +1,90 @@
+MutagenObjectType: PlacedNpc
+FormKey: 001059:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 2560
+StarfieldMajorRecordFlags:
+- 0x200
+- InitiallyDisabled
+Base: 20748D:Starfield.esm
+RagdollData:
+- BoneId: 2
+  Unused: 0x000000
+  Rotation: 0.1473057, 0.106390655, -1.3206376
+- Unused: 0x000000
+  Position: -0.00044631958, -0.00023651123, -0.0025863647
+  Rotation: -1.319385, 1.0178515, 1.8976845
+- BoneId: 14
+  Unused: 0x000000
+  Position: 0.11314392, -0.000541687, -0.11237335
+  Rotation: -2.8095653, -0.21272147, 0.3226329
+- BoneId: 15
+  Unused: 0x000000
+  Position: 0.45764542, -0.0005340576, 0.00038146973
+  Rotation: 0.00047540313, 0.00019961596, 0.81684583
+- BoneId: 16
+  Unused: 0x000000
+  Position: 0.3766346, 0.0001296997, -0.00088500977
+  Rotation: -0.058860693, -0.082275316, -0.5361651
+- BoneId: 8
+  Unused: 0x000000
+  Position: 0.11403656, -0.0001449585, 0.11559677
+  Rotation: -0.18764701, -0.37257156, 1.2047168
+- BoneId: 9
+  Unused: 0x000000
+  Position: 0.4578476, -0.00016403198, -0.0005378723
+  Rotation: 0.019598626, 0.0049616676, -2.3805559
+- BoneId: 10
+  Unused: 0x000000
+  Position: 0.37664413, 8.392334E-05, -0.0005607605
+  Rotation: 0.058870975, -0.08988145, 1.1521219
+- BoneId: 2
+  Unused: 0x000000
+  Position: 5.722046E-06, 7.6293945E-06, 0.0030212402
+  Rotation: 2.5593195, 1.2896278, 2.3577309
+- BoneId: 3
+  Unused: 0x000000
+  Position: 0.059192657, -0.00021362305, 0.0005722046
+  Rotation: 0.19342175, -0.019958502, -0.26602584
+- BoneId: 4
+  Unused: 0x000000
+  Position: 0.05665207, -0.000289917, 0.0008087158
+  Rotation: -0.052549176, -0.059199784, -0.008434044
+- Unused: 0x000000
+  Position: 0.25513077, 7.6293945E-06, -0.00021362305
+  Rotation: 0.09470213, -0.13057475, -0.023336675
+- BoneId: 1
+  Unused: 0x000000
+  Position: 0.07538605, -0.0028381348, 0.00038909912
+  Rotation: -0.2068972, 0.05823019, -0.2933894
+- BoneId: 5
+  Unused: 0x000000
+  Position: 0.19345474, -0.00018310547, 0.00024795532
+  Rotation: -0.717201, -0.40568447, 1.4193246
+- BoneId: 6
+  Unused: 0x000000
+  Position: 0.2710724, -0.0002155304, 0.00011444092
+  Rotation: -0.004088315, 0.0004043735, 2.0620418
+- BoneId: 7
+  Unused: 0x000000
+  Position: 0.23952484, 0.0002975464, -0.0005226135
+  Rotation: 0.46662745, -0.4645197, -0.7481353
+- Unused: 0x000100
+  Position: 0.19977951, -0.11683655, -0.0014801025
+  Rotation: 1.5719564, -1.4855658, -0.0018778465
+- BoneId: 11
+  Unused: 0x000000
+  Position: 0.19286346, 0.0014419556, -0.00066947937
+  Rotation: 1.4825933, -0.23185532, -1.5433998
+- BoneId: 12
+  Unused: 0x000000
+  Position: 0.27109146, -0.001663208, 0.0023880005
+  Rotation: 0.014436932, 0.021146959, -0.12058539
+- BoneId: 13
+  Unused: 0x000000
+  Position: 0.23962784, -0.0008468628, 0.0012054443
+  Rotation: -0.039404616, -0.23937568, 0.55721223
+PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
+Position: -59.794292, 92.5221, -11.746855
+Rotation: 1.4367216, 1.3175362, 6.2746496
+MajorFlags:
+- StartsDead
+- InitiallyDisabled

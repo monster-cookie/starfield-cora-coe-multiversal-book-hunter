@@ -1,0 +1,9 @@
+MutagenObjectType: PlacedObject
+FormKey: 00197A:CoraCoeMultiversalBookHunter.esm
+Base: 17CDCF:Starfield.esm
+Layer: 001DC3:CoraCoeMultiversalBookHunter.esm
+LinkedReferences:
+- Reference: 001598:CoraCoeMultiversalBookHunter.esm
+IsLinkedRefTransient: True
+Position: -47.82056, -21.345503, 29.982882
+Rotation: -0.17631938, -0.12769598, 4.712389

@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 00138C:CoraCoeMultiversalBookHunter.esm
+Base: 01D971:Starfield.esm
+Spline:
+  Slack: 0.109999985
+  Thickness: 0.034048412
+  HalfExtents: 5.217018, 0.18198013, 0.18926048
+Position: -50.50219, 29.416946, 41.163612

@@ -1,0 +1,11 @@
+MutagenObjectType: PlacedObject
+FormKey: 0019AF:CoraCoeMultiversalBookHunter.esm
+Base: 17EE28:Starfield.esm
+Layer: 001DC7:CoraCoeMultiversalBookHunter.esm
+Lock:
+  Level: Novice25
+  Flags:
+  - LeveledLock
+  Unused: 7
+Position: -12.601034, 45.566322, 28.92279
+Rotation: 0.25744823, -0.51935065, 1.285582

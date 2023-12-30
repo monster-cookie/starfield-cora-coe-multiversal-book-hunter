@@ -1,0 +1,11 @@
+MutagenObjectType: PlacedObject
+FormKey: 001AE7:CoraCoeMultiversalBookHunter.esm
+Base: 28A530:Starfield.esm
+Primitive:
+  Bounds: 16.888515, 49.161236, 5.9071846
+  Color: '#00004080'
+  Unknown: 0.3
+  Type: Box
+Layer: 2B3CB9:Starfield.esm
+Position: -26.60391, 44.66462, 20.357344
+Rotation: -1.1557676E-14, 4.6185413E-14, 0.36859852

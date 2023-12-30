@@ -1,0 +1,158 @@
+FormKey: 000AA3:CoraCoeMultiversalBookHunter.esm
+EditorID: SQ_Group_Faction_StarfallTyrants
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sq_groupscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionID
+      Object: 000AA4:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: GroupFactions
+      Objects:
+      - Name: ''
+        Object: 000AA0:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: LocEncKeywords
+      Objects:
+      - Name: ''
+        Object: 000AA5:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: OccupationData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Female
+          Object: 10DD6B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Male
+          Object: 10DD6D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Female
+          Object: 26A74E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Male
+          Object: 26A74F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Occupation
+          Object: 11F9CE:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Female
+          Object: 10DD6B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Male
+          Object: 10DD6D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Female
+          Object: 26A74E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Male
+          Object: 26A74F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Occupation
+          Object: 11F9CA:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Female
+          Object: 10DD6B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Male
+          Object: 10DD6D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Female
+          Object: 26A74E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Male
+          Object: 26A74F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Occupation
+          Object: 11F9CC:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Female
+          Object: 10DD6B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorBaseToSpawn_Male
+          Object: 10DD6D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Female
+          Object: 26A74E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CorpseToSpawn_Male
+          Object: 26A74F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Occupation
+          Object: 11F9D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShipToSpawn_Cruiser
+      Object: 112558:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShipToSpawn_Destroyer
+      Object: 11218F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShipToSpawn_Fighter
+      Object: 05C771:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipLandingMarker
+      Object: 0029C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipLandingPadLarge
+      Object: 1D9469:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipLandingPadMedium
+      Object: 1D9468:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_Gender_Any
+      Object: 10BCE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_Gender_Female
+      Object: 10BCE2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_Gender_Male
+      Object: 10BCE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Actor
+      Object: 10BCDF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Child
+      Object: 36E4D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Corpse
+      Object: 10BCDE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Older
+      Object: 34964D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Robot
+      Object: 36E4D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Ship_0_Any
+      Object: 101BAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Ship_1_Fighter
+      Object: 101BAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Ship_2_Destroyer
+      Object: 101BAD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_SpawnType_Ship_3_Cruiser
+      Object: 101BAC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Group_VendorFaction_Default
+      Object: 354BCE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_VendorContainerEmptyBase
+      Object: 36E4E3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VendorContainerKeyword01
+      Object: 10FCD1:Starfield.esm
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Va'ruun Zealot
+Model:
+  FLLD: 0x01000000
+MarkerColor: '#00CC4C33'
+Flags: []
+ActivationAngle: 360

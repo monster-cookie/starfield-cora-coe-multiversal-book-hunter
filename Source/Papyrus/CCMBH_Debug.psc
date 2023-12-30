@@ -98,10 +98,12 @@ Function ResetCora() Global
   
   ;; Reset the book collector quest
   Quest CCMBH_CoraTakesBooks = Game.GetFormFromFile(0x7B000A3B, "CoraCoeMultiversalBookHunter.esm") as Quest
+  CCMBH_CoraTakesBooks.Stop()
   CCMBH_CoraTakesBooks.Reset()
 
   ;; Reset Cora's handler quest
   Quest COM_Companion_StarbornCoraCoe = Game.GetFormFromFile(0x7B000802, "CoraCoeMultiversalBookHunter.esm") as Quest
+  COM_Companion_StarbornCoraCoe.Stop()
   COM_Companion_StarbornCoraCoe.Reset()
 
   ;; Disable/Enable her NPC
@@ -111,6 +113,7 @@ Function ResetCora() Global
   Utility.Wait(2)
 
   ;; Reactivate as an available companion
+  COM_Companion_StarbornCoraCoe.Start()
   COM_Companion_StarbornCoraCoe.SetStage(2)
   PromoteToAvailableCompanion()
 

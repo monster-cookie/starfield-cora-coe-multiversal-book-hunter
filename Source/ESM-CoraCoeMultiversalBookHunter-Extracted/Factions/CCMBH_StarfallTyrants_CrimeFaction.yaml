@@ -1,0 +1,33 @@
+FormKey: 000AA1:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_StarfallTyrants_CrimeFaction
+Name:
+  TargetLanguage: English
+  Value: Starfall Tyrants
+Keyword: 000AA2:CoraCoeMultiversalBookHunter.esm
+Flags:
+- TrackCrime
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- CrimeGoldUseDefaults
+- IgnorePickpocket
+- CanBeOwner
+- IgnoreWerewolfUnused
+- 0x20000
+- 0x40000
+CrimeValues:
+  Arrest: True
+  Murder: 15000
+  Assault: 650
+  Trespass: 350
+  Pickpocket: 500
+  StealMult: 0.5
+  Escape: 1500
+  WerewolfUnused: 1500
+  Unknown2: 999519420
+VendorValues:
+  EndHour: 24
+  BuysStolenItems: True
+  BuysNonStolenItems: True

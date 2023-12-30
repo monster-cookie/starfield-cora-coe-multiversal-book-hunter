@@ -1,0 +1,8 @@
+FormKey: 000AA4:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: SQ_Group_FactionID_StarfallTyrants
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 30
+MajorFlags:
+- Constant

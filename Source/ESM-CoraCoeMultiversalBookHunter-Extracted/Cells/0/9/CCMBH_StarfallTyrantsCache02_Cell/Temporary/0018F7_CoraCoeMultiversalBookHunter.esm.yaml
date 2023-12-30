@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedNpc
+FormKey: 0018F7:CoraCoeMultiversalBookHunter.esm
+Base: 122412:Starfield.esm
+LevelModifier: Easy
+PersistentLocation: 001DBC:CoraCoeMultiversalBookHunter.esm
+Layer: 2B3CB9:Starfield.esm
+Position: -75.51421, -34.86431, 16.201464
+Rotation: -0, 0, 2.1000001
