@@ -1,0 +1,16 @@
+FormKey: 000859:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_FND_G0_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000847:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Hey, my co-pilot in the exploration of both worlds real and imagined! Together, let's uncover more mysteries, be they in distant galaxies or hidden in our favorite novels.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

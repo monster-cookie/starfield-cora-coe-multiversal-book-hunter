@@ -1,0 +1,13 @@
+FormKey: 00089B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B04_PS01_R01
+Flags: {}
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: What have I done wrong?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

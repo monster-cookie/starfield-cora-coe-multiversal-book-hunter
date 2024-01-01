@@ -1,0 +1,5 @@
+MutagenObjectType: PlacedObject
+FormKey: 001DCD:CoraCoeMultiversalBookHunter.esm
+Base: 01D20A:Starfield.esm
+Scale: 0.8
+Position: 0, 0, 0.5

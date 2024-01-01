@@ -1,0 +1,181 @@
+FormKey: 001096:CoraCoeMultiversalBookHunter.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 001177:CoraCoeMultiversalBookHunter.esm
+  Vertices:
+  - Point: 39.15, 88.825005, 24.416351
+    Unknown: 1
+  - Point: 36.65, 89.950005, 24.71635
+    Unknown: 1
+  - Point: 39.600002, 88.200005, 24.46635
+    Unknown: 1
+  - Point: 41.65, 87.700005, 23.71635
+    Unknown: 1
+  - Point: 36.5, 89.4, 24.916351
+    Unknown: 1
+  - Point: 34.7, 90.05, 25.166351
+    Unknown: 1
+  - Point: 34.350002, 91, 24.816349
+    Unknown: 1
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: 2
+    EdgeLink_2_0: 1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+  - Vertices: 3, 0, 2
+    EdgeLink_0_1: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 4
+  - Vertices: 4, 2, 1
+    EdgeLink_0_1: -1
+    EdgeLink_2_0: 3
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 1
+  - Vertices: 4, 1, 5
+    EdgeLink_0_1: 2
+    EdgeLink_1_2: 4
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 32772
+  - Vertices: 5, 1, 6
+    EdgeLink_0_1: 3
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - Found
+    - 0x1000
+    CoverFlags: 32772
+  Cover:
+  - Vertex1: 3
+    Vertex2: 4368
+    Data: 1097390902539
+  - Vertex1: 4368
+    Vertex2: 10194
+    Data: 1095241174924
+  - Vertex1: 10194
+    Vertex2: 16019
+    Data: 614202740621
+  - Vertex1: 16019
+    Vertex2: 20388
+    Data: 1030814437262
+  - Vertex1: 20388
+    Vertex2: 27670
+    Data: 1030812209039
+  - Vertex1: 27670
+    Vertex2: 32039
+    Data: 1030812209040
+  - Vertex1: 32039
+    Vertex2: 42233
+    Data: 549771546513
+  - Vertex1: 42233
+    Vertex2: 48059
+    Data: 408035397522
+  - Vertex1: 48059
+    Vertex2: 55340
+    Data: 408033169299
+  - Vertex1: 55340
+    Vertex2: 2
+    Data: 2615646359189
+  - Vertex1: 2
+    Vertex2: 2473
+    Data: 1030801071895
+  - Vertex1: 2473
+    Vertex2: 9892
+    Data: 1030798839706
+  - Vertex1: 9892
+    Vertex2: 16692
+    Data: 1035089481630
+  - Vertex1: 16692
+    Vertex2: 18547
+    Data: 1030794383263
+  - Vertex1: 18547
+    Vertex2: 21020
+    Data: 1030794385312
+  - Vertex1: 21020
+    Vertex2: 22875
+    Data: 1030794389409
+  - Vertex1: 22875
+    Vertex2: 24730
+    Data: 247321399013282
+  - Vertex1: 24730
+    Vertex2: 27203
+    Data: 247321399003043
+  - Vertex1: 27203
+    Vertex2: 29676
+    Data: 250718716037028
+  - Vertex1: 29676
+    Vertex2: 31530
+    Data: 256117489797029
+  - Vertex1: 31530
+    Vertex2: 37713
+    Data: 256117492025254
+  - Vertex1: 37713
+    Vertex2: 48223
+    Data: 264913589372839
+  - Vertex1: 48223
+    Vertex2: 52551
+    Data: 207738989184934
+  - Vertex1: 52551
+    Vertex2: 57497
+    Data: 172571794868133
+  - Vertex1: 57497
+    Vertex2: 61825
+    Data: 102211642853284
+  - Vertex1: 61825
+    Vertex2: 63680
+    Data: 102211642853285
+  - Vertex1: 63680
+    Vertex2: 5
+    Data: 67027272992422
+  - Vertex1: 5
+    Vertex2: 11915
+    Data: 40059173340960
+  - Vertex1: 11915
+    Vertex2: 53619
+    Data: 9204128286623
+  - Vertex1: 53619
+    Vertex2: 6
+    Data: 246629920408222
+  CoverTriangleMappings:
+  - Cover: 14
+    Triangle: 10
+  - Cover: 6
+  - Cover: 18
+    Triangle: 27
+  - Cover: 8
+    Triangle: 10
+  GridSize: 1
+  GridMaxDistance: 7.299999, 3.2999954
+  GridMin: 34.350002, 87.700005, 23.71635
+  GridMax: 41.65, 91, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 5
+    - 0
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 12
+    - 8
+PreCutMapEntries: []

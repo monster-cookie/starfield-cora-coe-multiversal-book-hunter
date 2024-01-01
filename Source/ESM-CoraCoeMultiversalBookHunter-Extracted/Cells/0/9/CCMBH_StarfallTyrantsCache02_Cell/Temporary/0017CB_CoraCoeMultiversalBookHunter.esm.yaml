@@ -1,8 +1,0 @@
-MutagenObjectType: PlacedObject
-FormKey: 0017CB:CoraCoeMultiversalBookHunter.esm
-Base: 25405B:Starfield.esm
-SourcePackIn: 19FA9B:Starfield.esm
-Layer: 001DC5:CoraCoeMultiversalBookHunter.esm
-Scale: 1.13
-Position: -88.09788, -16.845493, 17.203857
-Rotation: 0.26406863, -0.2848142, 2.0105064

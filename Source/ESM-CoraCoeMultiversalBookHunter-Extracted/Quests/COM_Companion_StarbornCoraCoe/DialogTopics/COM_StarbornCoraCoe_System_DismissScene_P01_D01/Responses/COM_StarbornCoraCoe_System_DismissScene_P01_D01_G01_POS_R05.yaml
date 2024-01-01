@@ -1,0 +1,16 @@
+FormKey: 0008F2:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G01_POS_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EA:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Just as a compass points a traveler home, our memories will guide us back to each other if fate wills it. Our shared expedition may be concluding, but in the cosmos of friendships, I'm never more than a star away.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

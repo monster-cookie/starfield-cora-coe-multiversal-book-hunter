@@ -1,0 +1,13 @@
+FormKey: 000922:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P01_PD01_B02_PS01_R01
+Flags: {}
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: I wasn't expecting anything.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,88 @@
+FormKey: 000AAE:CoraCoeMultiversalBookHunter.esm
+EditorID: EncStarfallTyrantsFaceF01
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+Flags:
+- Female
+- Respawn
+XpValueOffset: 60
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 30
+DispositionBase: 35
+UseTemplateActors: 24510
+DeathItem: 27025F:Starfield.esm
+Voice: 018ED9:Starfield.esm
+DefaultTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+TemplateActors:
+  StatsTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  FactionsTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  SpellListTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  AiDataTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  AiPackagesTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  BaseDataTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  InventoryTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  ScriptTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  DefPackListTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  AttackDataTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  KeywordsTemplate: 000AA6:CoraCoeMultiversalBookHunter.esm
+  Unknown2: 000AA6:CoraCoeMultiversalBookHunter.esm
+Race: 00347D:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+  Value: 5
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+  Value: 5
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+  Value: 5
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002D4:Starfield.esm
+  Value: 570
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 5
+- ActorValue: 0002CD:Starfield.esm
+  Value: 45
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+- ActorValue: 0002EB:Starfield.esm
+  Value: -100
+- ActorValue: 000392:Starfield.esm
+  Value: -100
+- ActorValue: 0002E3:Starfield.esm
+  Value: -100
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Keywords:
+- 28D935:Starfield.esm
+Class: 010B2F:Starfield.esm
+CalculatedHealth: 20
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+Unused: 43
+CombatStyle: 270265:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight: {}
+SpaceOutfit: 27025C:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+Tints: []
+BodyMorphRegionValues:
+  UpperTorso: 0.21
+MorphBlends:
+- BlendName: female_eu_md2_Neck
+  Intensity: 0.1
+SkinToneIndex: 0
+Pronoun: Unspecified

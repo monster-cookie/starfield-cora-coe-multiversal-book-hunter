@@ -23,6 +23,9 @@ del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-
 rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Scripts\"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Meshes\Venworks\CCMBH"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Materials\Venworks\CCMBH"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Textures\Venworks\CCMBH"
 
 @REM Compile and deploy Scripts to Dist-BA2-Main folder
 @echo "Compiling all script in Source/Papyrus to Dist-BA2-Main folder"
@@ -44,8 +47,15 @@ copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-AltLook1-Expe
 copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-AltLook1-Experimental\CoraCoeMultiversalBookHunter-AltLook1.esm" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-AltLook1"
 
 @REM Use Spriggit to extract record from ESM
+@echo "Running Spriggit to extract record from ESM"
 "D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-Experimental\CoraCoeMultiversalBookHunter.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM-CoraCoeMultiversalBookHunter-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
 "D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-AltLook1-Experimental\CoraCoeMultiversalBookHunter-AltLook1.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM-CoraCoeMultiversalBookHunter-AltLook1-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
+
+@REM @REM Deploying textures to Dist-BA2-Textures
+@REM @echo "Deploying textures to Dist-BA2-Textures"
+@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\Meshes\starborn_hostiles_ahead_sign.nif" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Meshes\Venworks\CCMBH"
+@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\Materials\Danger_Sign.mat" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Materials\Venworks\CCMBH"
+@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\Textures\DangerHostlesAhead.dds" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Textures\Venworks\CCMBH"
 
 @REM Create and copy the BA2 Main Archive to Dist folder
 @echo "Creating the BA2 Main Archive"

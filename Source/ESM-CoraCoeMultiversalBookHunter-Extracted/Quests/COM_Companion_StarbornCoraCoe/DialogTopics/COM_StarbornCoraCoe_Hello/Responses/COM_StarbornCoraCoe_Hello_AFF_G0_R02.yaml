@@ -1,0 +1,16 @@
+FormKey: 000855:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_AFF_G0_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000848:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Salutations, cherished navigator of life's literary galaxies! In the same way we thirst for the knowledge held within ancient tomes and distant worlds, I cherish the adventures and stories we share together.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

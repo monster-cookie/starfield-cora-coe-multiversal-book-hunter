@@ -1,0 +1,62 @@
+FormKey: 000AB3:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 4194304
+EditorID: LvlStarfallTyrantsShip_Scorpius_AutopilotAI
+StarfieldMajorRecordFlags:
+- 0x400000
+ODTY: 0
+Flags:
+- Female
+- AutoCalcStats
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 30
+DispositionBase: 35
+Voice: 018ED8:Starfield.esm
+Race: 025739:Starfield.esm
+CombatOverridePackageList: 1B5600:Starfield.esm
+Perks:
+- Perk: 02CC98:Starfield.esm
+  Rank: 1
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 100
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 00039D:Starfield.esm
+  Value: 4
+Aggression: VeryAggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsFriendsAndAllies
+Class: 01326B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Pilot
+CalculatedHealth: 730
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+CombatStyle: 000ADF:CoraCoeMultiversalBookHunter.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight: {}
+DefaultPackageList: 0110AA:Starfield.esm
+Tints: []
+BodyMorphRegionValues:
+  UpperTorso: 0.21
+SkinToneIndex: 0
+Pronoun: Unspecified
+MajorFlags:
+- 0x400000

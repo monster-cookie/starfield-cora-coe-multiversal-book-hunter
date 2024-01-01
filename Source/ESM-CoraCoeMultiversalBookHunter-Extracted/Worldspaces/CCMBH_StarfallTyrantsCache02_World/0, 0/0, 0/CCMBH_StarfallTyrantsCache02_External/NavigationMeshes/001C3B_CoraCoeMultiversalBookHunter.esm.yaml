@@ -1,0 +1,84 @@
+FormKey: 001C3B:CoraCoeMultiversalBookHunter.esm
+NavmeshGeometry:
+  Versioning:
+  - Break0
+  NavmeshVersion: 17
+  Parent:
+    MutagenObjectType: WorldspaceNavmeshParent
+    Parent: 001DBA:CoraCoeMultiversalBookHunter.esm
+  Vertices:
+  - Point: 8.45, 46.3, 16.559921
+    Unknown: 1
+  - Point: 8.650001, 44.25, 16.35992
+    Unknown: 1
+  - Point: 11.8, 44.600002, 18.35992
+    Unknown: 1
+  - Point: 11.716001, 44.590668, 18.306587
+  Triangles:
+  - Vertices: 0, 1, 2
+    EdgeLink_0_1: -1
+    EdgeLink_1_2: -1
+    EdgeLink_2_0: -1
+    Height: 3.4028235E+38
+    Flags:
+    - 0x1000
+    CoverFlags: 49159
+  Cover:
+  - Vertex1: 1
+    Data: 2149582337
+  - Vertex2: 2340
+    Data: 1095232261911
+  - Vertex1: 2340
+    Vertex2: 8581
+    Data: 247385836883864
+  - Vertex1: 8581
+    Vertex2: 14823
+    Data: 247385836883865
+  - Vertex1: 14823
+    Vertex2: 21064
+    Data: 256181927813018
+  - Vertex1: 21064
+    Vertex2: 26526
+    Data: 190211230021531
+  - Vertex1: 26526
+    Vertex2: 29646
+    Data: 194544854110111
+  - Vertex1: 29646
+    Vertex2: 34327
+    Data: 163767118596007
+  - Vertex1: 34327
+    Vertex2: 37448
+    Data: 137297233053603
+  - Vertex1: 37448
+    Vertex2: 42909
+    Data: 102250297690013
+  - Vertex1: 42909
+    Vertex2: 49931
+    Data: 31834308741022
+  - Vertex1: 49931
+    Vertex2: 56172
+    Data: 31834308741023
+  - Vertex1: 56172
+    Vertex2: 2
+    Data: 1047980934816
+  - Vertex1: 3
+    Vertex2: 1
+    Data: 263681
+  CoverTriangleMappings:
+  - {}
+  - Cover: 2
+    Triangle: 1
+  - Cover: 1
+    Triangle: 13
+  GridSize: 1
+  GridMaxDistance: 3.3500004, 2.0499992
+  GridMin: 8.45, 44.25, 16.35992
+  GridMax: 11.8, 46.3, 3.4028235E+38
+  GridArrays:
+  - GridCell:
+    - 1
+    - 0
+    - 0
+    - 12
+    - 8
+PreCutMapEntries: []

@@ -1,0 +1,31 @@
+MutagenObjectType: PlacedObject
+FormKey: 001DB5:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+StarfieldMajorRecordFlags:
+- 0x400
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MapMarkerLocationCooldownScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocationCooldown
+      Object: 0F78AD:Starfield.esm
+Base: 000010:Starfield.esm
+Radius: 20
+MapMarker:
+  Flags:
+  - UseLocationName
+  Name:
+    TargetLanguage: English
+    Value: Cave
+  Type: 10
+  VNAM: 0
+  UNAM:
+    TargetLanguage: English
+    Value: ''
+  VISI: 0
+LinkedReferences:
+- Reference: 001DB8:CoraCoeMultiversalBookHunter.esm
+IsLinkedRefTransient: True
+Position: 29.919655, 32.104877, 14.75745
+Rotation: 0, -0, 3.926991

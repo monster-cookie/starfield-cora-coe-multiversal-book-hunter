@@ -1,0 +1,13 @@
+FormKey: 00088D:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_AngerScene_P04_PD01_B02_PS01_R01
+Flags: {}
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: We can work this out. Together.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

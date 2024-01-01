@@ -1,0 +1,16 @@
+FormKey: 00093C:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_GiveItem_P00_D01_G01_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000939:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Sure do! It's something as unique and extraordinary as a mysterious artifact from an ancient alien civilization.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

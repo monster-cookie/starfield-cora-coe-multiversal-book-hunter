@@ -1,0 +1,19 @@
+MutagenObjectType: PlacedObject
+FormKey: 001C85:CoraCoeMultiversalBookHunter.esm
+Base: 02F488:Starfield.esm
+LayeredMaterialSwaps:
+- 121584:Starfield.esm
+Layer: 001DC3:CoraCoeMultiversalBookHunter.esm
+Traversals:
+- From: 23.693289, 33.808598, 12.491351
+  To: 22.095934, 33.823704, 12.546536
+  UnknownVector: 22.951958, 33.912716, 13.509923
+  Traversal: 05988D:Starfield.esm
+  Unknown: 0xB744B744007C007C
+- From: 22.095934, 33.823704, 12.546537
+  To: 23.693289, 33.808598, 12.491351
+  UnknownVector: 22.951958, 33.912716, 13.509923
+  Traversal: 05988D:Starfield.esm
+  Unknown: 0xDC47DC47007C007C
+Position: 22.894611, 33.81615, 12.51625
+Rotation: 0.096876204, -0.057378024, 4.716301

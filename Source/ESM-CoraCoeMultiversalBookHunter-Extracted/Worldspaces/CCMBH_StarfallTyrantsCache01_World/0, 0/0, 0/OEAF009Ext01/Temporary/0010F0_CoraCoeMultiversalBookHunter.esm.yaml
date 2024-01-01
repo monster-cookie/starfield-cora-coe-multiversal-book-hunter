@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 0010F0:CoraCoeMultiversalBookHunter.esm
+Base: 0216FF:Starfield.esm
+SourcePackIn: 02689C:Starfield.esm
+Scale: 0.88
+Position: 7.2401586, 38.220768, 28.91937
+Rotation: 0.2610924, 0.0681793, 1.8778353

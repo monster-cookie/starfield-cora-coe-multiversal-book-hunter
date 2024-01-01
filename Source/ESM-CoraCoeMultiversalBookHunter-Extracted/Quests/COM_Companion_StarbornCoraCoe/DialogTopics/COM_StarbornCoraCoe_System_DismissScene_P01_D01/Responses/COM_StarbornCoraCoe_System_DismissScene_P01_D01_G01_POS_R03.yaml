@@ -1,0 +1,16 @@
+FormKey: 0008F0:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_DismissScene_P01_D01_G01_POS_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008EA:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Like a well-loved book that one returns to time and again, our journey together will always hold a special place in my heart. As I set sail to new galaxies, remember, the stars will guide you back to me should our paths cross again.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 000850:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_NTL_G0_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000845:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: 'Hey! Found any good books for use lately? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

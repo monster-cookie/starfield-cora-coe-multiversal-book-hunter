@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 001DF4:CoraCoeMultiversalBookHunter.esm
+EditorID: ENT_IDLE_NPCStandingMilitay1
+Base: 3E9190:Starfield.esm
+Layer: 2B3CB9:Starfield.esm
+Position: -47.5, 94, -6.4

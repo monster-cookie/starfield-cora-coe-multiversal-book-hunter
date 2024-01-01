@@ -1,0 +1,16 @@
+FormKey: 00085B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_FND_G0_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000847:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Hiya! Your energy is as radiant as a supernova today.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

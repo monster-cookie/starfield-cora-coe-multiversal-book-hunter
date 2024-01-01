@@ -1,0 +1,19 @@
+MutagenObjectType: PlacedObject
+FormKey: 00116E:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 3072
+StarfieldMajorRecordFlags:
+- 0x400
+- InitiallyDisabled
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DefaultDisableSelfTrigger
+    Flags: InheritedAndRemoved
+Base: 2DC29F:Starfield.esm
+Primitive:
+  Bounds: 2, 2, 2
+  Color: '#00FF80FF'
+  Unknown: 0.3
+  Type: Box
+SourcePackIn: 0962BE:Starfield.esm
+Position: 30.692898, 65.72115, 31.333668
+Rotation: 0, -0, 1.828

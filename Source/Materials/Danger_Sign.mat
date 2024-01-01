@@ -1,0 +1,410 @@
+{
+  "Objects": [
+    {
+      "Components": [
+        {
+          "Data": {
+            "Name": "Deimos_ShipScreen_Target01_A"
+          },
+          "Type": "BSComponentDB::CTName",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "AlphaTestThreshold": 0.005,
+            "Blender": {
+              "Data": {
+                "VertexColorChannel": "Alpha"
+              },
+              "Type": "BSMaterial::AlphaBlenderSettings"
+            }
+          },
+          "Type": "BSMaterial::AlphaSettingsComponent",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "ID": "res:DD39A6CA:0005EECA:A64340C8"
+          },
+          "Type": "BSMaterial::BlenderID",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "Enabled": true,
+            "Settings": {
+              "Data": {
+                "EmissiveTint": {
+                  "Data": {
+                    "Value": {
+                      "Data": {
+                        "x": 0.6392,
+                        "y": 0.940002,
+                        "z": 0.86981,
+                        "w": 1
+                      },
+                      "Type": "XMFLOAT4"
+                    }
+                  },
+                  "Type": "BSMaterial::Color"
+                },
+                "EmissiveClipThreshold": 0.275,
+                "AdaptiveEmittance": true,
+                "LuminousEmittance": 300,
+                "ExposureOffset": 5.5
+              },
+              "Type": "BSMaterial::EmittanceSettings"
+            }
+          },
+          "Type": "BSMaterial::EmissiveSettingsComponent",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "ID": "res:DD39A6CE:0005EECA:A64340C8"
+          },
+          "Type": "BSMaterial::LayerID",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "Enabled": false,
+            "FirstLayerIndex": "MATERIAL_LAYER_0",
+            "FirstLayerTint": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            },
+            "FirstLayerMaskIndex": "None",
+            "SecondLayerActive": false,
+            "SecondLayerIndex": "MATERIAL_LAYER_1",
+            "SecondLayerTint": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            },
+            "SecondLayerMaskIndex": "None",
+            "FirstBlenderIndex": "BLEND_LAYER_0",
+            "FirstBlenderMode": "Lerp",
+            "ThirdLayerActive": false,
+            "ThirdLayerIndex": "MATERIAL_LAYER_2",
+            "ThirdLayerTint": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            },
+            "ThirdLayerMaskIndex": "None",
+            "SecondBlenderIndex": "BLEND_LAYER_1",
+            "SecondBlenderMode": "Lerp",
+            "EmissiveClipThreshold": 0,
+            "AdaptiveEmittance": false,
+            "LuminousEmittance": 55.7299,
+            "ExposureOffset": 0,
+            "EnableAdaptiveLimits": false,
+            "MaxOffsetEmittance": 1,
+            "MinOffsetEmittance": 0
+          },
+          "Type": "BSMaterial::LayeredEmissivityComponent",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 1
+        },
+        {
+          "Data": {
+            "FileName": "ColorEmissive"
+          },
+          "Type": "BSMaterial::ShaderModelComponent",
+          "Index": 0
+        }
+      ],
+      "ID": "res:E6D0720B:8FE1F6BC:0074616D",
+      "Parent": "materials\\layered\\root\\layeredmaterials.mat"
+    },
+    {
+      "Components": [
+        {
+          "Data": {
+            "Name": "Deimos_ShipScreen_Target01_A_Blender1"
+          },
+          "Type": "BSComponentDB::CTName",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 1
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 2
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 3
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 4
+        },
+        {
+          "Data": {
+            "Value": false
+          },
+          "Type": "BSMaterial::ParamBool",
+          "Index": 6
+        },
+        {
+          "Data": {
+            "ID": ""
+          },
+          "Type": "BSMaterial::UVStreamID",
+          "Index": 0
+        }
+      ],
+      "ID": "res:DD39A6CA:0005EECA:A64340C8",
+      "Parent": "materials\\layered\\root\\blenders.mat"
+    },
+    {
+      "Components": [
+        {
+          "Data": {
+            "Name": "Deimos_ShipScreen_Target01_A_Layer1"
+          },
+          "Type": "BSComponentDB::CTName",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "ID": "res:DD39A6D1:0005EECA:A64340C8"
+          },
+          "Type": "BSMaterial::MaterialID",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "ID": "res:DD39A6D0:0005EECA:A64340C8"
+          },
+          "Type": "BSMaterial::UVStreamID",
+          "Index": 0
+        }
+      ],
+      "ID": "res:DD39A6CE:0005EECA:A64340C8",
+      "Parent": "materials\\layered\\root\\layers.mat"
+    },
+    {
+      "Components": [
+        {
+          "Data": {
+            "Name": "Deimos_ShipScreen_Target01_A_Material1"
+          },
+          "Type": "BSComponentDB::CTName",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "ID": "res:DD39A6D2:0005EECA:A64340C8"
+          },
+          "Type": "BSMaterial::TextureSetID",
+          "Index": 0
+        }
+      ],
+      "ID": "res:DD39A6D1:0005EECA:A64340C8",
+      "Parent": "materials\\layered\\root\\materials.mat"
+    },
+    {
+      "Components": [
+        {
+          "Data": {
+            "Name": "Deimos_ShipScreen_Target01_A_UVStreamA"
+          },
+          "Type": "BSComponentDB::CTName",
+          "Index": 0
+        }
+      ],
+      "ID": "res:DD39A6D0:0005EECA:A64340C8",
+      "Parent": "materials\\layered\\root\\uvstreams.mat"
+    },
+    {
+      "Components": [
+        {
+          "Data": {
+            "Name": "Deimos_ShipScreen_Target01_A_TextureSet1"
+          },
+          "Type": "BSComponentDB::CTName",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "FileName": "Data\\Textures\\Ships\\Interior\\CockpitScreens\\Deimos\\Deimos_ShipScreen_Target01_color.dds"
+          },
+          "Type": "BSMaterial::MRTextureFile",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "FileName": "Data\\Textures\\common\\paint\\paintscuffed01_normal.DDS"
+          },
+          "Type": "BSMaterial::MRTextureFile",
+          "Index": 1
+        },
+        {
+          "Data": {
+            "FileName": "Data\\Textures\\Ships\\Interior\\CockpitScreens\\Deimos\\Deimos_ShipScreen_Target01_color.dds"
+          },
+          "Type": "BSMaterial::MRTextureFile",
+          "Index": 7
+        },
+        {
+          "Data": {
+            "FileName": ""
+          },
+          "Type": "BSMaterial::MRTextureFile",
+          "Index": 9
+        },
+        {
+          "Data": {
+            "Enabled": false,
+            "Color": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            }
+          },
+          "Type": "BSMaterial::TextureReplacement",
+          "Index": 0
+        },
+        {
+          "Data": {
+            "Color": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 0.501961,
+                    "y": 0.501961,
+                    "z": 0.989899,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            }
+          },
+          "Type": "BSMaterial::TextureReplacement",
+          "Index": 1
+        },
+        {
+          "Data": {
+            "Enabled": true,
+            "Color": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 0.9,
+                    "y": 0.9,
+                    "z": 0.9,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            }
+          },
+          "Type": "BSMaterial::TextureReplacement",
+          "Index": 3
+        },
+        {
+          "Data": {
+            "Enabled": true
+          },
+          "Type": "BSMaterial::TextureReplacement",
+          "Index": 4
+        },
+        {
+          "Data": {
+            "Enabled": false,
+            "Color": {
+              "Data": {
+                "Value": {
+                  "Data": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1,
+                    "w": 1
+                  },
+                  "Type": "XMFLOAT4"
+                }
+              },
+              "Type": "BSMaterial::Color"
+            }
+          },
+          "Type": "BSMaterial::TextureReplacement",
+          "Index": 7
+        }
+      ],
+      "ID": "res:DD39A6D2:0005EECA:A64340C8",
+      "Parent": "materials\\layered\\root\\texturesets.mat"
+    }
+  ],
+  "Version": 1
+}

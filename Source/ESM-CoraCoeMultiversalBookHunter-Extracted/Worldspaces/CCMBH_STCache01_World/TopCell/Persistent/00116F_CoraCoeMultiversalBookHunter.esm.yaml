@@ -1,0 +1,27 @@
+MutagenObjectType: PlacedObject
+FormKey: 00116F:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 000010:Starfield.esm
+Radius: 45
+MapMarker:
+  Flags:
+  - Visible
+  - CanTravelTo
+  - UseLocationName
+  - 0x10
+  Name:
+    TargetLanguage: English
+    Value: Cave
+  Type: 21
+  VNAM: 2
+  UNAM:
+    TargetLanguage: English
+    Value: ''
+  VISI: 0
+Layer: 2B3CB6:Starfield.esm
+LinkedReferences:
+- Reference: 00116D:CoraCoeMultiversalBookHunter.esm
+IsLinkedRefTransient: True
+Position: 21.466135, 65.75, 24.25

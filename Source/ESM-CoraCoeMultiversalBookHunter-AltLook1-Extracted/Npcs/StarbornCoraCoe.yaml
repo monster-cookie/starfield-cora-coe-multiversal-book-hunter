@@ -1,0 +1,475 @@
+FormKey: 000800:CoraCoeMultiversalBookHunter.esm
+EditorID: StarbornCoraCoe
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CompanionActorScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID
+      Object: 00082D:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionQuest
+      Object: 000802:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_TxtReplace_QuestName
+      Object: 00082E:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PreventStoryGateScenes
+      Object: 28A168:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionAffinityScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AngerEventData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2C2A36:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0B:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 24685D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 000A39:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionCrimeResponseScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CombatResponseCivilianList
+      Object: 180F0C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionDebugScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DEBUG_OnPlayerShip
+      Object: 2C4C96:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: QuestStageData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 0160A9:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 0160A9:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 70
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 0160A9:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 110
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 23DF2A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 23DF2A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 100
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 23DF2A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 6000
+  - Name: COM_Crew_GiveItemActorScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CND_GiveItemAvailable
+      Object: 17AD8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableCooldownDays
+      Object: 17AD92:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableDay
+      Object: 17AD91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemReminder
+      Object: 17AD8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItem_HasItems
+      Object: 3371F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GiveItemList
+      Object: 17AD85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown5: 3E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 1
+  Unknown20: 3.4028235E+38
+Flags:
+- Female
+- Essential
+- AutoCalcStats
+- Unique
+- 0x40000000
+Level:
+  MutagenObjectType: PcLevelMult
+  LevelMult: 1
+CalcMinLevel: 10
+CalcMaxLevel: 999
+DispositionBase: 35
+UseTemplateActors: 16386
+Factions:
+- Faction: 00D875:Starfield.esm
+  Rank: -1
+- Faction: 0191DC:Starfield.esm
+- Faction: 023C01:Starfield.esm
+  Rank: -1
+- Faction: 106C30:Starfield.esm
+- Faction: 1260C3:Starfield.esm
+- Faction: 1434D6:Starfield.esm
+- Faction: 000801:CoraCoeMultiversalBookHunter.esm
+DeathItem: 27025F:Starfield.esm
+Voice: 00D654:Starfield.esm
+DefaultTemplate: 12FDDE:Starfield.esm
+TemplateActors:
+  TraitTemplate: 24CC1D:Starfield.esm
+  StatsTemplate: 12FDDE:Starfield.esm
+  Unknown2: 12FDDE:Starfield.esm
+Race: 00347D:Starfield.esm
+ActorEffect:
+- 02E551:Starfield.esm
+- 18B81F:Starfield.esm
+- 23AF04:Starfield.esm
+- 23AF06:Starfield.esm
+- 23AF08:Starfield.esm
+- 23AF0B:Starfield.esm
+- 23AF0E:Starfield.esm
+- 23AF10:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Perks:
+- Perk: 06B728:Starfield.esm
+  Rank: 1
+- Perk: 21B8C8:Starfield.esm
+  Rank: 2
+- Perk: 21B8DA:Starfield.esm
+  Rank: 4
+- Perk: 21B8DE:Starfield.esm
+  Rank: 2
+- Perk: 222F88:Starfield.esm
+  Rank: 4
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 300
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 1F96EE:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Cautious
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsFriendsAndAllies
+Packages:
+- 0D9C12:Starfield.esm
+- 042B09:Starfield.esm
+Keywords:
+- 0AD52A:Starfield.esm
+- 0E53A8:Starfield.esm
+- 0F55DC:Starfield.esm
+- 12B50D:Starfield.esm
+- 1D03E1:Starfield.esm
+- 1EA944:Starfield.esm
+- 21B1FC:Starfield.esm
+- 23CD75:Starfield.esm
+- 23F1CA:Starfield.esm
+- 2705E4:Starfield.esm
+- 28BF2B:Starfield.esm
+- 28D935:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Cora Coe
+ShortName:
+  TargetLanguage: English
+  Value: Cora
+CalculatedHealth: 1400
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+Unused: 83
+HeadParts:
+- 012201:Starfield.esm
+- 012202:Starfield.esm
+- 012203:Starfield.esm
+- 037223:Starfield.esm
+- 03E2B1:Starfield.esm
+- 0640B8:Starfield.esm
+- 078273:Starfield.esm
+- 10A34D:Starfield.esm
+- 10A34E:Starfield.esm
+- 1F7EF5:Starfield.esm
+- 3A4765:Starfield.esm
+- 3BE58F:Starfield.esm
+CombatStyle: 12B471:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 0.95
+HeightMax: 1.05
+Weight:
+  Thin: 0.25455
+  Fat: 0.149733
+CompanionInfoQuest: 000802:CoraCoeMultiversalBookHunter.esm
+CompanionInfoDialogue: 000803:CoraCoeMultiversalBookHunter.esm
+DefaultOutfit: 00082C:CoraCoeMultiversalBookHunter.esm
+SpaceOutfit: 133D78:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+CrimeFaction: 0638E5:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: African_Female_yo1_Sk3
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/female_af_yo1_sk3_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: ColorlessAccents1
+  TintName: Accents_NasoLabialFolds
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_nasolabialfolds_color.dds
+  TintColor: '#14000000'
+  TintIntensity: 86
+- TintType: SimpleGroup
+  TintGroup: Complexion1
+  TintName: Crevice_Complexion_Warm
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexionpink_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 38
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: moles_Many_Small_02
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/moles_many_small_02_mask.dds
+  TintColor: '#14822515'
+  TintIntensity: 38
+- TintType: SimpleGroup
+  TintGroup: ColorlessAccents2
+  TintName: Accents_UnderEyeBags_Small
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_undereyebagssmall_color.dds
+  TintColor: '#C6000000'
+  TintIntensity: 54
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow2
+  TintName: EyeShadow_Lower_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow2/testeyeshadowlower01_mask.dds
+  TintColor: '#5A000000'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: Lipstick1
+  TintName: LipStain_Bottom
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/lipstick1/lipstain_bottom_mask.dds
+  TintColor: '#BAFF0B0B'
+  TintIntensity: 38
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow1
+  TintName: EyeShadow_Upper_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow1/testeyeshadowupper01_mask.dds
+  TintColor: '#C3000000'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: Eyeliner1
+  TintName: EyeLinerNeon_Upper
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeliner1/eyelinerneon_upper_mask.dds
+  TintColor: '#0BFF2F38'
+  TintIntensity: 100
+- TintType: SimpleGroup
+  TintGroup: Eyeliner2
+  TintName: Eyeliner_Lower_02
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeliner2/testeyelinerlower02_mask.dds
+  TintColor: '#0BFF0B0B'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: Cheeks1
+  TintName: Blush_Soft
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks1/testblush02_mask.dds
+  TintColor: '#00FF2F38'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: Cheeks2
+  TintName: Blush_Inner_Contour
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks2/testblush03_mask.dds
+  TintColor: '#00FF2F38'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: Lipstick2
+  TintName: Lip_Stain_Center
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/lipstick2/testlipstain02_mask.dds
+  TintColor: '#00FF0902'
+  TintIntensity: 44
+FaceDialPositions:
+- Index: 25
+  Position: 0.501429
+- Index: 42
+  Position: -0.73
+- Index: 44
+  Position: 0.07
+- Index: 45
+  Position: -0.68
+- Index: 48
+  Position: 0.74
+- Index: 49
+  Position: 0.42
+- Index: 51
+  Position: -0.35999998
+- Index: 52
+  Position: 0.24
+- Index: 53
+  Position: 0.67
+- Index: 55
+  Position: -0.3
+- Index: 65
+  Position: -0.4
+- Index: 67
+  Position: 0.01
+- Index: 72
+  Position: -0.21
+- Index: 73
+  Position: -1
+- Index: 75
+  Position: 0.04
+- Index: 78
+  Position: 0.48
+FaceMorphs:
+- Index: 5
+  MorphGroups:
+  - MorphGroup: Jaw
+    BlendIntensity: 0.3
+- Index: 9
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.56
+  - MorphGroup: Jaw
+    BlendIntensity: 0.6
+- Index: 13
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 1
+  - MorphGroup: Chin
+    BlendIntensity: 0.31
+  - MorphGroup: Ears
+    BlendIntensity: 1
+  - MorphGroup: Eyes
+    BlendIntensity: 1
+  - MorphGroup: Forehead
+    BlendIntensity: 1
+  - MorphGroup: Mouth
+    BlendIntensity: 1
+  - MorphGroup: Neck
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 1
+MorphBlends:
+- BlendName: female_af_md1_Forehead
+  Intensity: 0.322727
+- BlendName: female_af_yo1_Ears
+  Intensity: 1
+- BlendName: female_af_yo1_Mouth
+  Intensity: 0.72686
+- BlendName: female_as_md1_Neck
+  Intensity: 1
+- BlendName: female_as_ol1_Forehead
+  Intensity: 0.652479
+- BlendName: female_as_yo1_Eyes
+  Intensity: 1
+- BlendName: female_eu_yo1_Cheeks
+  Intensity: 1
+- BlendName: female_eu_yo1_Jaw
+  Intensity: 1
+- BlendName: female_eu_yo1_Mouth
+  Intensity: 1
+SkinToneIndex: 2
+HairColor: Flame
+EyebrowColor: BlackBrown
+EyeColor: Blue
+JewelryColor: Blue
+TeethColor: Teeth_Clean
+Pronoun: SheHer

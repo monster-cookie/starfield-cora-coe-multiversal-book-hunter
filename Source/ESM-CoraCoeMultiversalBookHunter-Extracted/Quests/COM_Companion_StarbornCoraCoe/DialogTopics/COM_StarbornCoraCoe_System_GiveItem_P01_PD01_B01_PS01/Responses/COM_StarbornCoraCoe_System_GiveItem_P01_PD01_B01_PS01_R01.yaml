@@ -1,0 +1,13 @@
+FormKey: 00091E:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_System_GiveItem_P01_PD01_B01_PS01_R01
+Flags: {}
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Wow. Thank you very much.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

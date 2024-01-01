@@ -1,0 +1,13 @@
+FormKey: 0008BB:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_SpeechChallenges_Anger03_P00_D01_R01
+Flags: {}
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: In our line of work we make tough calls. Impossible ones sometimes.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

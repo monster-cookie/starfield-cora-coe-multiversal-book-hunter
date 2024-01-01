@@ -1,0 +1,130 @@
+FormKey: 000AE6:CoraCoeMultiversalBookHunter.esm
+EditorID: LvlStarfallTyrants_Male_Support
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+Flags:
+- Respawn
+XpValueOffset: 60
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 30
+DispositionBase: 35
+UseTemplateActors: 16127
+DeathItem: 27025F:Starfield.esm
+Voice: 018ED8:Starfield.esm
+DefaultTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+LegendaryChance: 06AAC8:Starfield.esm
+TemplateActors:
+  TraitTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  StatsTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  FactionsTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  SpellListTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  AiDataTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  AiPackagesTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  ModelOrAnimationTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  BaseDataTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  ScriptTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  DefPackListTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  AttackDataTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  KeywordsTemplate: 000AC8:CoraCoeMultiversalBookHunter.esm
+  Unknown1: 000AC8:CoraCoeMultiversalBookHunter.esm
+Race: 00347D:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+  Value: 5
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+  Value: 5
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+  Value: 5
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002CD:Starfield.esm
+  Value: 45
+- ActorValue: 0002D4:Starfield.esm
+  Value: 600
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 000AD8:CoraCoeMultiversalBookHunter.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Cautious
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsFriendsAndAllies
+UnknownAIDT: 1
+RDSAs:
+- UnknownInt: 2
+  UnknownInt2: 6
+  UnknownInt3: 32864
+  UnknownFloat5: 2
+  UnknownLink7: 0F0E7E:Starfield.esm
+  UnknownFloat6: 1
+- UnknownInt: 1
+  UnknownInt2: 6
+  UnknownLink1: 090311:Starfield.esm
+  UnknownInt3: 34920
+  UnknownLink5: 090313:Starfield.esm
+  UnknownFloat5: 2
+  UnknownLink7: 0F0EF4:Starfield.esm
+  UnknownFloat6: 1
+- UnknownInt2: 6
+  UnknownLink1: 090311:Starfield.esm
+  UnknownInt3: 34920
+  UnknownLink5: 090313:Starfield.esm
+  UnknownFloat5: 2
+  UnknownLink7: 0F0EAF:Starfield.esm
+  UnknownFloat6: 1
+- UnknownInt: 2
+  UnknownInt2: 6
+  UnknownInt3: 32771
+  UnknownLink2: 215CB8:Starfield.esm
+  UnknownLink3: 215CB9:Starfield.esm
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+- UnknownInt: 1
+  UnknownInt2: 6
+  UnknownInt3: 32771
+  UnknownLink2: 215CBA:Starfield.esm
+  UnknownLink3: 215CBB:Starfield.esm
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+- UnknownInt2: 6
+  UnknownInt3: 34827
+  UnknownLink2: 215CBD:Starfield.esm
+  UnknownLink3: 215CBC:Starfield.esm
+  UnknownLink5: 090313:Starfield.esm
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+Keywords:
+- 12FF1F:Starfield.esm
+Class: 010B2F:Starfield.esm
+CalculatedHealth: 600
+CalculatedActionPoints: 100
+GearedUpWeapons: 1
+Unused: 43
+CombatStyle: 000ADD:CoraCoeMultiversalBookHunter.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight: {}
+SpaceOutfit: 27025C:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+Tints: []
+MorphBlends:
+- BlendName: male_eu_ol1_Neck
+  Intensity: 0.53
+SkinToneIndex: 0
+Pronoun: Unspecified

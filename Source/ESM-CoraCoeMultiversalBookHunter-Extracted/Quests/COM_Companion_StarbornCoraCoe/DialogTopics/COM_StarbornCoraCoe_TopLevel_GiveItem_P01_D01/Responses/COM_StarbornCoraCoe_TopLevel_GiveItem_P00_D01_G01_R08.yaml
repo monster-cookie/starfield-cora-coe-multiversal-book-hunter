@@ -1,0 +1,16 @@
+FormKey: 000941:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_GiveItem_P00_D01_G01_R08
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000939:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Absolutely! I've got a surprise for you that's as satisfying and enjoyable as turning the last page of a book you didn't want to end.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,13 @@
+FormKey: 000A1B:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus_P01_D01_R01
+Flags: {}
+Responses:
+- Emotion: 154F0E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Is there anything you want to talk about?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

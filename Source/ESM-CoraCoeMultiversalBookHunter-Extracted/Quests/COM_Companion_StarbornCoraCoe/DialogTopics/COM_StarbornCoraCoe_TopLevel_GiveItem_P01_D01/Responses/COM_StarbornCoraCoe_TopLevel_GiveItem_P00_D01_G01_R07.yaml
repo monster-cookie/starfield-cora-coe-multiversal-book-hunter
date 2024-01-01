@@ -1,0 +1,16 @@
+FormKey: 000940:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_GiveItem_P00_D01_G01_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000939:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Yes, I do! It's a treasure as captivating as a first edition of a classic exploration narrative.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,16 @@
+FormKey: 000853:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_Hello_NTL_G0_R10
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000845:CoraCoeMultiversalBookHunter.esm
+Responses:
+- Emotion: None
+  Text:
+    TargetLanguage: English
+    Value: Morning! If today was a chapter in a book, what would you title it?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

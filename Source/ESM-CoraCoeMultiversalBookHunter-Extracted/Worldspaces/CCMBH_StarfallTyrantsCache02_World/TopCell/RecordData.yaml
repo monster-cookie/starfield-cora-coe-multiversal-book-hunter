@@ -1,0 +1,11 @@
+FormKey: 001DB9:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+StarfieldMajorRecordFlags:
+- 0x400
+Flags:
+- HasWater
+Grid: {}
+WaterHeight: 3.4028235E+38
+XILS: 1
+MajorFlags:
+- Persistent
