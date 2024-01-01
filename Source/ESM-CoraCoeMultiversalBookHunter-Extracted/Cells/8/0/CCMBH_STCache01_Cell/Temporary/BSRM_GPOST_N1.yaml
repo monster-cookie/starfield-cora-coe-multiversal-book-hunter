@@ -1,0 +1,10 @@
+MutagenObjectType: PlacedNpc
+FormKey: 00106B:CoraCoeMultiversalBookHunter.esm
+EditorID: BSRM_GPOST_N1
+Base: 001DE5:CoraCoeMultiversalBookHunter.esm
+LevelModifier: Hard
+PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
+LinkedReferences:
+- Reference: 001067:CoraCoeMultiversalBookHunter.esm
+Layer: 2B3CB9:Starfield.esm
+Position: -123, 118, -31

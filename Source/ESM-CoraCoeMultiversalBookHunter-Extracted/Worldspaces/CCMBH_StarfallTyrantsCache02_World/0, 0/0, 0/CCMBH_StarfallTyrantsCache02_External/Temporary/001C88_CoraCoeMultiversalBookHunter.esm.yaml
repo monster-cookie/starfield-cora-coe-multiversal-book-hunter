@@ -1,8 +1,0 @@
-MutagenObjectType: PlacedObject
-FormKey: 001C88:CoraCoeMultiversalBookHunter.esm
-MajorRecordFlagsRaw: 256
-StarfieldMajorRecordFlags:
-- 0x100
-Base: 2C4B83:Starfield.esm
-Layer: 1D1DD0:Starfield.esm
-Position: 23.879913, 31.18682, -4.03843

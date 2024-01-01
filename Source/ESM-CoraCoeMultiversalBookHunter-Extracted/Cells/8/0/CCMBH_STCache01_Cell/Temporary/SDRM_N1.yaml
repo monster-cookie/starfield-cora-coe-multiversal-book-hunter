@@ -4,5 +4,7 @@ EditorID: SDRM_N1
 Base: 001DDF:CoraCoeMultiversalBookHunter.esm
 LevelModifier: Hard
 PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
+LinkedReferences:
+- Reference: 001DF7:CoraCoeMultiversalBookHunter.esm
 Layer: 2B3CB9:Starfield.esm
 Position: -82.1, 91.6, -17.209347
