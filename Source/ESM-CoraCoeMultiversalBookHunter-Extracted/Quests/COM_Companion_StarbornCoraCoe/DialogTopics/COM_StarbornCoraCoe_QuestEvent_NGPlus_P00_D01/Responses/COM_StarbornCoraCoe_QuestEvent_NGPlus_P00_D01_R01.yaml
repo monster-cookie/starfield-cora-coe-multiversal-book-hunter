@@ -1,0 +1,13 @@
+FormKey: 000A19:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus_P00_D01_R01
+Flags: {}
+Responses:
+- Emotion: 0C8671:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'So are you also a Starborn? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScenePhase: ''
+SubtitlePriority: Low

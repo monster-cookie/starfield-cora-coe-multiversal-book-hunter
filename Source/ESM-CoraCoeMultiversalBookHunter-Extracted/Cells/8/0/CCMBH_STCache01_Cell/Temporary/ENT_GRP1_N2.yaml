@@ -1,7 +1,7 @@
 MutagenObjectType: PlacedNpc
 FormKey: 001068:CoraCoeMultiversalBookHunter.esm
 EditorID: ENT_GRP1_N2
-Base: 001DE6:CoraCoeMultiversalBookHunter.esm
+Base: 2CA993:Starfield.esm
 LevelModifier: Easy
 PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
 LinkedReferences:

@@ -1,0 +1,25 @@
+FormKey: 000A23:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_QuestEvent_NGPlus_P02_PD01_B02_NR_R01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_IncrementFlirtTopicScript
+Flags: {}
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: In this vast library of the universe, finding a book like you is a rare treasure. One can't help but be drawn to the allure of uncovering all the secrets nestled within your pages.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let's just say, if you were a book in my collection, you'd be one I'd find myself returning to, time and time again, always finding something new to admire with each read.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+StartScene: 000A17:CoraCoeMultiversalBookHunter.esm
+INTV: 0x02000000
+StartScenePhase: _CHOICE 01 -- Intro
+SubtitlePriority: Low
