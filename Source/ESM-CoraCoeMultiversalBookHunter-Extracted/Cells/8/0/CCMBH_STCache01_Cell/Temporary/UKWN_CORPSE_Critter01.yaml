@@ -1,0 +1,13 @@
+MutagenObjectType: PlacedNpc
+FormKey: 000E7E:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 512
+EditorID: UKWN_CORPSE_Critter01
+StarfieldMajorRecordFlags:
+- 0x200
+Base: 160C98:Starfield.esm
+LevelModifier: Easy
+PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
+Position: -110.083664, 109.79178, -31.236992
+Rotation: -0, 0, 4.4041853
+MajorFlags:
+- StartsDead

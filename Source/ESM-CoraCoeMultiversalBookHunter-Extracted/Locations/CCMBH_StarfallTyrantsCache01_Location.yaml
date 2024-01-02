@@ -50,7 +50,7 @@ LocationCellPersistentReferences:
   Unknown: -1
 LocationCellStaticReferences:
 - LocationRefType: 003956:Starfield.esm
-  Marker: 00106D:CoraCoeMultiversalBookHunter.esm
+  Marker: 00106C:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -68,15 +68,26 @@ LocationCellStaticReferences:
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
   Unknown: -1
+LocationCellMarkerReference:
+- 001065:CoraCoeMultiversalBookHunter.esm
+- 001068:CoraCoeMultiversalBookHunter.esm
+- 001069:CoraCoeMultiversalBookHunter.esm
+- 001066:CoraCoeMultiversalBookHunter.esm
+- 00106B:CoraCoeMultiversalBookHunter.esm
+- 00106C:CoraCoeMultiversalBookHunter.esm
+- 00106D:CoraCoeMultiversalBookHunter.esm
+- 000E7D:CoraCoeMultiversalBookHunter.esm
+- 000E7E:CoraCoeMultiversalBookHunter.esm
+- 001063:CoraCoeMultiversalBookHunter.esm
+- 001064:CoraCoeMultiversalBookHunter.esm
 Name:
   TargetLanguage: English
   Value: Occupied Creature Lair
 Keywords:
-- 27B45C:Starfield.esm
 - 0254BC:Starfield.esm
-- 226AED:Starfield.esm
+- 27B45C:Starfield.esm
 - 000AA5:CoraCoeMultiversalBookHunter.esm
-- 283585:Starfield.esm
+- 064EDE:Starfield.esm
 UnknownDATA2: 16
 WorldLocationRadius: 0
 ActorFadeMult: 1

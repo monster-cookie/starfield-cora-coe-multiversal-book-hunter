@@ -3,7 +3,7 @@ FormKey: 000EDE:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 256
 StarfieldMajorRecordFlags:
 - 0x100
-Base: 0047DB:Starfield.esm
+Base: 0E8282:Starfield.esm
 Radius: 14.754831
 Lighting:
   Fov90PlusMinus: -17.64067
@@ -15,7 +15,7 @@ Lighting:
 LightBarndoorData:
   Data: 0x00000000000000000000000000000000000000000000ABAB
 LightArea:
-  Data: 0x98990140686688400000000000000000
+  Data: 0x00008040000000410000000000000000
 LightStaticShadowMap: False
 LightVolumetricData: 4
 LightColors:

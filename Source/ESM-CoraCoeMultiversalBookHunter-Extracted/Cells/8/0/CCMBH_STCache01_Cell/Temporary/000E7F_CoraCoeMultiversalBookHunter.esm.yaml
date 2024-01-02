@@ -2,4 +2,5 @@ MutagenObjectType: PlacedObject
 FormKey: 000E7F:CoraCoeMultiversalBookHunter.esm
 Base: 24F0F6:Starfield.esm
 Layer: 233FF8:Starfield.esm
-Position: -69.9951, 74.93427, -15.667082
+Position: -72.19507, 75.63426, -16.267082
+Rotation: 0, 0, 1.2217305
