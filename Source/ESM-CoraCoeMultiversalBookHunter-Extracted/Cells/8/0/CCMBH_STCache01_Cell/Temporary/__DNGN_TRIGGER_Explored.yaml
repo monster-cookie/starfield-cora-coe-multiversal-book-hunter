@@ -1,6 +1,6 @@
 MutagenObjectType: PlacedObject
 FormKey: 000F22:CoraCoeMultiversalBookHunter.esm
-EditorID: DNGN_TRIGGER_Explored
+EditorID: __DNGN_TRIGGER_Explored
 Base: 2CC9EF:Starfield.esm
 Primitive:
   Bounds: 80.112206, 80, 56.003998

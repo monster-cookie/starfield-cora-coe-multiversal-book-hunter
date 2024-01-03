@@ -1,9 +1,6 @@
 MutagenObjectType: PlacedObject
 FormKey: 001E16:CoraCoeMultiversalBookHunter.esm
-MajorRecordFlagsRaw: 1024
-EditorID: NPCIdle_SDRM_LeanOnTable
-StarfieldMajorRecordFlags:
-- 0x400
+EditorID: SDRM_Table1_NPCIdle
 Base: 138911:Starfield.esm
 Patrol:
   IdleTime: 5

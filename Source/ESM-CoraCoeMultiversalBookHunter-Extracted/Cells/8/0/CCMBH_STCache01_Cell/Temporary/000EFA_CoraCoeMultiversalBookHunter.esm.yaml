@@ -1,9 +1,5 @@
 MutagenObjectType: PlacedObject
 FormKey: 000EFA:CoraCoeMultiversalBookHunter.esm
-MajorRecordFlagsRaw: 2048
-EditorID: EVAL_TBD37
-StarfieldMajorRecordFlags:
-- InitiallyDisabled
 Base: 29AAF1:Starfield.esm
 Primitive:
   Bounds: 25.127869, 26.013031, 15.401497

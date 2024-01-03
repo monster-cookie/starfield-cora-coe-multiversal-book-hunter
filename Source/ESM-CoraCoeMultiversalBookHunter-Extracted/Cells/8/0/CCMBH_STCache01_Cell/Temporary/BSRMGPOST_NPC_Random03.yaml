@@ -1,6 +1,6 @@
 MutagenObjectType: PlacedNpc
 FormKey: 001E27:CoraCoeMultiversalBookHunter.esm
-EditorID: BSRM_GPOST_NPC_Random03
+EditorID: BSRMGPOST_NPC_Random03
 Base: 001DE6:CoraCoeMultiversalBookHunter.esm
 LevelModifier: Hard
 PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
