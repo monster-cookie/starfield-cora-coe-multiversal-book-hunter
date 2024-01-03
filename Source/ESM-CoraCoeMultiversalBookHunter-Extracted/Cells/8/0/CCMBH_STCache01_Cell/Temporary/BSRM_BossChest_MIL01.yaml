@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E24:CoraCoeMultiversalBookHunter.esm
+EditorID: BSRM_BossChest_MIL01
+Base: 2C5450:Starfield.esm
+PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
+Layer: 2B3CB9:Starfield.esm
+Position: -119.60002, 125.6, -29.699999
+Rotation: 0, 0, 0.34906584

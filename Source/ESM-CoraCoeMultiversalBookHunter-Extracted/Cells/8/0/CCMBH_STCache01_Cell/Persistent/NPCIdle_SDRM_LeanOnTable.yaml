@@ -1,0 +1,13 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E16:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+EditorID: NPCIdle_SDRM_LeanOnTable
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 138911:Starfield.esm
+Patrol:
+  IdleTime: 5
+  Topics:
+  - MutagenObjectType: TopicReference
+Layer: 2B3CB9:Starfield.esm
+Position: -77.5, 78, -16.5

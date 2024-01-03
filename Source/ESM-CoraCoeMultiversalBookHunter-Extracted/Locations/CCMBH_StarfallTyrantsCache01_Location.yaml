@@ -4,55 +4,56 @@ EditorID: CCMBH_StarfallTyrantsCache01_Location
 StarfieldMajorRecordFlags:
 - 0x100000
 LocationCellPersistentReferences:
-- Actor: 00106B:CoraCoeMultiversalBookHunter.esm
+- Actor: 001069:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 001063:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 00106D:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 00106C:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 000E7E:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
   Unknown: -1
 - Actor: 001068:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 001066:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 001069:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
   Unknown: -1
 - Actor: 001065:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
   Unknown: -1
-- Actor: 000E7D:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
+- Actor: 001DE7:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
-- Actor: 001064:CoraCoeMultiversalBookHunter.esm
+- Actor: 001DED:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001DEE:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001066:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
+  Unknown: -1
+- Actor: 001E20:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E25:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E26:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E27:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
 LocationCellStaticReferences:
 - LocationRefType: 003956:Starfield.esm
-  Marker: 00106C:CoraCoeMultiversalBookHunter.esm
+  Marker: 001E1E:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 05AF1F:Starfield.esm
+  Marker: 000E80:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 003956:Starfield.esm
+  Marker: 001066:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+- LocationRefType: 05AF1F:Starfield.esm
+  Marker: 001E24:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
 - LocationRefType: 02271F:Starfield.esm
   Marker: 00116F:CoraCoeMultiversalBookHunter.esm
@@ -63,29 +64,13 @@ LocationCellStaticReferences:
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 05AF1F:Starfield.esm
-  Marker: 000E80:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellMarkerReference:
-- 001065:CoraCoeMultiversalBookHunter.esm
-- 001068:CoraCoeMultiversalBookHunter.esm
-- 001069:CoraCoeMultiversalBookHunter.esm
-- 001066:CoraCoeMultiversalBookHunter.esm
-- 00106B:CoraCoeMultiversalBookHunter.esm
-- 00106C:CoraCoeMultiversalBookHunter.esm
-- 00106D:CoraCoeMultiversalBookHunter.esm
-- 000E7D:CoraCoeMultiversalBookHunter.esm
-- 000E7E:CoraCoeMultiversalBookHunter.esm
-- 001063:CoraCoeMultiversalBookHunter.esm
-- 001064:CoraCoeMultiversalBookHunter.esm
 Name:
   TargetLanguage: English
   Value: Occupied Creature Lair
 Keywords:
 - 0254BC:Starfield.esm
-- 27B45C:Starfield.esm
+- 25118E:Starfield.esm
+- 28358C:Starfield.esm
 - 000AA5:CoraCoeMultiversalBookHunter.esm
 - 064EDE:Starfield.esm
 UnknownDATA2: 16

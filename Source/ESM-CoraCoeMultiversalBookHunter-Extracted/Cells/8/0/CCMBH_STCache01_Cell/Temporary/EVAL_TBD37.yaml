@@ -1,0 +1,14 @@
+MutagenObjectType: PlacedObject
+FormKey: 000EFA:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 2048
+EditorID: EVAL_TBD37
+StarfieldMajorRecordFlags:
+- InitiallyDisabled
+Base: 29AAF1:Starfield.esm
+Primitive:
+  Bounds: 25.127869, 26.013031, 15.401497
+  Color: '#00004080'
+  Unknown: 0.3
+  Type: Box
+Position: -82.85448, 75.01107, -12
+Rotation: 0, 0, 1.5971973

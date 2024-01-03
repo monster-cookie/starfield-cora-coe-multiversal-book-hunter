@@ -1,6 +1,7 @@
 MutagenObjectType: PlacedObject
 FormKey: 001DF3:CoraCoeMultiversalBookHunter.esm
 EditorID: COOKIE_PLACEMENT_DEBUGGER
-Base: 2CF6C1:Starfield.esm
+Base: 28B199:Starfield.esm
+Emittance: 0D5152:Starfield.esm
 Layer: 2B3CB6:Starfield.esm
-Position: -80.2, 93.2, -16.5
+Position: -110, 108, -27.6

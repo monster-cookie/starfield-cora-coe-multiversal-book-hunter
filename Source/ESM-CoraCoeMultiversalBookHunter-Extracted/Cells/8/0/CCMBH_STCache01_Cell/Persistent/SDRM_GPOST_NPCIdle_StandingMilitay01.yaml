@@ -1,9 +1,0 @@
-MutagenObjectType: PlacedObject
-FormKey: 001DF4:CoraCoeMultiversalBookHunter.esm
-MajorRecordFlagsRaw: 1024
-EditorID: SDRM_GPOST_NPCIdle_StandingMilitay01
-StarfieldMajorRecordFlags:
-- 0x400
-Base: 3E9190:Starfield.esm
-Layer: 2B3CB9:Starfield.esm
-Position: -82.7, 90.2, -17.2

@@ -1,0 +1,8 @@
+FormKey: 001E19:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: Legendary_StarfallTyrants_Chance_100
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 100
+MajorFlags:
+- Constant

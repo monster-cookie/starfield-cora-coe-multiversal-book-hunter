@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E15:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1024
+EditorID: PatrolMarker
+StarfieldMajorRecordFlags:
+- 0x400
+Base: 002CE2:Starfield.esm
+Position: -82.1, 91.6, -17

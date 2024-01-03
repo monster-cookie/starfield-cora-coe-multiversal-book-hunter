@@ -16,7 +16,7 @@ UseTemplateActors: 32703
 DeathItem: 27025F:Starfield.esm
 Voice: 018ED9:Starfield.esm
 DefaultTemplate: 001DD9:CoraCoeMultiversalBookHunter.esm
-LegendaryChance: 06AAC8:Starfield.esm
+LegendaryChance: 001E17:CoraCoeMultiversalBookHunter.esm
 TemplateActors:
   TraitTemplate: 001DD9:CoraCoeMultiversalBookHunter.esm
   StatsTemplate: 001DD9:CoraCoeMultiversalBookHunter.esm
