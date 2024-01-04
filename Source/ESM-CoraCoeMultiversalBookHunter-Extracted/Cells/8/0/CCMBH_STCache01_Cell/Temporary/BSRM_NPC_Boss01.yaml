@@ -5,6 +5,7 @@ Base: 001DDF:CoraCoeMultiversalBookHunter.esm
 LevelModifier: VeryHard
 PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
 LinkedReferences:
+- Reference: 001E2C:CoraCoeMultiversalBookHunter.esm
 - KeywordOrReference: 0F0E7E:Starfield.esm
   Reference: 001E1C:CoraCoeMultiversalBookHunter.esm
 - KeywordOrReference: 141918:Starfield.esm

@@ -11,4 +11,5 @@ LinkedReferences:
 - KeywordOrReference: 141918:Starfield.esm
   Reference: 001E1D:CoraCoeMultiversalBookHunter.esm
 Layer: 2B3CB9:Starfield.esm
-Position: -112, 108, -31.6
+Position: -114, 105, -31.6
+Rotation: -0, 0, 3.1415925

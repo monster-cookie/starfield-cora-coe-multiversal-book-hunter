@@ -1,14 +1,14 @@
 MutagenObjectType: PlacedNpc
-FormKey: 001E2E:CoraCoeMultiversalBookHunter.esm
-EditorID: SDRMGPOST_NPC_Random01
-Base: 001DE6:CoraCoeMultiversalBookHunter.esm
-LevelModifier: VeryHard
+FormKey: 001E30:CoraCoeMultiversalBookHunter.esm
+EditorID: SDRM_NPC_Charger01
+Base: 001DDF:CoraCoeMultiversalBookHunter.esm
+LevelModifier: Hard
 PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
 LinkedReferences:
-- Reference: 001E29:CoraCoeMultiversalBookHunter.esm
+- Reference: 001E12:CoraCoeMultiversalBookHunter.esm
 - KeywordOrReference: 0F0E7E:Starfield.esm
   Reference: 001DF1:CoraCoeMultiversalBookHunter.esm
-- KeywordOrReference: 0F0EF4:Starfield.esm
+- KeywordOrReference: 141918:Starfield.esm
   Reference: 001DF2:CoraCoeMultiversalBookHunter.esm
 Layer: 2B3CB9:Starfield.esm
-Position: -82, 90, -17.2
+Position: -77.5, 78, -16.5

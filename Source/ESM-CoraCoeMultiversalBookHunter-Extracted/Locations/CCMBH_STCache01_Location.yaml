@@ -1,16 +1,10 @@
 FormKey: 001071:CoraCoeMultiversalBookHunter.esm
 MajorRecordFlagsRaw: 1048576
-EditorID: CCMBH_StarfallTyrantsCache01_Location
+EditorID: CCMBH_STCache01_Location
 StarfieldMajorRecordFlags:
 - 0x100000
 LocationCellPersistentReferences:
 - Actor: 001069:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Unknown: -1
-- Actor: 001068:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Unknown: -1
-- Actor: 001065:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
 - Actor: 001DE7:CoraCoeMultiversalBookHunter.esm
@@ -37,6 +31,11 @@ LocationCellPersistentReferences:
 - Actor: 001E27:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
+- Actor: 001E2E:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E2F:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
 LocationCellStaticReferences:
 - LocationRefType: 003956:Starfield.esm
   Marker: 001E1E:CoraCoeMultiversalBookHunter.esm
@@ -64,6 +63,8 @@ LocationCellStaticReferences:
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
   Unknown: -1
+LocationCellMarkerReference:
+- 00116F:CoraCoeMultiversalBookHunter.esm
 Name:
   TargetLanguage: English
   Value: Occupied Creature Lair

@@ -1,0 +1,11 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E2D:CoraCoeMultiversalBookHunter.esm
+EditorID: BSRM_Tent03_LeanOnPole
+Base: 25E8E6:Starfield.esm
+Patrol:
+  IdleTime: 3
+  Topics:
+  - MutagenObjectType: TopicReference
+Layer: 2B3CB9:Starfield.esm
+Position: -121.4, 122.75, -30.122211
+Rotation: 0, 0, 3.1415925

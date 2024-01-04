@@ -1,0 +1,84 @@
+FormKey: 001E2B:CoraCoeMultiversalBookHunter.esm
+MajorRecordFlagsRaw: 1048576
+EditorID: CCMBH_STCache01_FixedLocOnMirII
+StarfieldMajorRecordFlags:
+- 0x100000
+LocationCellPersistentReferences:
+- Actor: 001069:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001DE7:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001DED:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001DEE:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001066:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E20:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E25:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E26:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E27:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E2E:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E2F:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+LocationCellStaticReferences:
+- LocationRefType: 003956:Starfield.esm
+  Marker: 001E1E:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 05AF1F:Starfield.esm
+  Marker: 000E80:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 003956:Starfield.esm
+  Marker: 001066:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+- LocationRefType: 05AF1F:Starfield.esm
+  Marker: 001E24:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 00116F:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- LocationRefType: 2CC9ED:Starfield.esm
+  Marker: 000F22:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Grid: 32767, 32767
+  Unknown: -1
+LocationCellMarkerReference:
+- 00116F:CoraCoeMultiversalBookHunter.esm
+Name:
+  TargetLanguage: English
+  Value: Starfall Tyrants Cache
+Keywords:
+- 0254BC:Starfield.esm
+- 064EDE:Starfield.esm
+- 25118E:Starfield.esm
+- 28358C:Starfield.esm
+- 000AA5:CoraCoeMultiversalBookHunter.esm
+Faction: 000AA1:CoraCoeMultiversalBookHunter.esm
+UnknownDATA2: 16
+ParentLocation: 01B088:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 45
+MajorFlags:
+- 0x100000

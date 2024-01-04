@@ -3,8 +3,10 @@ FormKey: 001E16:CoraCoeMultiversalBookHunter.esm
 EditorID: SDRM_Table1_NPCIdle
 Base: 138911:Starfield.esm
 Patrol:
-  IdleTime: 5
+  IdleTime: 3
   Topics:
   - MutagenObjectType: TopicReference
 Layer: 2B3CB9:Starfield.esm
+LinkedReferences:
+- Reference: 001E12:CoraCoeMultiversalBookHunter.esm
 Position: -77.5, 78, -16.5
