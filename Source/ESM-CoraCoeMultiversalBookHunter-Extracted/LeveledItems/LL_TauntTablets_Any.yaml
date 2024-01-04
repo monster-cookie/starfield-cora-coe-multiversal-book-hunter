@@ -1,0 +1,30 @@
+FormKey: 001E33:CoraCoeMultiversalBookHunter.esm
+EditorID: LL_TauntTablets_Any
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown1: 2.2E-44
+  Unknown5: 7E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 0.01
+  Unknown20: 3.4028235E+38
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+- 0x8
+- 0x10
+- 0x100
+Entries:
+- Level: 1
+  Reference: 001E31:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 001E32:CoraCoeMultiversalBookHunter.esm
+Model:
+  FLLD: 0x01000000

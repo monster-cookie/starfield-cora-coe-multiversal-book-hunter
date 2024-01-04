@@ -1,0 +1,86 @@
+FormKey: 001E31:CoraCoeMultiversalBookHunter.esm
+EditorID: Tablet_Taunt_Initial
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Book_OnRead_IncreaseAffinity
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 000802:CoraCoeMultiversalBookHunter.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: ValueToAdd
+      Data: 10
+  - Name: Book_OnRead_SetGlobalVariable
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GlobalVariableToSet
+      Object: 001E32:CoraCoeMultiversalBookHunter.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: ValueToSet
+      Data: 1
+ObjectBounds:
+  First: -0.08850098, -0.06524568, -0.00024414062
+  Second: 0.0881958, 0.06524748, 0.021881104
+ODTY: 0
+Transforms:
+  Inventory: 0162A7:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Value: 'Transmission: Encrypted - Origin Unknown'
+Model:
+  File: Items\DataSlate\DataSlate01.nif
+  FLLD: 0x01000000
+Description:
+  TargetLanguage: English
+  Value: >-
+    Dear Cora Coe,
+
+
+    Ah, the famed Starborn explorer, traversing the cosmos in the shadow of your late father, Sam and the rest of that annoying Constellation explorers group. Your journey has not gone unnoticed. I've been watching you, Cora, watching as you collect Artifacts, navigate the mysteries of the universe, and confront the Starborn.
+
+
+    I'm reaching out with an invitation, a challenge if you will. I dare you to find me. I'm hidden away in a corner of the universe, a place where the stars whisper secrets of ancient power. A place teeming with danger, shrouded in enigma, much like your own quest.
+
+
+    But be warned, Cora, this is no mere game. The path to me is laden with traps, each more perilous than the last. My allies are many, lurking in the shadows, ready to thwart your every move. They are Starborn, like you, but unlike you, they are not burdened by sentiments. They are hunters, ruthless and cunning.
+
+
+    As you journey to find me, remember this - every step you take is a step into my world, a domain where I reign supreme. Your friends, your allies, they are all vulnerable. The Hunter you've heard of? He's merely a harbinger of what awaits.
+
+
+    Do you have the courage to face this, Cora? Are you prepared to risk everything, as your mentor did? Noel's fate is a stark reminder of the dangers that lie in the cosmos. But perhaps, in your heart, there's a glimmer of hope, a belief that you can change the narrative.
+
+
+    Come find me, Cora. Test your mettle against the unknown. Let's see if the student can surpass the teacher, if the explorer can outsmart the master.
+
+
+    I'll be waiting.
+Keywords:
+- 1FC86C:Starfield.esm
+- 100557:Starfield.esm
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+DNAMUnknown: 3
+CNAM:
+  TargetLanguage: English
+  Value: ''
+ENAM:
+  TargetLanguage: English
+  Value: Evil You's Taunts Letter 01
+FNAM:
+  TargetLanguage: English
+  Value: Encrypted Transmission
+InventoryArt: 0C64CD:Starfield.esm
