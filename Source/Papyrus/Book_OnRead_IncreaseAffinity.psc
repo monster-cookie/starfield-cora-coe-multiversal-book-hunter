@@ -22,6 +22,6 @@ Float Property ValueToAdd Auto Const Mandatory
 ;;; Events
 ;;;
 Event OnRead()
-  VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Increasing companion (" + Alias_Companion + ") affinity by " + ValueToAdd + ".", 0, Venpi_DebugEnabled.GetValueInt())
+  VPI_Debug.DebugMessage(Venpi_ModName, "Book_OnRead_IncreaseAffinity", "OnRead", "Increasing companion (" + Alias_Companion + ") affinity by " + ValueToAdd + ".", 0, Venpi_DebugEnabled.GetValueInt())
   Alias_Companion.GetActorRef().SetValue(COM_Affinity, ValueToAdd)
 EndEvent
