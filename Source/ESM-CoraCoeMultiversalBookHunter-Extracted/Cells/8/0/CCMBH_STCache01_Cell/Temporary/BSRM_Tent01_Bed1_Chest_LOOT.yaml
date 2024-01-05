@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E36:CoraCoeMultiversalBookHunter.esm
+EditorID: BSRM_Tent01_Bed1_Chest_LOOT
+Base: 1B9E0E:Starfield.esm
+Layer: 1EF4CE:Starfield.esm
+Position: -118.60003, 120.399994, -30
+Rotation: 0, 0, 1.5707963

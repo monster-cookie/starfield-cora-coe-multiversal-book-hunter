@@ -1,6 +1,6 @@
 MutagenObjectType: PlacedObject
 FormKey: 000E80:CoraCoeMultiversalBookHunter.esm
-EditorID: SDRM_BossChest_SCI01
+EditorID: SDRM_BossChest_SCI_LOOT
 Base: 17267E:Starfield.esm
 PersistentLocation: 001071:CoraCoeMultiversalBookHunter.esm
 Layer: 1EF4CE:Starfield.esm

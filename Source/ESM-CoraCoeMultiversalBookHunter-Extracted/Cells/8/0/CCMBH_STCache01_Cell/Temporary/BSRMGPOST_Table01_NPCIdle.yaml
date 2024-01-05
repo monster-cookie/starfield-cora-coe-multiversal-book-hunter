@@ -7,5 +7,7 @@ Patrol:
   Topics:
   - MutagenObjectType: TopicReference
 Layer: 2B3CB9:Starfield.esm
+LinkedReferences:
+- Reference: 001E3E:CoraCoeMultiversalBookHunter.esm
 Position: -111.91126, 104.388664, -31.470001
 Rotation: 0, -0, 3.1415925

@@ -2,8 +2,9 @@
 
 ## V1.0.4 (BETA)
 * Added the new factions for the DLC. The Evil Player's is "Starfall Tyrants". Cora's faction will be introduced in the main quest line.
-* For now the "Starfall Tyrants" are using Starborn armor set until I can find someone to do Texture work. Cora needs a new armor set too.
+* For now the "Starfall Tyrants" are using Starborn armor set until I can find someone to do Texture work.
 * Added a new cave location for the planet generation POI to use that spawn a Starfall Tyrants defended cache cave.
+* The new defended cache location is set as a hard spawn on a specific planet also. 
 
 ## V1.0.3 (BETA)
 * Added a new alternative look for Cora available as a patch

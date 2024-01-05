@@ -1,5 +1,5 @@
 FormKey: 001E33:CoraCoeMultiversalBookHunter.esm
-EditorID: LL_TauntTablets_Any
+EditorID: LOOT_LPI_TauntTablets_Any
 ODTY: 0
 ObjectPlacementDefaults:
   Unknown1: 2.2E-44
@@ -9,22 +9,18 @@ ObjectPlacementDefaults:
   Unknown16: 1
   Unknown17: 0.01
   Unknown20: 3.4028235E+38
+Components:
+- MutagenObjectType: KeywordFormComponent
 MaxCount: 0
 Flags:
 - CalculateFromAllLevelsLessThanOrEqualPlayer
 - CalculateForEachItemInCount
 - 0x8
 - 0x10
-- 0x100
 Entries:
 - Level: 1
   Reference: 001E31:CoraCoeMultiversalBookHunter.esm
   Count: 1
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      FirstParameter: 001E32:CoraCoeMultiversalBookHunter.esm
 Model:
+  File: Items\DataSlate\DataSlate01.nif
   FLLD: 0x01000000
