@@ -1,0 +1,75 @@
+FormKey: 001E41:CoraCoeMultiversalBookHunter.esm
+EditorID: Tablet_Taunt_03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Book_OnRead_IncreaseAffinity
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 000802:CoraCoeMultiversalBookHunter.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: ValueToAdd
+      Data: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+ObjectBounds:
+  First: -0.08850098, -0.06524568, -0.00024414062
+  Second: 0.0881958, 0.06524748, 0.021881104
+ODTY: 0
+Transforms:
+  Inventory: 0162A7:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Value: A Challenge in the Cosmos
+Model:
+  File: Items\DataSlate\DataSlate01.nif
+  FLLD: 0x01000000
+Description:
+  TargetLanguage: English
+  Value: >-
+    Cora Coe,
+
+
+    Your reputation precedes you as a seeker of the unknown, a child of the stars. It's time to put that reputation to the test. I am reaching out from the depths of space, extending a challenge that only a Starborn of your caliber might dare to accept.
+
+
+    I reside in a place far beyond the normal reaches of the galaxy, a realm where danger and mystery intertwine like the arms of a spiral galaxy. This is no ordinary invitation; it is a gauntlet thrown down in the vast expanse of space.
+
+
+    Prepare yourself for a journey fraught with peril. The path to me is laden with intricate traps, each designed to test your Starborn abilities and human ingenuity. My allies are shadows in the night, elusive and formidable, ready to defend their master.
+
+
+    Your quest to locate me will be a testament to your skills and courage. Every decision, every action will determine your fate in this cosmic game of cat and mouse.
+
+
+    Do you have the audacity to accept this challenge, Cora? Are you ready to venture into the unknown, to face threats that may dwarf even the dangers you've encountered thus far?
+
+
+    Embrace this journey, Cora. Show the universe the strength and determination that courses through your veins. Let's see if you can rise to the occasion, to meet a challenge that even the bravest might shy away from.
+
+
+    I await your response and your actions with great anticipation.
+Keywords:
+- 100557:Starfield.esm
+- 1FC86C:Starfield.esm
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+DNAMUnknown: 3
+CNAM:
+  TargetLanguage: English
+  Value: ''
+ENAM:
+  TargetLanguage: English
+  Value: Evil You's Taunting Letters, Version 03
+FNAM:
+  TargetLanguage: English
+  Value: Public Letter
+InventoryArt: 0C64CD:Starfield.esm

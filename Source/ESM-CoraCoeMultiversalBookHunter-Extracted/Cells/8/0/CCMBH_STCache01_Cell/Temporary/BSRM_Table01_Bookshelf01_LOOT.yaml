@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E3C:CoraCoeMultiversalBookHunter.esm
+EditorID: BSRM_Table01_Bookshelf01_LOOT
+Base: 001E42:CoraCoeMultiversalBookHunter.esm
+Layer: 1EF4CE:Starfield.esm
+Position: -126.90003, 120.899994, -29.17176
+Rotation: 0, 0, 3.1415925

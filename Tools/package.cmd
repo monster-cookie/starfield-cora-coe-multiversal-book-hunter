@@ -8,7 +8,9 @@ cd "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hu
 REM Clear Dist DIR
 del /q "C:\Users\degre\Downloads\CoraCoeMultiversalBookHunter.zip"
 del /q "C:\Users\degre\Downloads\CoraCoeMultiversalBookHunter-AltLook1.zip"
+del /q "C:\Users\degre\Downloads\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch.zip"
 
 REM Archive Dist Dir
 "D:\Program Files\PexTools\7za.exe" a -tzip "C:\Users\degre\Downloads\CoraCoeMultiversalBookHunter.zip" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist\*.*"
 "D:\Program Files\PexTools\7za.exe" a -tzip "C:\Users\degre\Downloads\CoraCoeMultiversalBookHunter-AltLook1.zip" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-AltLook1\*.*"
+"D:\Program Files\PexTools\7za.exe" a -tzip "C:\Users\degre\Downloads\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch.zip" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-Patch-GrindterraFactions\*.*"

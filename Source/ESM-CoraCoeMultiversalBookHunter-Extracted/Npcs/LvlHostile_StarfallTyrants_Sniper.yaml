@@ -17,22 +17,14 @@ DeathItem: 27025F:Starfield.esm
 Voice: 018ED9:Starfield.esm
 DefaultTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
 LegendaryChance: 001E17:CoraCoeMultiversalBookHunter.esm
-TemplateActors:
-  TraitTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  StatsTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  FactionsTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  SpellListTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  AiDataTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  AiPackagesTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  BaseDataTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  InventoryTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  ScriptTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  DefPackListTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  AttackDataTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  KeywordsTemplate: 001DDA:CoraCoeMultiversalBookHunter.esm
-  Unknown1: 001DDA:CoraCoeMultiversalBookHunter.esm
-  Unknown2: 001DDA:CoraCoeMultiversalBookHunter.esm
 Race: 00347D:Starfield.esm
+ActorEffect:
+- 129572:Starfield.esm
+- 138560:Starfield.esm
+- 23AF02:Starfield.esm
+- 23AF06:Starfield.esm
+- 23AF08:Starfield.esm
+- 23AF0B:Starfield.esm
 CombatOverridePackageList: 0102ED:Starfield.esm
 Properties:
 - ActorValue: 0002C2:Starfield.esm

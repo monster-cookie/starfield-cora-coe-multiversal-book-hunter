@@ -1,7 +1,7 @@
 MutagenObjectType: PlacedObject
 FormKey: 001E3E:CoraCoeMultiversalBookHunter.esm
 EditorID: BSRMGPOST_ShootingTarget_NPCIdle
-Base: 28B1A4:Starfield.esm
+Base: 019270:Starfield.esm
 Patrol:
   IdleTime: 3
   Topics:

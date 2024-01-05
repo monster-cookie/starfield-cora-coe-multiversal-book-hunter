@@ -1,0 +1,13 @@
+MutagenObjectType: PlacedObject
+FormKey: 001E49:CoraCoeMultiversalBookHunter.esm
+EditorID: NEST_DistScan02_NPCIdle
+Base: 02EFD0:Starfield.esm
+Patrol:
+  IdleTime: 3
+  Topics:
+  - MutagenObjectType: TopicReference
+Layer: 2B3CB9:Starfield.esm
+LinkedReferences:
+- Reference: 001E48:CoraCoeMultiversalBookHunter.esm
+Position: -112.40002, 98.700005, -23.36217
+Rotation: 0, 0, 5.934119

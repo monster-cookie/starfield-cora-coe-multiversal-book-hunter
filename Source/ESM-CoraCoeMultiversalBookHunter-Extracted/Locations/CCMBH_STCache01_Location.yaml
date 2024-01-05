@@ -4,9 +4,6 @@ EditorID: CCMBH_STCache01_Location
 StarfieldMajorRecordFlags:
 - 0x100000
 LocationCellPersistentReferences:
-- Actor: 001069:CoraCoeMultiversalBookHunter.esm
-  Location: 001070:CoraCoeMultiversalBookHunter.esm
-  Unknown: -1
 - Actor: 001DE7:CoraCoeMultiversalBookHunter.esm
   Location: 001177:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
@@ -16,10 +13,22 @@ LocationCellPersistentReferences:
 - Actor: 001DEE:CoraCoeMultiversalBookHunter.esm
   Location: 001177:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
+- Actor: 001069:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E2F:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E2E:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
 - Actor: 001066:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
-- Actor: 001E20:CoraCoeMultiversalBookHunter.esm
+- Actor: 001E30:CoraCoeMultiversalBookHunter.esm
+  Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
+- Actor: 001E45:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
 - Actor: 001E25:CoraCoeMultiversalBookHunter.esm
@@ -31,11 +40,12 @@ LocationCellPersistentReferences:
 - Actor: 001E27:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
-- Actor: 001E2E:CoraCoeMultiversalBookHunter.esm
+- Actor: 001E1E:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Unknown: -1
-- Actor: 001E2F:CoraCoeMultiversalBookHunter.esm
+- Actor: 001E20:CoraCoeMultiversalBookHunter.esm
   Location: 001070:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
 LocationCellStaticReferences:
 - LocationRefType: 003956:Starfield.esm
   Marker: 001E1E:CoraCoeMultiversalBookHunter.esm
@@ -74,6 +84,7 @@ Keywords:
 - 28358C:Starfield.esm
 - 000AA5:CoraCoeMultiversalBookHunter.esm
 - 064EDE:Starfield.esm
+Faction: 000AA0:CoraCoeMultiversalBookHunter.esm
 UnknownDATA2: 16
 WorldLocationRadius: 0
 ActorFadeMult: 1

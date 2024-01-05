@@ -1,5 +1,5 @@
 FormKey: 001E31:CoraCoeMultiversalBookHunter.esm
-EditorID: Tablet_Taunt_Initial
+EditorID: Tablet_Taunt_01
 VirtualMachineAdapter:
   Scripts:
   - Name: Book_OnRead_IncreaseAffinity
@@ -17,17 +17,6 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptFloatProperty
       Name: ValueToAdd
       Data: 10
-  - Name: Book_OnRead_SetGlobalVariable
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Venpi_DebugEnabled
-      Object: 000800:VenpiCore.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: GlobalVariableToSet
-      Object: 001E32:CoraCoeMultiversalBookHunter.esm
-    - MutagenObjectType: ScriptFloatProperty
-      Name: ValueToSet
-      Data: 1
 ObjectBounds:
   First: -0.08850098, -0.06524568, -0.00024414062
   Second: 0.0881958, 0.06524748, 0.021881104
@@ -79,7 +68,7 @@ CNAM:
   Value: ''
 ENAM:
   TargetLanguage: English
-  Value: Evil You's Taunts Letter 01
+  Value: Evil You's Taunting Letters, Version 01
 FNAM:
   TargetLanguage: English
   Value: Encrypted Transmission

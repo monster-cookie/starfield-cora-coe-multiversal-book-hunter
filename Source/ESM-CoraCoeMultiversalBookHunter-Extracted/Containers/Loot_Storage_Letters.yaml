@@ -1,0 +1,28 @@
+FormKey: 001E43:CoraCoeMultiversalBookHunter.esm
+EditorID: Loot_Storage_Letters
+ObjectBounds:
+  First: -0.2512207, -0.19100513, -0.010009766
+  Second: 0.2512207, 0.1850586, 0.37472048
+ODTY: 0
+Components:
+- MutagenObjectType: AnimationGraphComponent
+  ANAM: AnimTextData\Tables\Graphs\SimpleOpenClose01.agx
+  BNAM: genericbehaviors\animtemplates\container_rig01\characterassets\skeleton.rig
+  CNAM: genericbehaviors\animtemplates\container_rig01\animations
+Name:
+  TargetLanguage: English
+  Value: Misc Books
+Model:
+  File: SetDressing\Toolbox_Kits\ToolBox_SetA_03.nif
+  FLLD: 0x01000000
+Items:
+- Item:
+    Item: 001E44:CoraCoeMultiversalBookHunter.esm
+    Count: 1
+Keywords:
+- 184462:Starfield.esm
+NativeTerminal: 38D14B:Starfield.esm
+OpenSound:
+  Start: 8dbf4593-621c-b53f-90fb-dcc9d826b489
+CloseSound:
+  Start: c2be4e77-ab5e-dfac-d4fc-8e2db49a18be

@@ -1,0 +1,270 @@
+FormKey: 269CFF:Starfield.esm
+EditorID: DR016ShippingBuildingLocation
+LocationCellPersistentReferences:
+- Actor: 2CAABD:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 06E5C1:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 2CAABA:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- Actor: 2CA37C:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 2CA3B5:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- Actor: 2CAABE:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 2CAAB9:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 1CC5BF:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- Actor: 2FB296:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 300032:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 2CA3B4:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 026528:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- Actor: 021CA7:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+LocationCellStaticReferences:
+- LocationRefType: 05AF1F:Starfield.esm
+  Marker: 1CC5B6:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 2CC9ED:Starfield.esm
+  Marker: 1CC59D:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 2833CF:Starfield.esm
+  Marker: 2CA321:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 2833D4:Starfield.esm
+  Marker: 1CC5BF:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 003956:Starfield.esm
+  Marker: 2CAABA:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 003956:Starfield.esm
+  Marker: 2CAABA:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 283591:Starfield.esm
+  Marker: 2CA32D:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 283599:Starfield.esm
+  Marker: 2CA326:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 28359A:Starfield.esm
+  Marker: 2CA325:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 2833CE:Starfield.esm
+  Marker: 2CA322:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 2A2CA3:Starfield.esm
+  Marker: 2289F3:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 283596:Starfield.esm
+  Marker: 2CA328:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 009105:Starfield.esm
+  Marker: 2FB29B:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 009104:Starfield.esm
+  Marker: 2FB29B:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 2CA270:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 283592:Starfield.esm
+  Marker: 2CA0A1:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: 0, -1
+  Unknown: -1
+- LocationRefType: 28340E:Starfield.esm
+  Marker: 1B21F8:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 2833CA:Starfield.esm
+  Marker: 2CA320:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283592:Starfield.esm
+  Marker: 2CA32C:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 0E518E:Starfield.esm
+  Marker: 1CC59E:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283594:Starfield.esm
+  Marker: 1CC5B5:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 28357E:Starfield.esm
+  Marker: 2CA323:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 2833D5:Starfield.esm
+  Marker: 1CC5BD:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 2CC9ED:Starfield.esm
+  Marker: 1CC59C:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 2A2CA3:Starfield.esm
+  Marker: 1CC599:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283410:Starfield.esm
+  Marker: 1CC59B:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283590:Starfield.esm
+  Marker: 1CC5A1:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283593:Starfield.esm
+  Marker: 1CC59F:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283594:Starfield.esm
+  Marker: 2CA32B:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 0E518E:Starfield.esm
+  Marker: 2CA32A:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283597:Starfield.esm
+  Marker: 2CA329:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283598:Starfield.esm
+  Marker: 2CA327:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 28359B:Starfield.esm
+  Marker: 2CA324:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283407:Starfield.esm
+  Marker: 2CA31F:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 283406:Starfield.esm
+  Marker: 2CA31E:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 28340B:Starfield.esm
+  Marker: 2CA31D:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, 0
+  Unknown: -1
+- LocationRefType: 003956:Starfield.esm
+  Marker: 2CAABA:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 003956:Starfield.esm
+  Marker: 2CAABA:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+- LocationRefType: 2833D4:Starfield.esm
+  Marker: 1CC5BF:Starfield.esm
+  Location: 2CAAD5:Starfield.esm
+  Grid: -1, -1
+  Unknown: -1
+LocationCellMarkerReference:
+- 1B21F8:Starfield.esm
+- 1CC5A1:Starfield.esm
+- 2CA324:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Abandoned Shipping Depot
+Keywords:
+- 0254BC:Starfield.esm
+- 023305:Starfield.esm
+- 28358A:Starfield.esm
+- 1AD855:Starfield.esm
+- 261648:Starfield.esm
+- 000802:GrindTerraIndustriesFaction.esm
+- 000AA5:CoraCoeMultiversalBookHunter.esm
+UnknownDATA2: 16
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 45

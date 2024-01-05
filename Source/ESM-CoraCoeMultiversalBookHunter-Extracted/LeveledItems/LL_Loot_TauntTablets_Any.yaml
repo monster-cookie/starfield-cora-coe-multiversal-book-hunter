@@ -1,0 +1,30 @@
+FormKey: 001E44:CoraCoeMultiversalBookHunter.esm
+EditorID: LL_Loot_TauntTablets_Any
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown1: 2.2E-44
+  Unknown5: 7E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 0.01
+  Unknown20: 3.4028235E+38
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+- 0x8
+- 0x10
+- 0x100
+Entries:
+- Level: 1
+  Reference: 001E31:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 1
+  Reference: 001E40:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 1
+  Reference: 001E41:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

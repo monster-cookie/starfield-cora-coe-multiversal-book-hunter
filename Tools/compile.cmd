@@ -17,6 +17,12 @@ del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-
 rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-AltLook1"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-AltLook1"
 
+@REM Clear Dist-Patch-GrindterraFactions DIR
+@echo "Clearing and scafolding the Dist-Patch-GrindterraFactions dir"
+del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-Patch-GrindterraFactions\*.*"
+rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-Patch-GrindterraFactions"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-Patch-GrindterraFactions"
+
 @REM Clear Dist-BA2-Main DIR
 @echo "Clearing and scafolding the Dist-BA2-Main dir"
 del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\*.*"
@@ -46,16 +52,15 @@ copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-Experimental\
 copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-AltLook1-Experimental\CoraCoeMultiversalBookHunter-AltLook1.esm" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM"
 copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-AltLook1-Experimental\CoraCoeMultiversalBookHunter-AltLook1.esm" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-AltLook1"
 
+@echo "Copying the ESM from MO2 into the Dist-Patch-GrindterraFactions folder"
+copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch-Experimental\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch.esm" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM"
+copy /y "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch-Experimental\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch.esm" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-Patch-GrindterraFactions"
+
 @REM Use Spriggit to extract record from ESM
 @echo "Running Spriggit to extract record from ESM"
 "D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-Experimental\CoraCoeMultiversalBookHunter.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM-CoraCoeMultiversalBookHunter-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
 "D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-AltLook1-Experimental\CoraCoeMultiversalBookHunter-AltLook1.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM-CoraCoeMultiversalBookHunter-AltLook1-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
-
-@REM @REM Deploying textures to Dist-BA2-Textures
-@REM @echo "Deploying textures to Dist-BA2-Textures"
-@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\Meshes\starborn_hostiles_ahead_sign.nif" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Meshes\Venworks\CCMBH"
-@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\Materials\Danger_Sign.mat" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Materials\Venworks\CCMBH"
-@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\Textures\DangerHostlesAhead.dds" "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Dist-BA2-Main\Textures\Venworks\CCMBH"
+"D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch-Experimental\CoraCoeMultiversalBookHunter-GrindterraFactions-Patch.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-coe-multiversal-book-hunter\Source\ESM-CoraCoeMultiversalBookHunter-GrindterraFactions-Patch-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
 
 @REM Create and copy the BA2 Main Archive to Dist folder
 @echo "Creating the BA2 Main Archive"

@@ -5,6 +5,7 @@
 * For now the "Starfall Tyrants" are using Starborn armor set until I can find someone to do Texture work.
 * Added a new cave location for the planet generation POI to use that spawn a Starfall Tyrants defended cache cave.
 * The new defended cache location is set as a hard spawn on a specific planet also. 
+* The new faction will also spawn in several random dungeons
 
 ## V1.0.3 (BETA)
 * Added a new alternative look for Cora available as a patch

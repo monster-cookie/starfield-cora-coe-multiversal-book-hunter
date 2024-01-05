@@ -19,7 +19,7 @@ Flags:
 - 0x10
 Entries:
 - Level: 1
-  Reference: 001E31:CoraCoeMultiversalBookHunter.esm
+  Reference: 001E44:CoraCoeMultiversalBookHunter.esm
   Count: 1
 Model:
   File: Items\DataSlate\DataSlate01.nif
