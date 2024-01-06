@@ -1,5 +1,9 @@
 # Cora Coe, The Multiversal Book Hunter
 
+## V1.0.6 (BETA)
+* Added new planet and system for you to find. This will be where a lot of the main quest line and the end content will happen. 
+* Also is a static location for the cache dungeon
+
 ## V1.0.5 (BETA)
 * Removed zone faction ownership so you can loot chests without pissing off your companions
 

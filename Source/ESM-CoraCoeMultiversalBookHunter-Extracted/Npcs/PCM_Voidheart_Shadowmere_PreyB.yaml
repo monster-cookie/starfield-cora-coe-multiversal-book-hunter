@@ -1,0 +1,172 @@
+FormKey: 001E5C:CoraCoeMultiversalBookHunter.esm
+EditorID: PCM_Voidheart_Shadowmere_PreyB
+ObjectBounds:
+  First: -0.6392437, -0.3913521, 0
+  Second: 0.6392434, 1.1170939, 1.3365043
+ODTY: 0
+XpValueOffset: 5
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 1
+DispositionBase: 35
+UseTemplateActors: 32638
+DeathItem: 077833:Starfield.esm
+DefaultTemplate: 2AD4E3:Starfield.esm
+LegendaryChance: 14AFD4:Starfield.esm
+TemplateActors:
+  StatsTemplate: 2AD4E3:Starfield.esm
+  FactionsTemplate: 2AD4E3:Starfield.esm
+  SpellListTemplate: 2AD4E3:Starfield.esm
+  AiDataTemplate: 2AD4E3:Starfield.esm
+  AiPackagesTemplate: 2AD4E3:Starfield.esm
+  ModelOrAnimationTemplate: 2AD4E3:Starfield.esm
+  InventoryTemplate: 2AD4E3:Starfield.esm
+  ScriptTemplate: 2AD4E3:Starfield.esm
+  DefPackListTemplate: 2AD4E3:Starfield.esm
+  AttackDataTemplate: 2AD4E3:Starfield.esm
+  KeywordsTemplate: 2AD4E3:Starfield.esm
+  Unknown1: 2AD4E3:Starfield.esm
+  Unknown2: 2AD4E3:Starfield.esm
+Race: 1BB965:Starfield.esm
+Skin: 1D9EAE:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002D4:Starfield.esm
+  Value: 50
+- ActorValue: 0002D5:Starfield.esm
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 0002E3:Starfield.esm
+  Value: 50
+- ActorValue: 22A2B6:Starfield.esm
+  Value: 1
+- ActorValue: 2102C3:Starfield.esm
+Confidence: Brave
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+UnknownAIDT: 1
+RDSAs:
+- UnknownInt: 2
+  UnknownInt2: 2
+  UnknownInt3: 4096
+  UnknownFloat2: 10
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+- UnknownInt2: 2
+  UnknownLink1: 25834E:Starfield.esm
+  UnknownInt3: 5904
+  UnknownLink6: 1BEE35:Starfield.esm
+  UnknownFloat2: 22
+  UnknownFloat3: 30
+  UnknownFloat4: 3
+  UnknownLink8: 1BEE37:Starfield.esm
+- UnknownInt: 3
+  UnknownInt2: 1
+  UnknownLink1: 0FE26B:Starfield.esm
+  UnknownInt3: 4096
+  UnknownFloat2: 60
+  UnknownFloat3: 70
+  UnknownFloat4: 3
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+- UnknownInt: 4
+  UnknownInt2: 1
+  UnknownInt3: 4096
+  UnknownFloat2: 50
+  UnknownFloat3: 150
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+- UnknownInt: 3
+  UnknownLink1: 1BEE39:Starfield.esm
+  UnknownInt3: 8192
+  UnknownFloat1: 3
+  UnknownFloat2: 40
+  UnknownFloat3: 50
+  UnknownFloat4: 3
+  UnknownFloat5: 2
+  UnknownFloat6: 1
+  UnknownLink9: 1BEE38:Starfield.esm
+Keywords:
+- 2AD3EC:Starfield.esm
+- 1E667F:Starfield.esm
+AttachParentSlots:
+- 2AD3E6:Starfield.esm
+- 2AD3E7:Starfield.esm
+- 25614F:Starfield.esm
+- 20AA19:Starfield.esm
+- 20AA16:Starfield.esm
+- 20AA15:Starfield.esm
+- 20AA14:Starfield.esm
+- 2AD3E8:Starfield.esm
+- 20AA17:Starfield.esm
+- 2AD3E9:Starfield.esm
+- 20AA1A:Starfield.esm
+- 23CB01:Starfield.esm
+- 23AF14:Starfield.esm
+- 23AF12:Starfield.esm
+- 20AA13:Starfield.esm
+- 2AD3EB:Starfield.esm
+- 20AA18:Starfield.esm
+- 2AD3EA:Starfield.esm
+- 1C5212:Starfield.esm
+- 1D9CF8:Starfield.esm
+- 155704:Starfield.esm
+- 155703:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Includes:
+  - Mod: 200ACE:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 200AFC:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 256F52:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 23CB00:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 22460F:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 1EB7DF:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 200AC1:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 1A83DA:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 256F58:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 297E39:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 1D5ABF:Starfield.esm
+    Optional: True
+    DontUseAll: True
+Class: 1CD0A9:Starfield.esm
+GearedUpWeapons: 1
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1.2
+Weight:
+  Thin: 0.3333
+  Muscular: 0.3333
+  Fat: 0.3333
+DefaultPackageList: 26F68A:Starfield.esm
+Tints: []
+SkinToneIndex: 0
+Pronoun: Unspecified
