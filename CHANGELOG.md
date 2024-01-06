@@ -1,7 +1,7 @@
 # Cora Coe, The Multiversal Book Hunter
 
 ## V1.0.5 (BETA)
-* Remove zone faction ownership so you can loot chests without pissing off your companions
+* Removed zone faction ownership so you can loot chests without pissing off your companions
 
 ## V1.0.4 (BETA)
 * Added the new factions for the DLC. The Evil Player's is "Starfall Tyrants". Cora's faction will be introduced in the main quest line.
