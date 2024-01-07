@@ -1,8 +1,8 @@
 # Cora Coe, The Multiversal Book Hunter
 
 ## V1.0.6 (BETA)
-* Added new planet and system for you to find. This will be where a lot of the main quest line and the end content will happen. 
-* Also is a static location for the cache dungeon
+* Added new planet and system for you to find. This will be where a lot of the main quest line and the end content will happen. Without CK2 or more REFL data parsing we can't land on the planets yet. :(
+* Also is a static location for the cache dungeon (Again can't land on it and the POI doesn't reliably display nor does the other POI on the planet)
 
 ## V1.0.5 (BETA)
 * Removed zone faction ownership so you can loot chests without pissing off your companions

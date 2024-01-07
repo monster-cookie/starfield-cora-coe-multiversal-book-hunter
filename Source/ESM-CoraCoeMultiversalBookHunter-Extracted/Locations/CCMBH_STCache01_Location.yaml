@@ -73,6 +73,10 @@ LocationCellStaticReferences:
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
   Unknown: -1
+- LocationRefType: 009103:Starfield.esm
+  Marker: 001E63:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
 LocationCellMarkerReference:
 - 00116F:CoraCoeMultiversalBookHunter.esm
 Name:

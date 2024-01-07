@@ -73,6 +73,10 @@ LocationCellStaticReferences:
   Location: 001070:CoraCoeMultiversalBookHunter.esm
   Grid: 32767, 32767
   Unknown: -1
+- LocationRefType: 009103:Starfield.esm
+  Marker: 001E63:CoraCoeMultiversalBookHunter.esm
+  Location: 001177:CoraCoeMultiversalBookHunter.esm
+  Unknown: -1
 LocationCellMarkerReference:
 - 00116F:CoraCoeMultiversalBookHunter.esm
 Name:
@@ -85,11 +89,11 @@ Keywords:
 - 28358C:Starfield.esm
 - 000AA5:CoraCoeMultiversalBookHunter.esm
 UnknownDATA2: 16
-ParentLocation: 001E4B:CoraCoeMultiversalBookHunter.esm
+ParentLocation: 001E70:CoraCoeMultiversalBookHunter.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1
 TNAM: 45
-StarID: 1975430
+StarID: 75430
 PlanetID: 1
 MajorFlags:
 - 0x100000

@@ -1,0 +1,17 @@
+FormKey: 001E72:CoraCoeMultiversalBookHunter.esm
+EditorID: SVoidheart_PShadowmere_Surface
+Name:
+  TargetLanguage: English
+  Value: Shadowmere
+Keywords:
+- 016503:Starfield.esm
+- 001E52:CoraCoeMultiversalBookHunter.esm
+Faction: 000AA0:CoraCoeMultiversalBookHunter.esm
+SystemLevel: 125
+UnknownDATA2: 16
+ParentLocation: 001E70:CoraCoeMultiversalBookHunter.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0
+StarID: 75430
+PlanetID: 2

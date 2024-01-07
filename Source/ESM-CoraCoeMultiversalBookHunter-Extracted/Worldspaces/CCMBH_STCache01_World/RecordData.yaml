@@ -26,6 +26,7 @@ Name:
   TargetLanguage: English
   Value: Occupied Creature Lair
 Location: 001071:CoraCoeMultiversalBookHunter.esm
+Biome: 0D1B7B:Starfield.esm
 Water: 000018:Starfield.esm
 LodWater: 000018:Starfield.esm
 LodWaterHeight: 0

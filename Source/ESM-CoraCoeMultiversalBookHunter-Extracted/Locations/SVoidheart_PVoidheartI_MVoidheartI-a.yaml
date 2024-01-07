@@ -1,0 +1,19 @@
+FormKey: 001E77:CoraCoeMultiversalBookHunter.esm
+EditorID: SVoidheart_PVoidheartI_MVoidheartI-a
+Name:
+  TargetLanguage: English
+  Value: Voidheart I-a
+Keywords:
+- 016010:Starfield.esm
+- 070A54:Starfield.esm
+- 07C6A8:Starfield.esm
+- 001E52:CoraCoeMultiversalBookHunter.esm
+Faction: 000AA0:CoraCoeMultiversalBookHunter.esm
+SystemLevel: 125
+UnknownDATA2: 16
+ParentLocation: 001E73:CoraCoeMultiversalBookHunter.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0
+StarID: 75430
+PlanetID: 5
