@@ -1,0 +1,18 @@
+FormKey: 001DD2:CoraCoeMultiversalBookHunter.esm
+EditorID: CCMBH_Sign_HostilesAhead
+ObjectBounds:
+  First: -0.24664068, -0.39453164, 9.515318E-08
+  Second: 0.49603474, 0.10357659, 1.4013673
+ODTY: 0
+Components:
+- MutagenObjectType: KeywordFormComponent
+Model:
+  File: Ships\Interior\Starborn\Starborn_FloorTechA.nif
+  FLLD: 0x01000000
+Name:
+  TargetLanguage: English
+  Value: Warning Hostiles Ahead
+MaxAngle: 1
+UnknownDNAMFloat: 1
+DNAMDataTypeState:
+- Break0

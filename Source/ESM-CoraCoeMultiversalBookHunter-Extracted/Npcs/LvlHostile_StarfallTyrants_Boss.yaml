@@ -61,7 +61,8 @@ Properties:
   Value: 600
 - ActorValue: 000385:Starfield.esm
   Value: 100
-ForcedLocRefType: 003956:Starfield.esm
+ForcedLocations:
+- 003956:Starfield.esm
 Items:
 - Item:
     Item: 000AD3:CoraCoeMultiversalBookHunter.esm

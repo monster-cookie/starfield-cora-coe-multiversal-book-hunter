@@ -1,0 +1,34 @@
+FormKey: 000ABD:CoraCoeMultiversalBookHunter.esm
+EditorID: LCharStarfallTyrants
+ODTY: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+- 0x40
+Entries:
+- Level: 1
+  Reference: 000AA6:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 38
+  Reference: 000AA7:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 46
+  Reference: 000AA8:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 54
+  Reference: 000AA9:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 66
+  Reference: 000AAA:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 76
+  Reference: 000AAB:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 88
+  Reference: 000AAC:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 100
+  Reference: 000AAD:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

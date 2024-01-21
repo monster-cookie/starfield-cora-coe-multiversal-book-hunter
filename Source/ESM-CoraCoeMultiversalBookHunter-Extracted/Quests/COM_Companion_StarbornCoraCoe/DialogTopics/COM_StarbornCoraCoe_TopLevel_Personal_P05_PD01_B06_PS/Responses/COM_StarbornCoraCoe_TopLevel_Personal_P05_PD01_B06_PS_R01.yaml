@@ -1,0 +1,21 @@
+FormKey: 000A9C:CoraCoeMultiversalBookHunter.esm
+EditorID: COM_StarbornCoraCoe_TopLevel_Personal_P05_PD01_B06_PS_R01
+Responses:
+- Emotion: 0D755E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: So about those books? I see you are still an avid bookworm.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 000802:CoraCoeMultiversalBookHunter.esm
+    SecondParameter: 40
+  ComparisonValue: 1
+SubtitlePriority: Low

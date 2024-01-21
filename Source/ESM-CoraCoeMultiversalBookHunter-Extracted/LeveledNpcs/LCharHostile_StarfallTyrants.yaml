@@ -1,0 +1,69 @@
+FormKey: 001DDD:CoraCoeMultiversalBookHunter.esm
+EditorID: LCharHostile_StarfallTyrants
+ODTY: 0
+Flags:
+- 0x20
+- 0x40
+Entries:
+- Level: 1
+  Reference: 001DD5:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 001DD7:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 001DD8:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 001DD9:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 001DDA:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 001DDB:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+Model:
+  FLLD: 0x01000000

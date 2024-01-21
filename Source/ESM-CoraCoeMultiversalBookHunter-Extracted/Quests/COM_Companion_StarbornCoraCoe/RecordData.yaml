@@ -401,4 +401,10 @@ Aliases:
   ALFG: 0
   UniqueActor: 0057BB:Starfield.esm
   VoiceTypes: Null
-- MutagenObjectTyp
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null

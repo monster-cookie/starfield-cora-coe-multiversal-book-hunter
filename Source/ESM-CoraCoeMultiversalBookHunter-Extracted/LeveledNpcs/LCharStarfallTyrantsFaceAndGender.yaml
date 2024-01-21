@@ -1,0 +1,22 @@
+FormKey: 000CC9:CoraCoeMultiversalBookHunter.esm
+EditorID: LCharStarfallTyrantsFaceAndGender
+ODTY: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+- 0x40
+Entries:
+- Level: 1
+  Reference: 000AAE:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 1
+  Reference: 000AAF:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 1
+  Reference: 000AB0:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+- Level: 1
+  Reference: 000AB1:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

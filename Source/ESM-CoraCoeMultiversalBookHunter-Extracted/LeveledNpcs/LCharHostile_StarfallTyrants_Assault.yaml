@@ -1,0 +1,28 @@
+FormKey: 001DD5:CoraCoeMultiversalBookHunter.esm
+EditorID: LCharHostile_StarfallTyrants_Assault
+ODTY: 0
+Flags:
+- CalculateForEachItemInCount
+Entries:
+- Level: 1
+  Reference: 000AC1:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 000AE2:CoraCoeMultiversalBookHunter.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+Model:
+  FLLD: 0x01000000
