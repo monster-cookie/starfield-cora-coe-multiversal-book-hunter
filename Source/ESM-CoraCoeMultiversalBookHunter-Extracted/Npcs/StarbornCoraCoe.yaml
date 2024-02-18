@@ -418,16 +418,16 @@ FaceDialPositions:
 - Index: 78
   Position: 0.48
 FaceMorphs:
-- Index: 5
-  MorphGroups:
-  - MorphGroup: Jaw
-    BlendIntensity: 0.3
 - Index: 9
   MorphGroups:
   - MorphGroup: Chin
     BlendIntensity: 0.56
   - MorphGroup: Jaw
     BlendIntensity: 0.6
+- Index: 13
+  MorphGroups:
+  - MorphGroup: Jaw
+    BlendIntensity: 0.3
 - Index: 13
   MorphGroups:
   - MorphGroup: Cheeks

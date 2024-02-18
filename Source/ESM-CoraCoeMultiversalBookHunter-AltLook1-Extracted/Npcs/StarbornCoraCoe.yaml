@@ -429,7 +429,7 @@ FaceMorphs:
     BlendIntensity: 0.56
   - MorphGroup: Jaw
     BlendIntensity: 0.6
-- Index: 13
+- Index: 19
   MorphGroups:
   - MorphGroup: Cheeks
     BlendIntensity: 1

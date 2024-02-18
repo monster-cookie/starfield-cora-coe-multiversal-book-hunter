@@ -1,5 +1,6 @@
 FormKey: 259DC7:Starfield.esm
 EditorID: LCharHumanHostile_Charger
+FormVersion: 556
 ODTY: 0
 Flags:
 - 0x8
@@ -15,9 +16,28 @@ Entries:
     Unknown1: 0x000000
     Unknown2: 22509
     Data:
-      MutagenObjectType: LocationHasKeywordConditionData
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
       FirstParameter: 023305:Starfield.esm
     ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
+- Level: 1
+  Reference: 07F897:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 22509
+    Data:
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
+      FirstParameter: 000802:VenworksFactionOverhaul.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
   Reference: 12D055:Starfield.esm
   Count: 1
@@ -26,9 +46,19 @@ Entries:
     Unknown1: 0x000000
     Unknown2: 22509
     Data:
-      MutagenObjectType: LocationHasKeywordConditionData
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
       FirstParameter: 294969:Starfield.esm
     ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 000829:VenpiCore.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
   Reference: 26FB3D:Starfield.esm
   Count: 1
@@ -37,9 +67,13 @@ Entries:
     Unknown1: 0x000000
     Unknown2: 22509
     Data:
-      MutagenObjectType: LocationHasKeywordConditionData
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
       FirstParameter: 12179A:Starfield.esm
     ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
   Reference: 26FDB3:Starfield.esm
   Count: 1
@@ -48,9 +82,13 @@ Entries:
     Unknown1: 0x000000
     Unknown2: 22509
     Data:
-      MutagenObjectType: LocationHasKeywordConditionData
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
       FirstParameter: 283582:Starfield.esm
     ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
   Reference: 26FDB7:Starfield.esm
   Count: 1
@@ -59,9 +97,13 @@ Entries:
     Unknown1: 0x000000
     Unknown2: 22509
     Data:
-      MutagenObjectType: LocationHasKeywordConditionData
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
       FirstParameter: 283580:Starfield.esm
     ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
   Reference: 26FF66:Starfield.esm
   Count: 1
@@ -70,14 +112,50 @@ Entries:
     Unknown1: 0x000000
     Unknown2: 22509
     Data:
-      MutagenObjectType: LocationHasKeywordConditionData
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
       FirstParameter: 283581:Starfield.esm
     ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
+- Level: 1
+  Reference: 2733AC:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 22509
+    Data:
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
+      FirstParameter: 12179B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
   Reference: 27BB8E:Starfield.esm
   Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 - Level: 1
-  Reference: 001DD7:CoraCoeMultiversalBookHunter.esm
+  Reference: 001DE0:CoraCoeMultiversalBookHunter.esm
   Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 22509
+    Data:
+      MutagenObjectType: LocationOrParentHasKeywordConditionData
+      FirstParameter: 000AA5:CoraCoeMultiversalBookHunter.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: AreHostileActorsNearConditionData
 Model:
   FLLD: 0x01000000

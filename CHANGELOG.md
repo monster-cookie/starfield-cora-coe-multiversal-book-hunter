@@ -1,5 +1,10 @@
 # Cora Coe, The Multiversal Book Hunter
 
+## Version 1.0.8
+* Uses Venworks Factions Overhaul 
+* The stock Starborn Cora Coe look should not be same color skin (Need to reset her using CGF "CCMBH_Debug.ResetCora" preferably when in the Lodge)
+* Known Bug: Starborn Cora is somehow being tied to Sam/Kid Cora and getting dragged to the ship when they are added as crew. 
+
 ## Version 1.0.7
 * Found yet another "cave" PCM node generator making 5 total. Someone needs to tell BGS duplication in programming is very bad. No wonder som of the PCM cell requests have 10 copies.
 * Also added the cache sites to the Natural Block list too as they spawn so many relative and are always the same
